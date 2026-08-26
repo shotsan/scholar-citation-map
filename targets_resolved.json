@@ -1,0 +1,264 @@
+{
+ "neurwin": {
+  "title": "NeurWIN: Neural Whittle index network for restless bandits via deep RL",
+  "venue": "NeurIPS 2021",
+  "scholar_citations": 74,
+  "cluster": "15114473685997353079",
+  "patent": false,
+  "oa_ids": [
+   "W3132046977"
+  ],
+  "dois": [],
+  "s2_ids": [
+   "10e7ae23fc58bfdb829bfa5694c59f2d7fb8a275"
+  ]
+ },
+ "nbiot_access": {
+  "title": "Scheduling and Decoding of Downlink Control Channel in 3GPP Narrowband-IoT",
+  "venue": "IEEE Access 2020",
+  "scholar_citations": 16,
+  "cluster": "12445178730793979866",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/access.2020.3026077"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/access.2020.3026077"
+  ]
+ },
+ "patent_beamsweep": {
+  "title": "Efficient beam sweeping at a mobile device receiver",
+  "venue": "US Patent 11,178,628",
+  "scholar_citations": 14,
+  "cluster": "16123404032947585321",
+  "patent": true,
+  "oa_ids": [],
+  "dois": [],
+  "s2_ids": []
+ },
+ "beamsurfer": {
+  "title": "BeamSurfer: Minimalist beam management of mobile mm-wave devices",
+  "venue": "IEEE TWC 2022",
+  "scholar_citations": 13,
+  "cluster": "5531327131859727774",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/twc.2022.3171189"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/twc.2022.3171189"
+  ]
+ },
+ "nbiot_pimrc": {
+  "title": "Downlink control channel scheduling for 3GPP narrowband-IoT",
+  "venue": "IEEE PIMRC 2018",
+  "scholar_citations": 13,
+  "cluster": "5088929058679659133",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/pimrc.2018.8580749"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/pimrc.2018.8580749"
+  ]
+ },
+ "unblock": {
+  "title": "Unblock: Low complexity transient blockage recovery for mobile mm-wave devices",
+  "venue": "COMSNETS 2021",
+  "scholar_citations": 9,
+  "cluster": "798705704433221288",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/comsnets51098.2021.9352816"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/comsnets51098.2021.9352816"
+  ]
+ },
+ "patent_ioe": {
+  "title": "Managing power resources of an Internet of Everything (IoE) device",
+  "venue": "US Patent App. 15/191,757",
+  "scholar_citations": 9,
+  "cluster": "13372082516898588047",
+  "patent": true,
+  "oa_ids": [],
+  "dois": [],
+  "s2_ids": []
+ },
+ "terra_twc": {
+  "title": "TERRA: Beam management for outdoor mm-wave networks",
+  "venue": "IEEE TWC 2024",
+  "scholar_citations": 6,
+  "cluster": "800239050752049692",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/twc.2024.3425574"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/twc.2024.3425574"
+  ]
+ },
+ "beamsurfer_poster": {
+  "title": "Beamsurfer: simple in-band beam management for mobile mm-wave devices",
+  "venue": "SIGCOMM'20 Posters",
+  "scholar_citations": 6,
+  "cluster": "473044407160655618",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1145/3405837.3411374"
+  ],
+  "s2_ids": [
+   "DOI:10.1145/3405837.3411374"
+  ]
+ },
+ "dmac": {
+  "title": "A directional medium access control protocol for 5G millimeter-wave local area networks",
+  "venue": "COMSNETS 2018",
+  "scholar_citations": 6,
+  "cluster": "11576969964104962713",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1007/978-3-030-10659-1_7"
+  ],
+  "s2_ids": [
+   "DOI:10.1007/978-3-030-10659-1_7"
+  ]
+ },
+ "ground_reflections": {
+  "title": "Overcoming pedestrian blockage in mm-wave bands using ground reflections",
+  "venue": "arXiv 2021",
+  "scholar_citations": 4,
+  "cluster": "16222830387739874444",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [],
+  "s2_ids": [
+   "arXiv:2110.13884"
+  ]
+ },
+ "iris": {
+  "title": "Iris: A directional MAC protocol with applications to millimeter-wave mobile ad-hoc networks",
+  "venue": "COMSNETS 2019",
+  "scholar_citations": 4,
+  "cluster": "2152258040448095680",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/comsnets.2019.8711061"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/comsnets.2019.8711061"
+  ]
+ },
+ "rate_matching": {
+  "title": "Novel rate matching scheme for downlink control channel in 3GPP massive machine type communications",
+  "venue": "COMSNETS 2018",
+  "scholar_citations": 4,
+  "cluster": "8522671668031268699",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/comsnets.2018.8328196"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/comsnets.2018.8328196"
+  ]
+ },
+ "terra_poster": {
+  "title": "Terra: blockage resilience in outdoor mm-wave networks",
+  "venue": "SIGCOMM'22 Posters",
+  "scholar_citations": 3,
+  "cluster": "5156672603237957914",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1145/3546037.3546063"
+  ],
+  "s2_ids": [
+   "DOI:10.1145/3546037.3546063"
+  ]
+ },
+ "nextg_ric": {
+  "title": "Realtime intelligent control for NextG cellular radio access networks",
+  "venue": "MobiSys 2022",
+  "scholar_citations": 3,
+  "cluster": "11460508364947624912",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1145/3498361.3538787"
+  ],
+  "s2_ids": [
+   "DOI:10.1145/3498361.3538787"
+  ]
+ },
+ "improved_pdcch": {
+  "title": "Improved physical downlink control channel for 3GPP massive machine type communications",
+  "venue": "COMSNETS 2018",
+  "scholar_citations": 3,
+  "cluster": "13966229190681413460",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1007/978-3-030-10659-1_1"
+  ],
+  "s2_ids": [
+   "DOI:10.1007/978-3-030-10659-1_1"
+  ]
+ },
+ "reveal_twc": {
+  "title": "Seeing the Unseen: The REVEAL protocol to expose the wireless man-in-the-middle",
+  "venue": "IEEE TWC 2024",
+  "scholar_citations": 2,
+  "cluster": "1160293025987190800",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1109/twc.2024.3451358"
+  ],
+  "s2_ids": [
+   "DOI:10.1109/twc.2024.3451358"
+  ]
+ },
+ "reveal_s3": {
+  "title": "Seeing the Unseen: The REVEAL protocol to catch the wireless man-in-the-middle",
+  "venue": "ACM S3 Workshop 2023",
+  "scholar_citations": 1,
+  "cluster": "15316348117395722973",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [
+   "10.1145/3615591.3615678"
+  ],
+  "s2_ids": [
+   "DOI:10.1145/3615591.3615678"
+  ]
+ },
+ "patent_bci": {
+  "title": "Cellular system utilizing beam coherence interval metric",
+  "venue": "US Patent App. 17/741,188",
+  "scholar_citations": 1,
+  "cluster": "14288562052755386842",
+  "patent": true,
+  "oa_ids": [],
+  "dois": [],
+  "s2_ids": []
+ },
+ "comsnets_proc": {
+  "title": "Communication Systems and Networks: 10th International Conference, COMSNETS 2018",
+  "venue": "Springer 2019",
+  "scholar_citations": 1,
+  "cluster": "15420090105982012882",
+  "patent": false,
+  "oa_ids": [],
+  "dois": [],
+  "s2_ids": []
+ }
+}

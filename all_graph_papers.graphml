@@ -1,0 +1,1079 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="node" attr.name="self_citation" attr.type="string" />
+  <key id="d5" for="node" attr.name="cited_by" attr.type="long" />
+  <key id="d4" for="node" attr.name="venue" attr.type="string" />
+  <key id="d3" for="node" attr.name="year" attr.type="string" />
+  <key id="d2" for="node" attr.name="show_label" attr.type="boolean" />
+  <key id="d1" for="node" attr.name="kind" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="T:neurwin">
+      <data key="d0">NeurWIN (NeurIPS 2021)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nbiot_access">
+      <data key="d0">Scheduling and Decoding of Downlin (IEEE Access 2020)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:beamsurfer">
+      <data key="d0">BeamSurfer (IEEE TWC 2022)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nbiot_pimrc">
+      <data key="d0">Downlink control channel schedulin (IEEE PIMRC 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:unblock">
+      <data key="d0">Unblock (COMSNETS 2021)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:terra_twc">
+      <data key="d0">TERRA (IEEE TWC 2024)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:beamsurfer_poster">
+      <data key="d0">Beamsurfer (SIGCOMM'20 Posters)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:dmac">
+      <data key="d0">A directional medium access contro (COMSNETS 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:ground_reflections">
+      <data key="d0">Overcoming pedestrian blockage in  (arXiv 2021)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:iris">
+      <data key="d0">Iris (COMSNETS 2019)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:rate_matching">
+      <data key="d0">Novel rate matching scheme for dow (COMSNETS 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:terra_poster">
+      <data key="d0">Terra (SIGCOMM'22 Posters)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nextg_ric">
+      <data key="d0">Realtime intelligent control for N (MobiSys 2022)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:improved_pdcch">
+      <data key="d0">Improved physical downlink control (COMSNETS 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:reveal_twc">
+      <data key="d0">Seeing the Unseen (IEEE TWC 2024)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:reveal_s3">
+      <data key="d0">Seeing the Unseen (ACM S3 Workshop 2023)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:comsnets_proc">
+      <data key="d0">Communication Systems and Networks (Springer 2019)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="P:markovianrestlessbanditsandindexpoliciesareview">
+      <data key="d0">Markovian Restless Bandits and Index Policies: A Review</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">Mathematics</data>
+      <data key="d5">40</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:robustrestlessbanditstacklingintervaluncertaintywithdeepreinforcementlearning">
+      <data key="d0">Robust Restless Bandits: Tackling Interval Uncertainty with Deep Reinf</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">4</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:anempiricalstudyonthecorrelationbetweennewnetworkindextoolsandstockreturnsinthepharmaceuti">
+      <data key="d0">An Empirical Study on the Correlation Between New Network Index Tools </data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">Lecture notes in electrical engineering</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:ageoptimalbestarmidentification">
+      <data key="d0">Age-Optimal Best Arm Identification</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">International Symposium on Modeling and Optimization in Mobile, Ad-Hoc</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:optimizingresourceconstrainednonpharmaceuticalinterventionsformulticlusteroutbreakcontrolu">
+      <data key="d0">Optimizing Resource-Constrained Non-Pharmaceutical Interventions for M</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:timelybestarmidentificationinrestlesssharednetworks">
+      <data key="d0">Timely Best Arm Identification in Restless Shared Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:modelbasedlearningofwhittleindices">
+      <data key="d0">Model-Based Learning of Whittle indices</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:marblemultiarmedrestlessbanditsinlatentmarkovianenvironment">
+      <data key="d0">MARBLE: Multi-Armed Restless Bandits in Latent Markovian Environment</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">European Control Conference</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:energyefficienttrainingofprivaterecommendationsystemsusingmultiarmedbanditmodelsandanalogi">
+      <data key="d0">Energy efficient training of private recommendation systems using mult</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">npj Unconventional Computing</data>
+      <data key="d5">2</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:addressingcouplinginrestlessmultiarmedbanditsbyfinetuningwhittleindex">
+      <data key="d0">Addressing Coupling in Restless Multi-Armed Bandits by Finetuning Whit</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">2025 IEEE 21st International Conference on Automation Science and Engi</data>
+      <data key="d5">2</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:onlinelearningofwhittleindicesforrestlessbanditswithnonstationarytransitionkernels">
+      <data key="d0">Online Learning of Whittle Indices for Restless Bandits with Non-Stati</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">3</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:multiagentmarkoventanglement">
+      <data key="d0">Multi-agent Markov Entanglement</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">Advances in Neural Information Processing Systems 38</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:reinforcementlearningwithcombinatorialactionsforcoupledrestlessbandits">
+      <data key="d0">Reinforcement learning with combinatorial actions for coupled restless</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">International Conference on Learning Representations</data>
+      <data key="d5">9</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:projectionbasedlyapunovmethodforfullyheterogeneousweaklycoupledmdps">
+      <data key="d0">Projection-based Lyapunov method for fully heterogeneous weakly-couple</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">Neural Information Processing Systems</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:finitehorizonsinglepullrestlessbanditsanefficientindexpolicyforscarceresourceallocation">
+      <data key="d0">Finite-Horizon Single-Pull Restless Bandits: An Efficient Index Policy</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">Adaptive Agents and Multi-Agent Systems</data>
+      <data key="d5">3</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:lagrangianindexpolicyforrestlessbanditswithaveragereward">
+      <data key="d0">Lagrangian Index Policy for Restless Bandits with Average Reward</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">Queueing Syst. Theory Appl.</data>
+      <data key="d5">4</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:contextwinwhittleindexbasedmixtureofexpertsneuralmodelforrestlessbanditsviadeeprl">
+      <data key="d0">ContextWIN: Whittle Index Based Mixture-of-Experts Neural Model For Re</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:dopldirectonlinepreferencelearningforrestlessbanditswithpreferencefeedback">
+      <data key="d0">DOPL: Direct Online Preference Learning for Restless Bandits with Pref</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">International Conference on Learning Representations</data>
+      <data key="d5">3</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:aneuralnetworkbasedwhittleindexpolicyforbeamresourceallocationinmultitargettracking">
+      <data key="d0">A Neural Network-Based Whittle Index Policy for Beam Resource Allocati</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">IEEE Sensors Journal</data>
+      <data key="d5">4</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:whittleindexlearningalgorithmsforrestlessbanditswithconstantstepsizes">
+      <data key="d0">Whittle Index Learning Algorithms for Restless Bandits with Constant S</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">Conference Information and Communication Technology</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:fasterqlearningalgorithmsforrestlessbandits">
+      <data key="d0">Faster Q-Learning Algorithms for Restless Bandits</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">Conference Information and Communication Technology</data>
+      <data key="d5">6</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:minimizingcostratherthanmaximizingrewardinrestlessmultiarmedbandits">
+      <data key="d0">Minimizing Cost Rather Than Maximizing Reward in Restless Multi-Armed </data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:ginoqlearninganasymptoticallyoptimalindexpolicyforrestlessmultiarmedbandits">
+      <data key="d0">GINO-Q: Learning an Asymptotically Optimal Index Policy for Restless M</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">AAAI Conference on Artificial Intelligence</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:thebanditwhisperercommunicationlearningforrestlessbandits">
+      <data key="d0">The Bandit Whisperer: Communication Learning for Restless Bandits</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">AAAI Conference on Artificial Intelligence</data>
+      <data key="d5">6</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:adeepreinforcementlearningbasedwhittleindexpolicyformultibeamallocation">
+      <data key="d0">A Deep Reinforcement Learning-Based Whittle Index Policy for Multibeam</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">Fusion</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:windexrealtimeneuralwhittleindexingforscalableserviceguaranteesinnextgcellularnetworks">
+      <data key="d0">Windex: Realtime Neural Whittle Indexing for Scalable Service Guarante</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">4</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:tabularanddeeplearningforthewhittleindex">
+      <data key="d0">Tabular and Deep Learning for the Whittle Index</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">ACM Transactions on Modeling and Performance Evaluation of Computing S</data>
+      <data key="d5">6</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:deepreinforcementlearningforweaklycoupledmdpswithcontinuousactions">
+      <data key="d0">Deep reinforcement learning for weakly coupled MDP's with continuous a</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">Analytical and Stochastic Modeling Techniques and Applications</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:channelawarejointaoianddiversityoptimizationforclientschedulinginfederatedlearningwithnoni">
+      <data key="d0">Channel-Aware Joint AoI and Diversity Optimization for Client Scheduli</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">IEEE Transactions on Wireless Communications</data>
+      <data key="d5">8</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:towardszeroshotlearninginrestlessmultiarmedbandits">
+      <data key="d0">Towards Zero Shot Learning in Restless Multi-armed Bandits</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">Adaptive Agents and Multi-Agent Systems</data>
+      <data key="d5">3</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:adecisionlanguagemodeldlmfordynamicrestlessmultiarmedbandittasksinpublichealth">
+      <data key="d0">A Decision-Language Model (DLM) for Dynamic Restless Multi-Armed Bandi</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">Neural Information Processing Systems</data>
+      <data key="d5">37</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:anindexpolicybasedonsarsaandqlearningforheterogeneoussmarttargettracking">
+      <data key="d0">An Index Policy Based on Sarsa and Q -Learning for Heterogeneous Smart</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">IEEE Sensors Journal</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:onlinerestlessmultiarmedbanditswithlongtermfairnessconstraints">
+      <data key="d0">Online Restless Multi-Armed Bandits with Long-Term Fairness Constraint</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">AAAI Conference on Artificial Intelligence</data>
+      <data key="d5">19</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:weaklycoupleddeepqnetworks">
+      <data key="d0">Weakly Coupled Deep Q-Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">Neural Information Processing Systems</data>
+      <data key="d5">10</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:towardsapretrainedmodelforrestlessbanditsviamultiarmgeneralization">
+      <data key="d0">Towards a Pretrained Model for Restless Bandits via Multi-arm Generali</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">International Joint Conference on Artificial Intelligence</data>
+      <data key="d5">12</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:finitetimeanalysisofwhittleindexbasedqlearningforrestlessmultiarmedbanditswithneuralnetwor">
+      <data key="d0">Finite-Time Analysis of Whittle Index based Q-Learning for Restless Mu</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">Neural Information Processing Systems</data>
+      <data key="d5">22</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:reinforcementlearningfordynamicdimensioningofcloudcachesarestlessbanditapproach">
+      <data key="d0">Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Res</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">IEEE/ACM Transactions on Networking</data>
+      <data key="d5">6</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:robustplanningoverrestlessgroupsengagementinterventionsforalargescalematernaltelehealthpro">
+      <data key="d0">Robust Planning over Restless Groups: Engagement Interventions for a L</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">AAAI Conference on Artificial Intelligence</data>
+      <data key="d5">10</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:edgericempoweringrealtimeintelligentoptimizationandcontrolinnextgnetworks">
+      <data key="d0">EdgeRIC: Empowering Realtime Intelligent Optimization and Control in N</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">19</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:fullgradientdeepreinforcementlearningforaveragerewardcriterion">
+      <data key="d0">Full Gradient Deep Reinforcement Learning for Average-Reward Criterion</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">Conference on Learning for Dynamics &amp; Control</data>
+      <data key="d5">6</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:towardsefficientdynamicuplinkschedulingovermultipleunknownchannels">
+      <data key="d0">Towards Efficient Dynamic Uplink Scheduling over Multiple Unknown Chan</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">4</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:deeptopdeepthresholdoptimalpolicyformdpsandrmabs">
+      <data key="d0">DeepTOP: Deep Threshold-Optimal Policy for MDPs and RMABs</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">Neural Information Processing Systems</data>
+      <data key="d5">10</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:optimisticwhittleindexpolicyonlinelearningforrestlessbandits">
+      <data key="d0">Optimistic Whittle Index Policy: Online Learning for Restless Bandits</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">AAAI Conference on Artificial Intelligence</data>
+      <data key="d5">39</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:nearoptimalityforinfinitehorizonrestlessbanditswithmanyarms">
+      <data key="d0">Near-optimality for infinite-horizon restless bandits with many arms</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">16</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:testingindexabilityandcomputingwhittleandgittinsindexinsubcubictime">
+      <data key="d0">Testing indexability and computing Whittle and Gittins index in subcub</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">Mathematical Methods of Operations Research</data>
+      <data key="d5">25</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:restlessanduncertainrobustpoliciesforrestlessbanditsviadeepmultiagentreinforcementlearning">
+      <data key="d0">Restless and uncertain: Robust policies for restless bandits via deep </data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">Conference on Uncertainty in Artificial Intelligence</data>
+      <data key="d5">7</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:amultiarmedbanditbasedapproachtomobilenetworkproviderselection">
+      <data key="d0">A Multi-Armed Bandit-based Approach to Mobile Network Provider Selecti</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2020</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">3</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:deepqlearningwithwhittleindexforcontextualrestlessbanditsapplicationtoemailrecommendersyst">
+      <data key="d0">Deep Q-Learning with Whittle Index for Contextual Restless Bandits: Ap</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">NLDL</data>
+      <data key="d5">2</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:tabularanddeeplearningofwhittleindex">
+      <data key="d0">Tabular and Deep Learning of Whittle Index</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4" />
+      <data key="d5">12</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:learninginfinitehorizonaveragerewardrestlessmultiactionbanditsviaindexawareness">
+      <data key="d0">Learning Infinite-Horizon Average-Reward Restless Multi-Action Bandits</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">Neural Information Processing Systems</data>
+      <data key="d5">20</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:theproceedingsofthe21stusenixsymposiumonnetworkedsystemsdesignandimplementation">
+      <data key="d0">the Proceedings of the 21st USENIX Symposium on Networked Systems Desi</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4" />
+      <data key="d5">0</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:achievingo1noptimalitygapinrestlessbanditsthroughgaussianapproximation">
+      <data key="d0">Achieving ˜ O (1 /N ) Optimality Gap in Restless Bandits through Gauss</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4" />
+      <data key="d5">2</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:aniciawareschedulerfornbiotdevicesincoexistencewith5gnr">
+      <data key="d0">An ICI-Aware Scheduler for NB-IoT Devices in Co-existence with 5G NR</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">2021 IEEE 4th 5G World Forum (5GWF)</data>
+      <data key="d5">4</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:jointlinkadaptationandresourceallocationforuplinkin3gppmachinetypecommunications">
+      <data key="d0">Joint Link Adaptation and Resource Allocation for Uplink in 3GPP Machi</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4" />
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:optimaldesignofahybridsolarpvbgpoweredheterogeneousnetwork">
+      <data key="d0">Optimal Design of a Hybrid Solar PV/BG-Powered Heterogeneous Network</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">Sustainability</data>
+      <data key="d5">6</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:controlperiodadaptationandresourceallocationforjointuplinkanddownlinkinnbiotnetworks">
+      <data key="d0">Control Period Adaptation and Resource Allocation for Joint Uplink and</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">IEEE Internet of Things Journal</data>
+      <data key="d5">10</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:offsetawareresourceallocationinnbiotnetworks">
+      <data key="d0">Offset-Aware Resource Allocation in NB-IoT Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">IEEE Internet of Things Journal</data>
+      <data key="d5">11</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:smartcondeepprobabilisticlearningbasedintelligentlinkconfigurationinnarrowbandiottoward5ga">
+      <data key="d0">SmartCon: Deep Probabilistic Learning-Based Intelligent Link-Configura</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">IEEE Transactions on Cognitive Communications and Networking</data>
+      <data key="d5">7</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:energyefficientschedulingforsearchspaceperiodsinnbiotnetworks">
+      <data key="d0">Energy-Efficient Scheduling for Search-Space Periods in NB-IoT Network</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">IEEE Systems Journal</data>
+      <data key="d5">7</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:developmentofanovelomnetframeworkforanalysisofannbiotuplinknetwork">
+      <data key="d0">Development of a novel OMNET++ framework for analysis of an NB-IoT upl</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">2024 International Conference on Emerging Trends in Smart Technologies</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:pdcchschedulingviamaximumindependentset">
+      <data key="d0">PDCCH Scheduling via Maximum Independent Set</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:deeplearningbasedtargettouserassociationinintegratedsensingandcommunicationsystems">
+      <data key="d0">Deep Learning-Based Target-to-User Association in Integrated Sensing a</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">IEEE Journal of Selected Topics in Signal Processing</data>
+      <data key="d5">14</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:terrabeammanagementforoutdoormmwavenetworks">
+      <data key="d0">TERRA: Beam Management for Outdoor mm-Wave Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">IEEE Transactions on Wireless Communications</data>
+      <data key="d5">6</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:eavesdropperavoidancethroughadaptivebeammanagementinsdrbasedmmwavecommunications">
+      <data key="d0">Eavesdropper Avoidance through Adaptive Beam Management in SDR-Based M</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">International Symposium on Wireless Communication Systems</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:latentthompsonsamplingbasedmmwavereceivebeammeasurementandselectiontotackleuserorientation">
+      <data key="d0">Latent Thompson Sampling-Based mmWave Receive Beam Measurement and Sel</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">IEEE Transactions on Wireless Communications</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:environmentawareproactivebeampredictioninmmwavev2iviamultimodalpriormaskmap">
+      <data key="d0">Environment-Aware Proactive Beam Prediction in mmWave V2I via Multi-Mo</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">Sensors</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:0calzerocostcalibrationformmwavenetworks">
+      <data key="d0">0cal: Zero-Cost Calibration for mmWave Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4" />
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:beamsurferminimalistbeammanagementofmobilemmwavedevices">
+      <data key="d0">BeamSurfer: Minimalist Beam Management of Mobile mm-Wave Devices</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">IEEE Transactions on Wireless Communications</data>
+      <data key="d5">6</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices">
+      <data key="d0">UNBLOCK: Low Complexity Transient Blockage Recovery for Mobile mm-Wave</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">International Conference on Communication Systems and Networks</data>
+      <data key="d5">6</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:silenttracker">
+      <data key="d0">Silent tracker</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4" />
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections">
+      <data key="d0">Overcoming Pedestrian Blockage in mm-Wave Bands using Ground Reflectio</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">arXiv.org</data>
+      <data key="d5">2</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:terrablockageresilienceinoutdoormmwavenetworks">
+      <data key="d0">Terra: blockage resilience in outdoor mm-wave networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">SIGCOMM Posters and Demos</data>
+      <data key="d5">3</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow">
+      <data key="d0">Design and performance analysis of joint control and shared channel sc</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">Ad Hoc Networks</data>
+      <data key="d5">3</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:npdcchperiodadaptationanddownlinkschedulingfornbiotnetworks">
+      <data key="d0">NPDCCH Period Adaptation and Downlink Scheduling for NB-IoT Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2020</data>
+      <data key="d4">IEEE Internet of Things Journal</data>
+      <data key="d5">19</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:schedulinganddecodingofdownlinkcontrolchannelin3gppnarrowbandiot">
+      <data key="d0">Scheduling and Decoding of Downlink Control Channel in 3GPP Narrowband</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2020</data>
+      <data key="d4">IEEE Access</data>
+      <data key="d5">6</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot">
+      <data key="d0">Joint Control and Shared Channel Scheduling for Downlink in 3GPP Narro</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2020</data>
+      <data key="d4">International Conference on Communication Systems and Networks</data>
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:improvedphysicaldownlinkcontrolchannelfor3gppmassivemachinetypecommunications">
+      <data key="d0">Improved Physical Downlink Control Channel for 3GPP Massive Machine Ty</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2018</data>
+      <data key="d4">International Conference on Communication Systems and Networks</data>
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:adaptivetrafficswitchingandsplittingbetweensubthzmicrocellsandleosatellitelinksundernetwor">
+      <data key="d0">Adaptive Traffic Switching and Splitting Between Sub-THz Microcells an</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">International Conference on Communications, Signal Processing, and the</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:twobeamsarebetterthanonetowardsreliableandhighthroughputmmwavelinks">
+      <data key="d0">Two beams are better than one: towards reliable and high throughput mm</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">Conference on Applications, Technologies, Architectures, and Protocols</data>
+      <data key="d5">59</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:multimodalenvironmentawarebeammanagementformassivemimoageometrydrivenvirtualbasestationfra">
+      <data key="d0">Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geom</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4" />
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:multimodaldatadrivenvirtualbasestationconstructionformassivemimobeamalignment">
+      <data key="d0">Multi-Modal Data Driven Virtual Base Station Construction for Massive </data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">IEEE Wireless Communications and Networking Conference</data>
+      <data key="d5">2</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:generalizableandrobustbeampredictionfor6gnetworksandeeplearningframeworkwithpositioningfea">
+      <data key="d0">Generalizable and Robust Beam Prediction for 6G Networks: An Deep-Lear</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">IEEE Transactions on Network Science and Engineering</data>
+      <data key="d5">5</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:distancebasedmulticastschedulingformmwavenetworksleveragingreflections">
+      <data key="d0">Distance-Based Multicast Scheduling for mmWave Networks Leveraging Ref</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">IEEE Wireless Communications Letters</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:surveyonjointparadigmof5gandsdnemergingmobiletechnologiesarchitecturesecuritychallengesand">
+      <data key="d0">Survey on Joint Paradigm of 5G and SDN Emerging Mobile Technologies: A</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">Wireless personal communications</data>
+      <data key="d5">69</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:selfattentionproximalpolicyoptimizationforbeamtrackinginmmwavecommunications">
+      <data key="d0">Self-Attention Proximal Policy Optimization for Beam Tracking in mmWav</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">IEEE Journal on Selected Areas in Communications</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:silenttrackerinbandbeammanagementforsofthandoverformmwavenetworks">
+      <data key="d0">Silent tracker: in-band beam management for soft handover for mm-wave </data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">SIGCOMM Posters and Demos</data>
+      <data key="d5">0</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:irisadirectionalmacprotocolwithapplicationstomillimeterwavemobileadhocnetworks">
+      <data key="d0">Iris: A Directional MAC Protocol With Applications to Millimeter-Wave </data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2019</data>
+      <data key="d4">International Conference on Communication Systems and Networks</data>
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:continuoussteeringbackupsofnlosassistedmmwavenetworkstoavoidblocking">
+      <data key="d0">Continuous Steering Backups of NLoS-Assisted mmWave Networks to Avoid </data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">Information and Communication Technology Convergence</data>
+      <data key="d5">6</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:hybridbeamalignmentformultipathchannelsagrouptestingviewpoint">
+      <data key="d0">Hybrid Beam Alignment for Multi-Path Channels: A Group Testing Viewpoi</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2021</data>
+      <data key="d4">Asilomar Conference on Signals, Systems and Computers</data>
+      <data key="d5">2</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:commradcontextawaresensingdrivenmillimeterwavenetworks">
+      <data key="d0">CommRad: Context-Aware Sensing-Driven Millimeter-Wave Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">ACM International Conference on Embedded Networked Sensor Systems</data>
+      <data key="d5">5</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:fieldevaluationofasoftwarizedmodemfromtheperspectiveof5gcellsearch">
+      <data key="d0">Field Evaluation of a Softwarized Modem From the Perspective of 5G Cel</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2025</data>
+      <data key="d4">IEEE Transactions on Mobile Computing</data>
+      <data key="d5">4</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="P:towardsseamless5gopenranintegrationwithwebassembly">
+      <data key="d0">Towards Seamless 5G Open-RAN Integration with WebAssembly</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2024</data>
+      <data key="d4">ACM Workshop on Hot Topics in Networks</data>
+      <data key="d5">10</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:repetitionwithlearningapproachesinmassivemachinetypecommunications">
+      <data key="d0">Repetition with Learning Approaches in Massive Machine Type Communicat</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2022</data>
+      <data key="d4">Electronics</data>
+      <data key="d5">2</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:pufbasedlightweightdecentralizedauthenticationforuavnetworks">
+      <data key="d0">PUF-Based Lightweight Decentralized Authentication for UAV Networks</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">IEEE Transactions on Mobile Computing</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:tobitrecursivefilteringfornetworkednonlinearsystemsagainstrandommaninthemiddleattacksanatt">
+      <data key="d0">Tobit Recursive Filtering for Networked Nonlinear Systems Against Rand</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2026</data>
+      <data key="d4">IEEE Transactions on Automation Science and Engineering</data>
+      <data key="d5">0</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="P:seeingtheunseentherevealprotocoltoexposethewirelessmaninthemiddle">
+      <data key="d0">Seeing the Unseen: The REVEAL Protocol to Expose the Wireless Man-in-t</data>
+      <data key="d1">citing_paper</data>
+      <data key="d2">False</data>
+      <data key="d3">2023</data>
+      <data key="d4">IEEE Transactions on Wireless Communications</data>
+      <data key="d5">2</data>
+      <data key="d6">True</data>
+    </node>
+    <edge source="P:markovianrestlessbanditsandindexpoliciesareview" target="T:neurwin" />
+    <edge source="P:robustrestlessbanditstacklingintervaluncertaintywithdeepreinforcementlearning" target="T:neurwin" />
+    <edge source="P:anempiricalstudyonthecorrelationbetweennewnetworkindextoolsandstockreturnsinthepharmaceuti" target="T:neurwin" />
+    <edge source="P:ageoptimalbestarmidentification" target="T:neurwin" />
+    <edge source="P:optimizingresourceconstrainednonpharmaceuticalinterventionsformulticlusteroutbreakcontrolu" target="T:neurwin" />
+    <edge source="P:timelybestarmidentificationinrestlesssharednetworks" target="T:neurwin" />
+    <edge source="P:modelbasedlearningofwhittleindices" target="T:neurwin" />
+    <edge source="P:marblemultiarmedrestlessbanditsinlatentmarkovianenvironment" target="T:neurwin" />
+    <edge source="P:energyefficienttrainingofprivaterecommendationsystemsusingmultiarmedbanditmodelsandanalogi" target="T:neurwin" />
+    <edge source="P:addressingcouplinginrestlessmultiarmedbanditsbyfinetuningwhittleindex" target="T:neurwin" />
+    <edge source="P:onlinelearningofwhittleindicesforrestlessbanditswithnonstationarytransitionkernels" target="T:neurwin" />
+    <edge source="P:multiagentmarkoventanglement" target="T:neurwin" />
+    <edge source="P:reinforcementlearningwithcombinatorialactionsforcoupledrestlessbandits" target="T:neurwin" />
+    <edge source="P:projectionbasedlyapunovmethodforfullyheterogeneousweaklycoupledmdps" target="T:neurwin" />
+    <edge source="P:finitehorizonsinglepullrestlessbanditsanefficientindexpolicyforscarceresourceallocation" target="T:neurwin" />
+    <edge source="P:lagrangianindexpolicyforrestlessbanditswithaveragereward" target="T:neurwin" />
+    <edge source="P:contextwinwhittleindexbasedmixtureofexpertsneuralmodelforrestlessbanditsviadeeprl" target="T:neurwin" />
+    <edge source="P:dopldirectonlinepreferencelearningforrestlessbanditswithpreferencefeedback" target="T:neurwin" />
+    <edge source="P:aneuralnetworkbasedwhittleindexpolicyforbeamresourceallocationinmultitargettracking" target="T:neurwin" />
+    <edge source="P:whittleindexlearningalgorithmsforrestlessbanditswithconstantstepsizes" target="T:neurwin" />
+    <edge source="P:fasterqlearningalgorithmsforrestlessbandits" target="T:neurwin" />
+    <edge source="P:minimizingcostratherthanmaximizingrewardinrestlessmultiarmedbandits" target="T:neurwin" />
+    <edge source="P:ginoqlearninganasymptoticallyoptimalindexpolicyforrestlessmultiarmedbandits" target="T:neurwin" />
+    <edge source="P:thebanditwhisperercommunicationlearningforrestlessbandits" target="T:neurwin" />
+    <edge source="P:adeepreinforcementlearningbasedwhittleindexpolicyformultibeamallocation" target="T:neurwin" />
+    <edge source="P:windexrealtimeneuralwhittleindexingforscalableserviceguaranteesinnextgcellularnetworks" target="T:neurwin" />
+    <edge source="P:tabularanddeeplearningforthewhittleindex" target="T:neurwin" />
+    <edge source="P:deepreinforcementlearningforweaklycoupledmdpswithcontinuousactions" target="T:neurwin" />
+    <edge source="P:channelawarejointaoianddiversityoptimizationforclientschedulinginfederatedlearningwithnoni" target="T:neurwin" />
+    <edge source="P:towardszeroshotlearninginrestlessmultiarmedbandits" target="T:neurwin" />
+    <edge source="P:adecisionlanguagemodeldlmfordynamicrestlessmultiarmedbandittasksinpublichealth" target="T:neurwin" />
+    <edge source="P:anindexpolicybasedonsarsaandqlearningforheterogeneoussmarttargettracking" target="T:neurwin" />
+    <edge source="P:onlinerestlessmultiarmedbanditswithlongtermfairnessconstraints" target="T:neurwin" />
+    <edge source="P:weaklycoupleddeepqnetworks" target="T:neurwin" />
+    <edge source="P:towardsapretrainedmodelforrestlessbanditsviamultiarmgeneralization" target="T:neurwin" />
+    <edge source="P:finitetimeanalysisofwhittleindexbasedqlearningforrestlessmultiarmedbanditswithneuralnetwor" target="T:neurwin" />
+    <edge source="P:reinforcementlearningfordynamicdimensioningofcloudcachesarestlessbanditapproach" target="T:neurwin" />
+    <edge source="P:robustplanningoverrestlessgroupsengagementinterventionsforalargescalematernaltelehealthpro" target="T:neurwin" />
+    <edge source="P:edgericempoweringrealtimeintelligentoptimizationandcontrolinnextgnetworks" target="T:neurwin" />
+    <edge source="P:fullgradientdeepreinforcementlearningforaveragerewardcriterion" target="T:neurwin" />
+    <edge source="P:towardsefficientdynamicuplinkschedulingovermultipleunknownchannels" target="T:neurwin" />
+    <edge source="P:deeptopdeepthresholdoptimalpolicyformdpsandrmabs" target="T:neurwin" />
+    <edge source="P:optimisticwhittleindexpolicyonlinelearningforrestlessbandits" target="T:neurwin" />
+    <edge source="P:nearoptimalityforinfinitehorizonrestlessbanditswithmanyarms" target="T:neurwin" />
+    <edge source="P:testingindexabilityandcomputingwhittleandgittinsindexinsubcubictime" target="T:neurwin" />
+    <edge source="P:restlessanduncertainrobustpoliciesforrestlessbanditsviadeepmultiagentreinforcementlearning" target="T:neurwin" />
+    <edge source="P:amultiarmedbanditbasedapproachtomobilenetworkproviderselection" target="T:neurwin" />
+    <edge source="P:deepqlearningwithwhittleindexforcontextualrestlessbanditsapplicationtoemailrecommendersyst" target="T:neurwin" />
+    <edge source="P:tabularanddeeplearningofwhittleindex" target="T:neurwin" />
+    <edge source="P:learninginfinitehorizonaveragerewardrestlessmultiactionbanditsviaindexawareness" target="T:neurwin" />
+    <edge source="P:theproceedingsofthe21stusenixsymposiumonnetworkedsystemsdesignandimplementation" target="T:neurwin" />
+    <edge source="P:theproceedingsofthe21stusenixsymposiumonnetworkedsystemsdesignandimplementation" target="T:nextg_ric" />
+    <edge source="P:achievingo1noptimalitygapinrestlessbanditsthroughgaussianapproximation" target="T:neurwin" />
+    <edge source="P:aniciawareschedulerfornbiotdevicesincoexistencewith5gnr" target="T:nbiot_access" />
+    <edge source="P:jointlinkadaptationandresourceallocationforuplinkin3gppmachinetypecommunications" target="T:nbiot_access" />
+    <edge source="P:jointlinkadaptationandresourceallocationforuplinkin3gppmachinetypecommunications" target="T:nbiot_pimrc" />
+    <edge source="P:optimaldesignofahybridsolarpvbgpoweredheterogeneousnetwork" target="T:nbiot_access" />
+    <edge source="P:controlperiodadaptationandresourceallocationforjointuplinkanddownlinkinnbiotnetworks" target="T:nbiot_access" />
+    <edge source="P:controlperiodadaptationandresourceallocationforjointuplinkanddownlinkinnbiotnetworks" target="T:nbiot_pimrc" />
+    <edge source="P:offsetawareresourceallocationinnbiotnetworks" target="T:nbiot_access" />
+    <edge source="P:smartcondeepprobabilisticlearningbasedintelligentlinkconfigurationinnarrowbandiottoward5ga" target="T:nbiot_access" />
+    <edge source="P:energyefficientschedulingforsearchspaceperiodsinnbiotnetworks" target="T:nbiot_access" />
+    <edge source="P:energyefficientschedulingforsearchspaceperiodsinnbiotnetworks" target="T:nbiot_pimrc" />
+    <edge source="P:developmentofanovelomnetframeworkforanalysisofannbiotuplinknetwork" target="T:nbiot_access" />
+    <edge source="P:pdcchschedulingviamaximumindependentset" target="T:nbiot_access" />
+    <edge source="P:deeplearningbasedtargettouserassociationinintegratedsensingandcommunicationsystems" target="T:beamsurfer" />
+    <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:beamsurfer" />
+    <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:unblock" />
+    <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:beamsurfer_poster" />
+    <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:terra_poster" />
+    <edge source="P:eavesdropperavoidancethroughadaptivebeammanagementinsdrbasedmmwavecommunications" target="T:beamsurfer" />
+    <edge source="P:latentthompsonsamplingbasedmmwavereceivebeammeasurementandselectiontotackleuserorientation" target="T:beamsurfer" />
+    <edge source="P:environmentawareproactivebeampredictioninmmwavev2iviamultimodalpriormaskmap" target="T:beamsurfer" />
+    <edge source="P:0calzerocostcalibrationformmwavenetworks" target="T:beamsurfer" />
+    <edge source="P:beamsurferminimalistbeammanagementofmobilemmwavedevices" target="T:beamsurfer" />
+    <edge source="P:beamsurferminimalistbeammanagementofmobilemmwavedevices" target="T:unblock" />
+    <edge source="P:beamsurferminimalistbeammanagementofmobilemmwavedevices" target="T:beamsurfer_poster" />
+    <edge source="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices" target="T:beamsurfer" />
+    <edge source="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices" target="T:beamsurfer_poster" />
+    <edge source="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices" target="T:iris" />
+    <edge source="P:silenttracker" target="T:beamsurfer" />
+    <edge source="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections" target="T:beamsurfer" />
+    <edge source="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections" target="T:unblock" />
+    <edge source="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections" target="T:beamsurfer_poster" />
+    <edge source="P:terrablockageresilienceinoutdoormmwavenetworks" target="T:beamsurfer" />
+    <edge source="P:terrablockageresilienceinoutdoormmwavenetworks" target="T:unblock" />
+    <edge source="P:terrablockageresilienceinoutdoormmwavenetworks" target="T:beamsurfer_poster" />
+    <edge source="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow" target="T:nbiot_pimrc" />
+    <edge source="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow" target="T:rate_matching" />
+    <edge source="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow" target="T:improved_pdcch" />
+    <edge source="P:npdcchperiodadaptationanddownlinkschedulingfornbiotnetworks" target="T:nbiot_pimrc" />
+    <edge source="P:schedulinganddecodingofdownlinkcontrolchannelin3gppnarrowbandiot" target="T:nbiot_pimrc" />
+    <edge source="P:schedulinganddecodingofdownlinkcontrolchannelin3gppnarrowbandiot" target="T:rate_matching" />
+    <edge source="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot" target="T:nbiot_pimrc" />
+    <edge source="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot" target="T:rate_matching" />
+    <edge source="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot" target="T:improved_pdcch" />
+    <edge source="P:improvedphysicaldownlinkcontrolchannelfor3gppmassivemachinetypecommunications" target="T:nbiot_pimrc" />
+    <edge source="P:improvedphysicaldownlinkcontrolchannelfor3gppmassivemachinetypecommunications" target="T:rate_matching" />
+    <edge source="P:adaptivetrafficswitchingandsplittingbetweensubthzmicrocellsandleosatellitelinksundernetwor" target="T:unblock" />
+    <edge source="P:twobeamsarebetterthanonetowardsreliableandhighthroughputmmwavelinks" target="T:unblock" />
+    <edge source="P:multimodalenvironmentawarebeammanagementformassivemimoageometrydrivenvirtualbasestationfra" target="T:terra_twc" />
+    <edge source="P:multimodaldatadrivenvirtualbasestationconstructionformassivemimobeamalignment" target="T:terra_twc" />
+    <edge source="P:generalizableandrobustbeampredictionfor6gnetworksandeeplearningframeworkwithpositioningfea" target="T:terra_twc" />
+    <edge source="P:distancebasedmulticastschedulingformmwavenetworksleveragingreflections" target="T:terra_twc" />
+    <edge source="P:surveyonjointparadigmof5gandsdnemergingmobiletechnologiesarchitecturesecuritychallengesand" target="T:terra_twc" />
+    <edge source="P:surveyonjointparadigmof5gandsdnemergingmobiletechnologiesarchitecturesecuritychallengesand" target="T:terra_poster" />
+    <edge source="P:selfattentionproximalpolicyoptimizationforbeamtrackinginmmwavecommunications" target="T:terra_twc" />
+    <edge source="P:silenttrackerinbandbeammanagementforsofthandoverformmwavenetworks" target="T:beamsurfer_poster" />
+    <edge source="P:irisadirectionalmacprotocolwithapplicationstomillimeterwavemobileadhocnetworks" target="T:dmac" />
+    <edge source="P:continuoussteeringbackupsofnlosassistedmmwavenetworkstoavoidblocking" target="T:ground_reflections" />
+    <edge source="P:hybridbeamalignmentformultipathchannelsagrouptestingviewpoint" target="T:ground_reflections" />
+    <edge source="P:commradcontextawaresensingdrivenmillimeterwavenetworks" target="T:terra_poster" />
+    <edge source="P:fieldevaluationofasoftwarizedmodemfromtheperspectiveof5gcellsearch" target="T:nextg_ric" />
+    <edge source="P:towardsseamless5gopenranintegrationwithwebassembly" target="T:nextg_ric" />
+    <edge source="P:repetitionwithlearningapproachesinmassivemachinetypecommunications" target="T:improved_pdcch" />
+    <edge source="P:pufbasedlightweightdecentralizedauthenticationforuavnetworks" target="T:reveal_twc" />
+    <edge source="P:tobitrecursivefilteringfornetworkednonlinearsystemsagainstrandommaninthemiddleattacksanatt" target="T:reveal_twc" />
+    <edge source="P:seeingtheunseentherevealprotocoltoexposethewirelessmaninthemiddle" target="T:reveal_s3" />
+  </graph>
+</graphml>

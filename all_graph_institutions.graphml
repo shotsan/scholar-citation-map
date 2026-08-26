@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="papers" attr.type="long" />
+  <key id="d3" for="node" attr.name="country" attr.type="string" />
+  <key id="d2" for="node" attr.name="show_label" attr.type="boolean" />
+  <key id="d1" for="node" attr.name="kind" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="T:neurwin">
+      <data key="d0">NeurWIN (NeurIPS 2021)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nbiot_access">
+      <data key="d0">Scheduling and Decoding of Downlin (IEEE Access 2020)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:beamsurfer">
+      <data key="d0">BeamSurfer (IEEE TWC 2022)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nbiot_pimrc">
+      <data key="d0">Downlink control channel schedulin (IEEE PIMRC 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:unblock">
+      <data key="d0">Unblock (COMSNETS 2021)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:terra_twc">
+      <data key="d0">TERRA (IEEE TWC 2024)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:beamsurfer_poster">
+      <data key="d0">Beamsurfer (SIGCOMM'20 Posters)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:dmac">
+      <data key="d0">A directional medium access contro (COMSNETS 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:ground_reflections">
+      <data key="d0">Overcoming pedestrian blockage in  (arXiv 2021)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:iris">
+      <data key="d0">Iris (COMSNETS 2019)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:rate_matching">
+      <data key="d0">Novel rate matching scheme for dow (COMSNETS 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:terra_poster">
+      <data key="d0">Terra (SIGCOMM'22 Posters)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nextg_ric">
+      <data key="d0">Realtime intelligent control for N (MobiSys 2022)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:improved_pdcch">
+      <data key="d0">Improved physical downlink control (COMSNETS 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:reveal_twc">
+      <data key="d0">Seeing the Unseen (IEEE TWC 2024)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:reveal_s3">
+      <data key="d0">Seeing the Unseen (ACM S3 Workshop 2023)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:comsnets_proc">
+      <data key="d0">Communication Systems and Networks (Springer 2019)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="I:Universidad Carlos III de Madrid">
+      <data key="d0">Universidad Carlos III de Madrid</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">ES</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Harvard University">
+      <data key="d0">Harvard University</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">US</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="I:Zhejiang University">
+      <data key="d0">Zhejiang University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:National University of Singapore">
+      <data key="d0">National University of Singapore</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">SG</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Sandia National Laboratories California">
+      <data key="d0">Sandia National Laboratories California</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Texas A&amp;M University">
+      <data key="d0">Texas A&amp;M University</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">US</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="I:Stanford University">
+      <data key="d0">Stanford University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Shandong Institute of Automation">
+      <data key="d0">Shandong Institute of Automation</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Columbia University">
+      <data key="d0">Columbia University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Carnegie Mellon University">
+      <data key="d0">Carnegie Mellon University</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">US</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Institut national de recherche en sciences et technologies du numérique">
+      <data key="d0">Institut national de recherche en sciences et technologies du numérique</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="I:Indian Institute of Technology Bombay">
+      <data key="d0">Indian Institute of Technology Bombay</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">IN</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="I:Northwestern Polytechnical University">
+      <data key="d0">Northwestern Polytechnical University</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">CN</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="I:RMIT University">
+      <data key="d0">RMIT University</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">AU</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="I:Indian Institute of Information Technology Allahabad">
+      <data key="d0">Indian Institute of Information Technology Allahabad</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">IN</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Indian Institute of Technology Madras">
+      <data key="d0">Indian Institute of Technology Madras</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">IN</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Imperial College London">
+      <data key="d0">Imperial College London</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">GB</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Université de Pau et des Pays de l'Adour">
+      <data key="d0">Université de Pau et des Pays de l'Adour</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:University of the Basque Country">
+      <data key="d0">University of the Basque Country</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">ES</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Laboratoire de Mathématiques et de leurs Applications">
+      <data key="d0">Laboratoire de Mathématiques et de leurs Applications</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Ikerbasque">
+      <data key="d0">Ikerbasque</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">ES</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Centre National de la Recherche Scientifique">
+      <data key="d0">Centre National de la Recherche Scientifique</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="I:Université Toulouse III - Paul Sabatier">
+      <data key="d0">Université Toulouse III - Paul Sabatier</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Université Toulouse-I-Capitole">
+      <data key="d0">Université Toulouse-I-Capitole</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Institut de Recherche en Informatique de Toulouse">
+      <data key="d0">Institut de Recherche en Informatique de Toulouse</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Université Toulouse - Jean Jaurès">
+      <data key="d0">Université Toulouse - Jean Jaurès</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:Institut Polytechnique de Bordeaux">
+      <data key="d0">Institut Polytechnique de Bordeaux</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">FR</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:University of British Columbia">
+      <data key="d0">University of British Columbia</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CA</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Friedrich-Alexander-Universität Erlangen-Nürnberg">
+      <data key="d0">Friedrich-Alexander-Universität Erlangen-Nürnberg</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">DE</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Google (United Kingdom)">
+      <data key="d0">Google (United Kingdom)</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">GB</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Google (United States)">
+      <data key="d0">Google (United States)</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">US</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="I:Stony Brook University">
+      <data key="d0">Stony Brook University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Beijing Academy of Artificial Intelligence">
+      <data key="d0">Beijing Academy of Artificial Intelligence</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:China National Chemical Engineering (China)">
+      <data key="d0">China National Chemical Engineering (China)</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Shanghai Artificial Intelligence Laboratory">
+      <data key="d0">Shanghai Artificial Intelligence Laboratory</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:China Telecom (China)">
+      <data key="d0">China Telecom (China)</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Binghamton University">
+      <data key="d0">Binghamton University</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">US</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="I:ARMMAN">
+      <data key="d0">ARMMAN</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Institut polytechnique de Grenoble">
+      <data key="d0">Institut polytechnique de Grenoble</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">FR</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Centre Inria de l'Université Grenoble Alpes">
+      <data key="d0">Centre Inria de l'Université Grenoble Alpes</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">FR</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Laboratoire d'Informatique de Grenoble">
+      <data key="d0">Laboratoire d'Informatique de Grenoble</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">FR</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Université Grenoble Alpes">
+      <data key="d0">Université Grenoble Alpes</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">FR</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:University of Michigan">
+      <data key="d0">University of Michigan</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Indian Institute of Technology">
+      <data key="d0">Indian Institute of Technology</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Bangladesh University of Business and Technology">
+      <data key="d0">Bangladesh University of Business and Technology</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Murdoch University">
+      <data key="d0">Murdoch University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Jouf University">
+      <data key="d0">Jouf University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:King Fahd University of Petroleum &amp; Minerals">
+      <data key="d0">King Fahd University of Petroleum &amp; Minerals</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:University of Wollongong">
+      <data key="d0">University of Wollongong</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:University of Louisiana at Lafayette">
+      <data key="d0">University of Louisiana at Lafayette</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:National University of Kaohsiung">
+      <data key="d0">National University of Kaohsiung</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">TW</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="I:National Sun Yat-sen University">
+      <data key="d0">National Sun Yat-sen University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">TW</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Université du Québec à Montréal">
+      <data key="d0">Université du Québec à Montréal</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CA</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:École de Technologie Supérieure">
+      <data key="d0">École de Technologie Supérieure</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CA</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Jadavpur University">
+      <data key="d0">Jadavpur University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">IN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:TCG Crest">
+      <data key="d0">TCG Crest</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">IN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:NED University of Engineering and Technology">
+      <data key="d0">NED University of Engineering and Technology</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">PK</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Politecnico di Milano">
+      <data key="d0">Politecnico di Milano</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">IT</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Virginia Tech">
+      <data key="d0">Virginia Tech</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Samsung (India)">
+      <data key="d0">Samsung (India)</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">IN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Indian Institute of Science Bangalore">
+      <data key="d0">Indian Institute of Science Bangalore</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">IN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Nanjing University of Posts and Telecommunications">
+      <data key="d0">Nanjing University of Posts and Telecommunications</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">CN</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Florida State University">
+      <data key="d0">Florida State University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:The Ohio State University">
+      <data key="d0">The Ohio State University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Mitchell Institute">
+      <data key="d0">Mitchell Institute</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3">US</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Indian Institute of Technology Hyderabad">
+      <data key="d0">Indian Institute of Technology Hyderabad</data>
+      <data key="d1">institution</data>
+      <data key="d2">True</data>
+      <data key="d3">IN</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="I:Feng Chia University">
+      <data key="d0">Feng Chia University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Institute for Information Industry">
+      <data key="d0">Institute for Information Industry</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:Bureau of Standards">
+      <data key="d0">Bureau of Standards</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:National Kaohsiung University of Science and Technology">
+      <data key="d0">National Kaohsiung University of Science and Technology</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <node id="I:National Taiwan University">
+      <data key="d0">National Taiwan University</data>
+      <data key="d1">institution</data>
+      <data key="d2">False</data>
+      <data key="d3" />
+      <data key="d4">1</data>
+    </node>
+    <edge source="T:neurwin" target="I:Universidad Carlos III de Madrid" />
+    <edge source="T:neurwin" target="I:Harvard University" />
+    <edge source="T:neurwin" target="I:Zhejiang University" />
+    <edge source="T:neurwin" target="I:National University of Singapore" />
+    <edge source="T:neurwin" target="I:Sandia National Laboratories California" />
+    <edge source="T:neurwin" target="I:Texas A&amp;M University" />
+    <edge source="T:neurwin" target="I:Stanford University" />
+    <edge source="T:neurwin" target="I:Shandong Institute of Automation" />
+    <edge source="T:neurwin" target="I:Columbia University" />
+    <edge source="T:neurwin" target="I:Carnegie Mellon University" />
+    <edge source="T:neurwin" target="I:Institut national de recherche en sciences et technologies du numérique" />
+    <edge source="T:neurwin" target="I:Indian Institute of Technology Bombay" />
+    <edge source="T:neurwin" target="I:Northwestern Polytechnical University" />
+    <edge source="T:neurwin" target="I:RMIT University" />
+    <edge source="T:neurwin" target="I:Indian Institute of Information Technology Allahabad" />
+    <edge source="T:neurwin" target="I:Indian Institute of Technology Madras" />
+    <edge source="T:neurwin" target="I:Imperial College London" />
+    <edge source="T:neurwin" target="I:Université de Pau et des Pays de l'Adour" />
+    <edge source="T:neurwin" target="I:University of the Basque Country" />
+    <edge source="T:neurwin" target="I:Laboratoire de Mathématiques et de leurs Applications" />
+    <edge source="T:neurwin" target="I:Ikerbasque" />
+    <edge source="T:neurwin" target="I:Centre National de la Recherche Scientifique" />
+    <edge source="T:neurwin" target="I:Université Toulouse III - Paul Sabatier" />
+    <edge source="T:neurwin" target="I:Université Toulouse-I-Capitole" />
+    <edge source="T:neurwin" target="I:Institut de Recherche en Informatique de Toulouse" />
+    <edge source="T:neurwin" target="I:Université Toulouse - Jean Jaurès" />
+    <edge source="T:neurwin" target="I:Institut Polytechnique de Bordeaux" />
+    <edge source="T:neurwin" target="I:University of British Columbia" />
+    <edge source="T:neurwin" target="I:Friedrich-Alexander-Universität Erlangen-Nürnberg" />
+    <edge source="T:neurwin" target="I:Google (United Kingdom)" />
+    <edge source="T:neurwin" target="I:Google (United States)" />
+    <edge source="T:neurwin" target="I:Stony Brook University" />
+    <edge source="T:neurwin" target="I:Beijing Academy of Artificial Intelligence" />
+    <edge source="T:neurwin" target="I:China National Chemical Engineering (China)" />
+    <edge source="T:neurwin" target="I:Shanghai Artificial Intelligence Laboratory" />
+    <edge source="T:neurwin" target="I:China Telecom (China)" />
+    <edge source="T:neurwin" target="I:Binghamton University" />
+    <edge source="T:neurwin" target="I:ARMMAN" />
+    <edge source="T:neurwin" target="I:Institut polytechnique de Grenoble" />
+    <edge source="T:neurwin" target="I:Centre Inria de l'Université Grenoble Alpes" />
+    <edge source="T:neurwin" target="I:Laboratoire d'Informatique de Grenoble" />
+    <edge source="T:neurwin" target="I:Université Grenoble Alpes" />
+    <edge source="T:neurwin" target="I:University of Michigan" />
+    <edge source="T:nbiot_access" target="I:Indian Institute of Technology" />
+    <edge source="T:nbiot_access" target="I:Bangladesh University of Business and Technology" />
+    <edge source="T:nbiot_access" target="I:Murdoch University" />
+    <edge source="T:nbiot_access" target="I:Jouf University" />
+    <edge source="T:nbiot_access" target="I:King Fahd University of Petroleum &amp; Minerals" />
+    <edge source="T:nbiot_access" target="I:University of Wollongong" />
+    <edge source="T:nbiot_access" target="I:University of Louisiana at Lafayette" />
+    <edge source="T:nbiot_access" target="I:National University of Kaohsiung" />
+    <edge source="T:nbiot_access" target="I:National Sun Yat-sen University" />
+    <edge source="T:nbiot_access" target="I:Université du Québec à Montréal" />
+    <edge source="T:nbiot_access" target="I:École de Technologie Supérieure" />
+    <edge source="T:nbiot_access" target="I:Jadavpur University" />
+    <edge source="T:nbiot_access" target="I:TCG Crest" />
+    <edge source="T:nbiot_access" target="I:NED University of Engineering and Technology" />
+    <edge source="T:beamsurfer" target="I:Texas A&amp;M University" />
+    <edge source="T:beamsurfer" target="I:Politecnico di Milano" />
+    <edge source="T:beamsurfer" target="I:Virginia Tech" />
+    <edge source="T:beamsurfer" target="I:Samsung (India)" />
+    <edge source="T:beamsurfer" target="I:Indian Institute of Science Bangalore" />
+    <edge source="T:beamsurfer" target="I:Nanjing University of Posts and Telecommunications" />
+    <edge source="T:beamsurfer" target="I:Florida State University" />
+    <edge source="T:beamsurfer" target="I:The Ohio State University" />
+    <edge source="T:beamsurfer" target="I:Mitchell Institute" />
+    <edge source="T:nbiot_pimrc" target="I:Texas A&amp;M University" />
+    <edge source="T:nbiot_pimrc" target="I:National University of Kaohsiung" />
+    <edge source="T:nbiot_pimrc" target="I:National Sun Yat-sen University" />
+    <edge source="T:nbiot_pimrc" target="I:Indian Institute of Technology Hyderabad" />
+    <edge source="T:improved_pdcch" target="I:Feng Chia University" />
+    <edge source="T:improved_pdcch" target="I:Institute for Information Industry" />
+    <edge source="T:improved_pdcch" target="I:Bureau of Standards" />
+    <edge source="T:improved_pdcch" target="I:National Kaohsiung University of Science and Technology" />
+    <edge source="T:improved_pdcch" target="I:National Taiwan University" />
+  </graph>
+</graphml>

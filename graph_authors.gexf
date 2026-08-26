@@ -1,0 +1,1536 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-26">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="kind" type="string" />
+      <attribute id="1" title="show_label" type="boolean" />
+      <attribute id="2" title="papers" type="long" />
+      <attribute id="3" title="coauthor" type="string" />
+    </attributes>
+    <nodes>
+      <node id="T:neurwin" label="NeurWIN (NeurIPS 2021)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nbiot_access" label="Scheduling and Decoding of Downlin (IEEE Access 2020)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:beamsurfer" label="BeamSurfer (IEEE TWC 2022)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nbiot_pimrc" label="Downlink Control Channel Schedulin (IEEE PIMRC 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="A:mora|j" label="José Niño‐Mora">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:killian|j" label="Jackson A. Killian">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:xu|l" label="Lily Xu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:biswas|a" label="Arpita Biswas">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:tambe|m" label="Milind Tambe">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="10" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:liu|c" label="Chengwei Liu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:zhou|m" label="Mengqiu Zhou">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:yang|l" label="Le Yang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:tan|v" label="Vincent Y. F. Tan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:zhang|m" label="Meng Zhang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:peng|x" label="Xueqiao Peng">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:perrault|a" label="Andrew Perrault">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:charles-rebuff'e|j" label="Joel Charles-Rebuff'e">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:gast|n" label="Nicolas Gast">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:gaujal|b" label="Bruno Gaujal">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:amiri|m" label="Mohsen Amiri">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:avrachenkov|k" label="Konstantin Avrachenkov">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mimouni|i" label="I. Mimouni">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:magn'usson|s" label="Sindri Magn'usson">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:park|m" label="Minseong Park">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:chien|h" label="Hung-Ta Chien">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:chen|w" label="Wei-Chen Chen">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mimi|a" label="Arjuman Ara Mimi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wan|w" label="W. Wan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:woo|k" label="Kyung Seok Woo">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:yi|s" label="Su-in Yi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:kumar|s" label="Suhas Kumar">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:luan|y" label="Yao Luan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mu|n" label="Ni Mu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:jia|q" label="Qing-Shan Jia">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:shisher|m" label="Md Kamran Chowdhury Shisher">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:tripathi|v" label="Vishrant Tripathi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:chiang|m" label="Mung Chiang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:brinton|c" label="Christopher G. Brinton">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:chen|s" label="Shuze Chen">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:peng|t" label="Tianyi Peng">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wilder|b" label="Bryan Wilder">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:khalil|e" label="Elias B. Khalil">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:zhang|x" label="Xiangcheng Zhang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:hong|y" label="Yige Hong">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wang|w" label="Weina Wang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:xiong|g" label="Guojun Xiong">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wang|h" label="Haichuan Wang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:pan|y" label="Yuqi Pan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mandal|s" label="Saptarshi Mandal">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:shah|s" label="Sanket Shah">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:boehmer|n" label="N. Boehmer">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:borkar|v" label="Vivek S. Borkar">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:shah|p" label="Pratik Shah">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:guo|z" label="Zhanqiu Guo">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:dinesha|u" label="Ujwal Dinesha">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mukherjee|d" label="Debajoy Mukherjee">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:li|j" label="Jian Li">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:shakkottai|s" label="Srinivas Shakkottai">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:hao|y" label="Yuhang Hao">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wang|z" label="Zengfu Wang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:fu|j" label="Jing Fu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:pan|q" label="Quan Pan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mittal|v" label="Vishesh Mittal">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:meshram|r" label="Rahul Meshram">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:prakash|s" label="Surya Prakash">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:kakarapalli|p" label="Parvish Kakarapalli">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:kayande|d" label="D. Kayande">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:witter|r" label="R. Witter">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:hellerstein|l" label="Lisa Hellerstein">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:chen|g" label="Gongpu Chen">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:liew|s" label="S. Liew">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:gunduz|d" label="Deniz Gündüz">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:zhao|y" label="Yunfan Zhao">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wang|t" label="Tonghan Wang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:nagaraj|d" label="Dheeraj M. Nagaraj">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:taneja|a" label="Aparna Taneja">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:bura|a" label="Archana Bura">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ghosh|u" label="Ushasi Ghosh">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:bharadia|d" label="Dinesh Bharadia">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:relano|f" label="Francisco Robledo Relaño">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ayesta|u" label="U. Ayesta">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:robledo|f" label="Francisco Robledo">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ma|m" label="Manyou Ma">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wong|v" label="Vincent W. S. Wong">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:schober|r" label="Robert Schober">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:behari|n" label="Nikhil Behari">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:hughes|e" label="Edward Hughes">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:zhang|e" label="Edwin Zhang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:tuyls|k" label="Karl Tuyls">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:yun|t" label="Tao Yun">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wang|s" label="Shu-Fan Wang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:shar|i" label="Ibrahim El Shar">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:jiang|d" label="Daniel R. Jiang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:yan|g" label="Gang Yan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:verma|s" label="Shresth Verma">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:nair|v" label="V. Nair">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:hegde|a" label="A. Hegde">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:madhiwalla|n" label="N. Madhiwalla">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:diaz|p" label="Paula Rodríguez Díaz">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:johnson-yu|s" label="Sonja Johnson-Yu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ko|w" label="Woo-Hyun Ko">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wu|r" label="Raini Wu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:pagare|t" label="Tejas Pagare">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wu|s" label="Shuang Wu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ren|x" label="Xiaoqiang Ren">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:johansson|k" label="K. Johansson">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:shi|l" label="Ling Shi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:nakhleh|k" label="Khaled Nakhleh">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:hou|i" label="I.-Hong Hou">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:wang|k" label="Kai Wang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:frazier|p" label="P. Frazier">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:khun|k" label="K. Khun">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:sandholm|t" label="Thomas Sandholm">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mukherjee|s" label="S. Mukherjee">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:design|s" label="Systems Design">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:yan|c" label="Chen Yan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ying|l" label="Lei Ying">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:yu|y" label="Ya-Ju Yu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wang|y" label="You‐Chiun Wang">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:fan|c" label="Chia-Hsin Fan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:li|l" label="Liang-Xian Li">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:karmakar|r" label="Raja Karmakar">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:kaddoum|g" label="Georges Kaddoum">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:chattopadhyay|s" label="Samiran Chattopadhyay">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:wu|c" label="Chua-Ling Wu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:hossain|m" label="Md. Sanwar Hossain">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:islam|k" label="Khondoker Ziaul Islam">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:alharbi|a" label="Abdullah G. Alharbi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:shafiullah|m" label="Md Shafiullah">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:islam|m" label="Md. Rabiul Islam">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:fekih|a" label="Afef Fekih">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:jabeen|s" label="Shahida Jabeen">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:haque|a" label="Anwar Haque">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:reddy|m" label="M. Pavan Reddy">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:kumar|a" label="Abhinav Kumar">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:kuchi|k" label="Kiran Kuchi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:ali|s" label="Sundus Ali">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:aslam|m" label="Muhammad Imran Aslam">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ahmed|i" label="Irfan Ahmed">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:jafri|s" label="Syed Talib Abbas Jafri">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:aslam|t" label="Tahniyat Aslam">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:maggi|l" label="Lorenzo Maggi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:rial|a" label="Alvaro Valcarce Rial">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:herzog|a" label="Alois Herzog">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:kalyanasundaram|s" label="S. Kalyanasundaram">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:agrawal|r" label="R. Agrawal">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:cazzella|l" label="Lorenzo Cazzella">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mizmizi|m" label="Marouan Mizmizi">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:tagliaferri|d" label="Dario Tagliaferri">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:badini|d" label="Damiano Badini">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:matteucci|m" label="Matteo Matteucci">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:spagnolini|u" label="Umberto Spagnolini">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:ganji|s" label="Santosh Ganji">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:kim|j" label="Jaewon Kim">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:sonigra|r" label="Romil Sonigra">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:kumar|p" label="P. R. Kumar">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:baron-hyppolite|a" label="Adrian Baron-Hyppolite">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:santos|j" label="Joao F. Santos">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:dasilva|l" label="Luiz A. DaSilva">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:da|j" label="Jacek Kibiłda">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:chavva|a" label="Ashok Kumar Reddy Chavva">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:mehta|n" label="Neelesh B. Mehta">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:zhou|c" label="Changpeng Zhou">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:xu|y" label="Youyun Xu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:liu|x" label="Xin Liu">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:srinivasan|k" label="Kannan Srinivasan">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="False" />
+        </attvalues>
+      </node>
+      <node id="A:lin|t" label="Tzu-Hsiang Lin">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:espinal|f" label="Francisco A. Espinal">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+      <node id="A:santosh|g" label="G. Santosh">
+        <attvalues>
+          <attvalue for="0" value="author" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="True" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="T:neurwin" target="A:mora|j" id="0" />
+      <edge source="T:neurwin" target="A:killian|j" id="1" />
+      <edge source="T:neurwin" target="A:xu|l" id="2" />
+      <edge source="T:neurwin" target="A:biswas|a" id="3" />
+      <edge source="T:neurwin" target="A:tambe|m" id="4" />
+      <edge source="T:neurwin" target="A:liu|c" id="5" />
+      <edge source="T:neurwin" target="A:zhou|m" id="6" />
+      <edge source="T:neurwin" target="A:yang|l" id="7" />
+      <edge source="T:neurwin" target="A:tan|v" id="8" />
+      <edge source="T:neurwin" target="A:zhang|m" id="9" />
+      <edge source="T:neurwin" target="A:peng|x" id="10" />
+      <edge source="T:neurwin" target="A:perrault|a" id="11" />
+      <edge source="T:neurwin" target="A:charles-rebuff'e|j" id="12" />
+      <edge source="T:neurwin" target="A:gast|n" id="13" />
+      <edge source="T:neurwin" target="A:gaujal|b" id="14" />
+      <edge source="T:neurwin" target="A:amiri|m" id="15" />
+      <edge source="T:neurwin" target="A:avrachenkov|k" id="16" />
+      <edge source="T:neurwin" target="A:mimouni|i" id="17" />
+      <edge source="T:neurwin" target="A:magn'usson|s" id="18" />
+      <edge source="T:neurwin" target="A:park|m" id="19" />
+      <edge source="T:neurwin" target="A:chien|h" id="20" />
+      <edge source="T:neurwin" target="A:chen|w" id="21" />
+      <edge source="T:neurwin" target="A:mimi|a" id="22" />
+      <edge source="T:neurwin" target="A:wan|w" id="23" />
+      <edge source="T:neurwin" target="A:woo|k" id="24" />
+      <edge source="T:neurwin" target="A:yi|s" id="25" />
+      <edge source="T:neurwin" target="A:kumar|s" id="26" />
+      <edge source="T:neurwin" target="A:luan|y" id="27" />
+      <edge source="T:neurwin" target="A:mu|n" id="28" />
+      <edge source="T:neurwin" target="A:jia|q" id="29" />
+      <edge source="T:neurwin" target="A:shisher|m" id="30" />
+      <edge source="T:neurwin" target="A:tripathi|v" id="31" />
+      <edge source="T:neurwin" target="A:chiang|m" id="32" />
+      <edge source="T:neurwin" target="A:brinton|c" id="33" />
+      <edge source="T:neurwin" target="A:chen|s" id="34" />
+      <edge source="T:neurwin" target="A:peng|t" id="35" />
+      <edge source="T:neurwin" target="A:wilder|b" id="36" />
+      <edge source="T:neurwin" target="A:khalil|e" id="37" />
+      <edge source="T:neurwin" target="A:zhang|x" id="38" />
+      <edge source="T:neurwin" target="A:hong|y" id="39" />
+      <edge source="T:neurwin" target="A:wang|w" id="40" />
+      <edge source="T:neurwin" target="A:xiong|g" id="41" />
+      <edge source="T:neurwin" target="A:wang|h" id="42" />
+      <edge source="T:neurwin" target="A:pan|y" id="43" />
+      <edge source="T:neurwin" target="A:mandal|s" id="44" />
+      <edge source="T:neurwin" target="A:shah|s" id="45" />
+      <edge source="T:neurwin" target="A:boehmer|n" id="46" />
+      <edge source="T:neurwin" target="A:borkar|v" id="47" />
+      <edge source="T:neurwin" target="A:shah|p" id="48" />
+      <edge source="T:neurwin" target="A:guo|z" id="49" />
+      <edge source="T:neurwin" target="A:dinesha|u" id="50" />
+      <edge source="T:neurwin" target="A:mukherjee|d" id="51" />
+      <edge source="T:neurwin" target="A:li|j" id="52" />
+      <edge source="T:neurwin" target="A:shakkottai|s" id="53" />
+      <edge source="T:neurwin" target="A:hao|y" id="54" />
+      <edge source="T:neurwin" target="A:wang|z" id="55" />
+      <edge source="T:neurwin" target="A:fu|j" id="56" />
+      <edge source="T:neurwin" target="A:pan|q" id="57" />
+      <edge source="T:neurwin" target="A:mittal|v" id="58" />
+      <edge source="T:neurwin" target="A:meshram|r" id="59" />
+      <edge source="T:neurwin" target="A:prakash|s" id="60" />
+      <edge source="T:neurwin" target="A:kakarapalli|p" id="61" />
+      <edge source="T:neurwin" target="A:kayande|d" id="62" />
+      <edge source="T:neurwin" target="A:witter|r" id="63" />
+      <edge source="T:neurwin" target="A:hellerstein|l" id="64" />
+      <edge source="T:neurwin" target="A:chen|g" id="65" />
+      <edge source="T:neurwin" target="A:liew|s" id="66" />
+      <edge source="T:neurwin" target="A:gunduz|d" id="67" />
+      <edge source="T:neurwin" target="A:zhao|y" id="68" />
+      <edge source="T:neurwin" target="A:wang|t" id="69" />
+      <edge source="T:neurwin" target="A:nagaraj|d" id="70" />
+      <edge source="T:neurwin" target="A:taneja|a" id="71" />
+      <edge source="T:neurwin" target="A:bura|a" id="72" />
+      <edge source="T:neurwin" target="A:ghosh|u" id="73" />
+      <edge source="T:neurwin" target="A:bharadia|d" id="74" />
+      <edge source="T:neurwin" target="A:relano|f" id="75" />
+      <edge source="T:neurwin" target="A:ayesta|u" id="76" />
+      <edge source="T:neurwin" target="A:robledo|f" id="77" />
+      <edge source="T:neurwin" target="A:ma|m" id="78" />
+      <edge source="T:neurwin" target="A:wong|v" id="79" />
+      <edge source="T:neurwin" target="A:schober|r" id="80" />
+      <edge source="T:neurwin" target="A:behari|n" id="81" />
+      <edge source="T:neurwin" target="A:hughes|e" id="82" />
+      <edge source="T:neurwin" target="A:zhang|e" id="83" />
+      <edge source="T:neurwin" target="A:tuyls|k" id="84" />
+      <edge source="T:neurwin" target="A:yun|t" id="85" />
+      <edge source="T:neurwin" target="A:wang|s" id="86" />
+      <edge source="T:neurwin" target="A:shar|i" id="87" />
+      <edge source="T:neurwin" target="A:jiang|d" id="88" />
+      <edge source="T:neurwin" target="A:yan|g" id="89" />
+      <edge source="T:neurwin" target="A:verma|s" id="90" />
+      <edge source="T:neurwin" target="A:nair|v" id="91" />
+      <edge source="T:neurwin" target="A:hegde|a" id="92" />
+      <edge source="T:neurwin" target="A:madhiwalla|n" id="93" />
+      <edge source="T:neurwin" target="A:diaz|p" id="94" />
+      <edge source="T:neurwin" target="A:johnson-yu|s" id="95" />
+      <edge source="T:neurwin" target="A:ko|w" id="96" />
+      <edge source="T:neurwin" target="A:wu|r" id="97" />
+      <edge source="T:neurwin" target="A:pagare|t" id="98" />
+      <edge source="T:neurwin" target="A:wu|s" id="99" />
+      <edge source="T:neurwin" target="A:ren|x" id="100" />
+      <edge source="T:neurwin" target="A:johansson|k" id="101" />
+      <edge source="T:neurwin" target="A:shi|l" id="102" />
+      <edge source="T:neurwin" target="A:nakhleh|k" id="103" />
+      <edge source="T:neurwin" target="A:hou|i" id="104" />
+      <edge source="T:neurwin" target="A:wang|k" id="105" />
+      <edge source="T:neurwin" target="A:frazier|p" id="106" />
+      <edge source="T:neurwin" target="A:khun|k" id="107" />
+      <edge source="T:neurwin" target="A:sandholm|t" id="108" />
+      <edge source="T:neurwin" target="A:mukherjee|s" id="109" />
+      <edge source="T:neurwin" target="A:design|s" id="110" />
+      <edge source="T:neurwin" target="A:yan|c" id="111" />
+      <edge source="T:neurwin" target="A:ying|l" id="112" />
+      <edge source="T:nbiot_access" target="A:yu|y" id="113" />
+      <edge source="T:nbiot_access" target="A:wang|y" id="114" />
+      <edge source="T:nbiot_access" target="A:fan|c" id="115" />
+      <edge source="T:nbiot_access" target="A:li|l" id="116" />
+      <edge source="T:nbiot_access" target="A:karmakar|r" id="117" />
+      <edge source="T:nbiot_access" target="A:kaddoum|g" id="118" />
+      <edge source="T:nbiot_access" target="A:chattopadhyay|s" id="119" />
+      <edge source="T:nbiot_access" target="A:wu|c" id="120" />
+      <edge source="T:nbiot_access" target="A:hossain|m" id="121" />
+      <edge source="T:nbiot_access" target="A:islam|k" id="122" />
+      <edge source="T:nbiot_access" target="A:alharbi|a" id="123" />
+      <edge source="T:nbiot_access" target="A:shafiullah|m" id="124" />
+      <edge source="T:nbiot_access" target="A:islam|m" id="125" />
+      <edge source="T:nbiot_access" target="A:fekih|a" id="126" />
+      <edge source="T:nbiot_access" target="A:jabeen|s" id="127" />
+      <edge source="T:nbiot_access" target="A:haque|a" id="128" />
+      <edge source="T:nbiot_access" target="A:reddy|m" id="129" />
+      <edge source="T:nbiot_access" target="A:kumar|a" id="130" />
+      <edge source="T:nbiot_access" target="A:kuchi|k" id="131" />
+      <edge source="T:nbiot_access" target="A:ali|s" id="132" />
+      <edge source="T:nbiot_access" target="A:aslam|m" id="133" />
+      <edge source="T:nbiot_access" target="A:ahmed|i" id="134" />
+      <edge source="T:nbiot_access" target="A:jafri|s" id="135" />
+      <edge source="T:nbiot_access" target="A:aslam|t" id="136" />
+      <edge source="T:nbiot_access" target="A:maggi|l" id="137" />
+      <edge source="T:nbiot_access" target="A:rial|a" id="138" />
+      <edge source="T:nbiot_access" target="A:herzog|a" id="139" />
+      <edge source="T:nbiot_access" target="A:kalyanasundaram|s" id="140" />
+      <edge source="T:nbiot_access" target="A:agrawal|r" id="141" />
+      <edge source="T:beamsurfer" target="A:chen|w" id="142" />
+      <edge source="T:beamsurfer" target="A:cazzella|l" id="143" />
+      <edge source="T:beamsurfer" target="A:mizmizi|m" id="144" />
+      <edge source="T:beamsurfer" target="A:tagliaferri|d" id="145" />
+      <edge source="T:beamsurfer" target="A:badini|d" id="146" />
+      <edge source="T:beamsurfer" target="A:matteucci|m" id="147" />
+      <edge source="T:beamsurfer" target="A:spagnolini|u" id="148" />
+      <edge source="T:beamsurfer" target="A:ganji|s" id="149" />
+      <edge source="T:beamsurfer" target="A:kim|j" id="150" />
+      <edge source="T:beamsurfer" target="A:sonigra|r" id="151" />
+      <edge source="T:beamsurfer" target="A:kumar|p" id="152" />
+      <edge source="T:beamsurfer" target="A:baron-hyppolite|a" id="153" />
+      <edge source="T:beamsurfer" target="A:santos|j" id="154" />
+      <edge source="T:beamsurfer" target="A:dasilva|l" id="155" />
+      <edge source="T:beamsurfer" target="A:da|j" id="156" />
+      <edge source="T:beamsurfer" target="A:chavva|a" id="157" />
+      <edge source="T:beamsurfer" target="A:mehta|n" id="158" />
+      <edge source="T:beamsurfer" target="A:zhou|c" id="159" />
+      <edge source="T:beamsurfer" target="A:xu|y" id="160" />
+      <edge source="T:beamsurfer" target="A:liu|x" id="161" />
+      <edge source="T:beamsurfer" target="A:srinivasan|k" id="162" />
+      <edge source="T:beamsurfer" target="A:lin|t" id="163" />
+      <edge source="T:beamsurfer" target="A:espinal|f" id="164" />
+      <edge source="T:nbiot_pimrc" target="A:yu|y" id="165" />
+      <edge source="T:nbiot_pimrc" target="A:wang|y" id="166" />
+      <edge source="T:nbiot_pimrc" target="A:fan|c" id="167" />
+      <edge source="T:nbiot_pimrc" target="A:wu|c" id="168" />
+      <edge source="T:nbiot_pimrc" target="A:reddy|m" id="169" />
+      <edge source="T:nbiot_pimrc" target="A:kumar|a" id="170" />
+      <edge source="T:nbiot_pimrc" target="A:kuchi|k" id="171" />
+      <edge source="T:nbiot_pimrc" target="A:ganji|s" id="172" />
+      <edge source="T:nbiot_pimrc" target="A:santosh|g" id="173" />
+    </edges>
+  </graph>
+</gexf>

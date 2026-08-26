@@ -1,0 +1,48 @@
+"""Every entry on the Google Scholar profile, with its Scholar count and cluster ID.
+
+Taken from profile MA3CvN0AAAAJ sorted by citation count. Patents are marked so
+they can be reported separately; OpenAlex and Semantic Scholar do not index them.
+"""
+
+SCHOLAR = [
+    ("neurwin", "NeurWIN: Neural Whittle index network for restless bandits via deep RL",
+     "NeurIPS 2021", 74, "15114473685997353079", False),
+    ("nbiot_access", "Scheduling and Decoding of Downlink Control Channel in 3GPP Narrowband-IoT",
+     "IEEE Access 2020", 16, "12445178730793979866", False),
+    ("patent_beamsweep", "Efficient beam sweeping at a mobile device receiver",
+     "US Patent 11,178,628", 14, "16123404032947585321", True),
+    ("beamsurfer", "BeamSurfer: Minimalist beam management of mobile mm-wave devices",
+     "IEEE TWC 2022", 13, "5531327131859727774", False),
+    ("nbiot_pimrc", "Downlink control channel scheduling for 3GPP narrowband-IoT",
+     "IEEE PIMRC 2018", 13, "5088929058679659133", False),
+    ("unblock", "Unblock: Low complexity transient blockage recovery for mobile mm-wave devices",
+     "COMSNETS 2021", 9, "798705704433221288", False),
+    ("patent_ioe", "Managing power resources of an Internet of Everything (IoE) device",
+     "US Patent App. 15/191,757", 9, "13372082516898588047", True),
+    ("terra_twc", "TERRA: Beam management for outdoor mm-wave networks",
+     "IEEE TWC 2024", 6, "800239050752049692", False),
+    ("beamsurfer_poster", "Beamsurfer: simple in-band beam management for mobile mm-wave devices",
+     "SIGCOMM'20 Posters", 6, "473044407160655618", False),
+    ("dmac", "A directional medium access control protocol for 5G millimeter-wave local area networks",
+     "COMSNETS 2018", 6, "11576969964104962713", False),
+    ("ground_reflections", "Overcoming pedestrian blockage in mm-wave bands using ground reflections",
+     "arXiv 2021", 4, "16222830387739874444", False),
+    ("iris", "Iris: A directional MAC protocol with applications to millimeter-wave mobile ad-hoc networks",
+     "COMSNETS 2019", 4, "2152258040448095680", False),
+    ("rate_matching", "Novel rate matching scheme for downlink control channel in 3GPP massive machine type communications",
+     "COMSNETS 2018", 4, "8522671668031268699", False),
+    ("terra_poster", "Terra: blockage resilience in outdoor mm-wave networks",
+     "SIGCOMM'22 Posters", 3, "5156672603237957914", False),
+    ("nextg_ric", "Realtime intelligent control for NextG cellular radio access networks",
+     "MobiSys 2022", 3, "11460508364947624912", False),
+    ("improved_pdcch", "Improved physical downlink control channel for 3GPP massive machine type communications",
+     "COMSNETS 2018", 3, "13966229190681413460", False),
+    ("reveal_twc", "Seeing the Unseen: The REVEAL protocol to expose the wireless man-in-the-middle",
+     "IEEE TWC 2024", 2, "1160293025987190800", False),
+    ("reveal_s3", "Seeing the Unseen: The REVEAL protocol to catch the wireless man-in-the-middle",
+     "ACM S3 Workshop 2023", 1, "15316348117395722973", False),
+    ("patent_bci", "Cellular system utilizing beam coherence interval metric",
+     "US Patent App. 17/741,188", 1, "14288562052755386842", True),
+    ("comsnets_proc", "Communication Systems and Networks: 10th International Conference, COMSNETS 2018",
+     "Springer 2019", 1, "15420090105982012882", False),
+]

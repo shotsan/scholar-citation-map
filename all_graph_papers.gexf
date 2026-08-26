@@ -1,0 +1,1200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-26">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="kind" type="string" />
+      <attribute id="1" title="show_label" type="boolean" />
+      <attribute id="2" title="year" type="string" />
+      <attribute id="3" title="venue" type="string" />
+      <attribute id="4" title="cited_by" type="long" />
+      <attribute id="5" title="self_citation" type="string" />
+    </attributes>
+    <nodes>
+      <node id="T:neurwin" label="NeurWIN (NeurIPS 2021)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nbiot_access" label="Scheduling and Decoding of Downlin (IEEE Access 2020)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:beamsurfer" label="BeamSurfer (IEEE TWC 2022)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nbiot_pimrc" label="Downlink control channel schedulin (IEEE PIMRC 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:unblock" label="Unblock (COMSNETS 2021)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:terra_twc" label="TERRA (IEEE TWC 2024)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:beamsurfer_poster" label="Beamsurfer (SIGCOMM'20 Posters)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:dmac" label="A directional medium access contro (COMSNETS 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:ground_reflections" label="Overcoming pedestrian blockage in  (arXiv 2021)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:iris" label="Iris (COMSNETS 2019)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:rate_matching" label="Novel rate matching scheme for dow (COMSNETS 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:terra_poster" label="Terra (SIGCOMM'22 Posters)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nextg_ric" label="Realtime intelligent control for N (MobiSys 2022)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:improved_pdcch" label="Improved physical downlink control (COMSNETS 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:reveal_twc" label="Seeing the Unseen (IEEE TWC 2024)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:reveal_s3" label="Seeing the Unseen (ACM S3 Workshop 2023)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:comsnets_proc" label="Communication Systems and Networks (Springer 2019)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="P:markovianrestlessbanditsandindexpoliciesareview" label="Markovian Restless Bandits and Index Policies: A Review">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Mathematics" />
+          <attvalue for="4" value="40" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:robustrestlessbanditstacklingintervaluncertaintywithdeepreinforcementlearning" label="Robust Restless Bandits: Tackling Interval Uncertainty with Deep Reinf">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:anempiricalstudyonthecorrelationbetweennewnetworkindextoolsandstockreturnsinthepharmaceuti" label="An Empirical Study on the Correlation Between New Network Index Tools ">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Lecture notes in electrical engineering" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:ageoptimalbestarmidentification" label="Age-Optimal Best Arm Identification">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="International Symposium on Modeling and Optimization in Mobile, Ad-Hoc" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:optimizingresourceconstrainednonpharmaceuticalinterventionsformulticlusteroutbreakcontrolu" label="Optimizing Resource-Constrained Non-Pharmaceutical Interventions for M">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:timelybestarmidentificationinrestlesssharednetworks" label="Timely Best Arm Identification in Restless Shared Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:modelbasedlearningofwhittleindices" label="Model-Based Learning of Whittle indices">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:marblemultiarmedrestlessbanditsinlatentmarkovianenvironment" label="MARBLE: Multi-Armed Restless Bandits in Latent Markovian Environment">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="European Control Conference" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:energyefficienttrainingofprivaterecommendationsystemsusingmultiarmedbanditmodelsandanalogi" label="Energy efficient training of private recommendation systems using mult">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="npj Unconventional Computing" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:addressingcouplinginrestlessmultiarmedbanditsbyfinetuningwhittleindex" label="Addressing Coupling in Restless Multi-Armed Bandits by Finetuning Whit">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="2025 IEEE 21st International Conference on Automation Science and Engi" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:onlinelearningofwhittleindicesforrestlessbanditswithnonstationarytransitionkernels" label="Online Learning of Whittle Indices for Restless Bandits with Non-Stati">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:multiagentmarkoventanglement" label="Multi-agent Markov Entanglement">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="Advances in Neural Information Processing Systems 38" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:reinforcementlearningwithcombinatorialactionsforcoupledrestlessbandits" label="Reinforcement learning with combinatorial actions for coupled restless">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="International Conference on Learning Representations" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:projectionbasedlyapunovmethodforfullyheterogeneousweaklycoupledmdps" label="Projection-based Lyapunov method for fully heterogeneous weakly-couple">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="Neural Information Processing Systems" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:finitehorizonsinglepullrestlessbanditsanefficientindexpolicyforscarceresourceallocation" label="Finite-Horizon Single-Pull Restless Bandits: An Efficient Index Policy">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="Adaptive Agents and Multi-Agent Systems" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:lagrangianindexpolicyforrestlessbanditswithaveragereward" label="Lagrangian Index Policy for Restless Bandits with Average Reward">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Queueing Syst. Theory Appl." />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:contextwinwhittleindexbasedmixtureofexpertsneuralmodelforrestlessbanditsviadeeprl" label="ContextWIN: Whittle Index Based Mixture-of-Experts Neural Model For Re">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:dopldirectonlinepreferencelearningforrestlessbanditswithpreferencefeedback" label="DOPL: Direct Online Preference Learning for Restless Bandits with Pref">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="International Conference on Learning Representations" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:aneuralnetworkbasedwhittleindexpolicyforbeamresourceallocationinmultitargettracking" label="A Neural Network-Based Whittle Index Policy for Beam Resource Allocati">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="IEEE Sensors Journal" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:whittleindexlearningalgorithmsforrestlessbanditswithconstantstepsizes" label="Whittle Index Learning Algorithms for Restless Bandits with Constant S">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Conference Information and Communication Technology" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:fasterqlearningalgorithmsforrestlessbandits" label="Faster Q-Learning Algorithms for Restless Bandits">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Conference Information and Communication Technology" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:minimizingcostratherthanmaximizingrewardinrestlessmultiarmedbandits" label="Minimizing Cost Rather Than Maximizing Reward in Restless Multi-Armed ">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:ginoqlearninganasymptoticallyoptimalindexpolicyforrestlessmultiarmedbandits" label="GINO-Q: Learning an Asymptotically Optimal Index Policy for Restless M">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="AAAI Conference on Artificial Intelligence" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:thebanditwhisperercommunicationlearningforrestlessbandits" label="The Bandit Whisperer: Communication Learning for Restless Bandits">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="AAAI Conference on Artificial Intelligence" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:adeepreinforcementlearningbasedwhittleindexpolicyformultibeamallocation" label="A Deep Reinforcement Learning-Based Whittle Index Policy for Multibeam">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Fusion" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:windexrealtimeneuralwhittleindexingforscalableserviceguaranteesinnextgcellularnetworks" label="Windex: Realtime Neural Whittle Indexing for Scalable Service Guarante">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:tabularanddeeplearningforthewhittleindex" label="Tabular and Deep Learning for the Whittle Index">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="ACM Transactions on Modeling and Performance Evaluation of Computing S" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:deepreinforcementlearningforweaklycoupledmdpswithcontinuousactions" label="Deep reinforcement learning for weakly coupled MDP's with continuous a">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Analytical and Stochastic Modeling Techniques and Applications" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:channelawarejointaoianddiversityoptimizationforclientschedulinginfederatedlearningwithnoni" label="Channel-Aware Joint AoI and Diversity Optimization for Client Scheduli">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="IEEE Transactions on Wireless Communications" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:towardszeroshotlearninginrestlessmultiarmedbandits" label="Towards Zero Shot Learning in Restless Multi-armed Bandits">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Adaptive Agents and Multi-Agent Systems" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:adecisionlanguagemodeldlmfordynamicrestlessmultiarmedbandittasksinpublichealth" label="A Decision-Language Model (DLM) for Dynamic Restless Multi-Armed Bandi">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Neural Information Processing Systems" />
+          <attvalue for="4" value="37" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:anindexpolicybasedonsarsaandqlearningforheterogeneoussmarttargettracking" label="An Index Policy Based on Sarsa and Q -Learning for Heterogeneous Smart">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="IEEE Sensors Journal" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:onlinerestlessmultiarmedbanditswithlongtermfairnessconstraints" label="Online Restless Multi-Armed Bandits with Long-Term Fairness Constraint">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="AAAI Conference on Artificial Intelligence" />
+          <attvalue for="4" value="19" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:weaklycoupleddeepqnetworks" label="Weakly Coupled Deep Q-Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Neural Information Processing Systems" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:towardsapretrainedmodelforrestlessbanditsviamultiarmgeneralization" label="Towards a Pretrained Model for Restless Bandits via Multi-arm Generali">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="International Joint Conference on Artificial Intelligence" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:finitetimeanalysisofwhittleindexbasedqlearningforrestlessmultiarmedbanditswithneuralnetwor" label="Finite-Time Analysis of Whittle Index based Q-Learning for Restless Mu">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Neural Information Processing Systems" />
+          <attvalue for="4" value="22" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:reinforcementlearningfordynamicdimensioningofcloudcachesarestlessbanditapproach" label="Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Res">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="IEEE/ACM Transactions on Networking" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:robustplanningoverrestlessgroupsengagementinterventionsforalargescalematernaltelehealthpro" label="Robust Planning over Restless Groups: Engagement Interventions for a L">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="AAAI Conference on Artificial Intelligence" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:edgericempoweringrealtimeintelligentoptimizationandcontrolinnextgnetworks" label="EdgeRIC: Empowering Realtime Intelligent Optimization and Control in N">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="19" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:fullgradientdeepreinforcementlearningforaveragerewardcriterion" label="Full Gradient Deep Reinforcement Learning for Average-Reward Criterion">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Conference on Learning for Dynamics &amp; Control" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:towardsefficientdynamicuplinkschedulingovermultipleunknownchannels" label="Towards Efficient Dynamic Uplink Scheduling over Multiple Unknown Chan">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:deeptopdeepthresholdoptimalpolicyformdpsandrmabs" label="DeepTOP: Deep Threshold-Optimal Policy for MDPs and RMABs">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="Neural Information Processing Systems" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:optimisticwhittleindexpolicyonlinelearningforrestlessbandits" label="Optimistic Whittle Index Policy: Online Learning for Restless Bandits">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="AAAI Conference on Artificial Intelligence" />
+          <attvalue for="4" value="39" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:nearoptimalityforinfinitehorizonrestlessbanditswithmanyarms" label="Near-optimality for infinite-horizon restless bandits with many arms">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:testingindexabilityandcomputingwhittleandgittinsindexinsubcubictime" label="Testing indexability and computing Whittle and Gittins index in subcub">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="Mathematical Methods of Operations Research" />
+          <attvalue for="4" value="25" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:restlessanduncertainrobustpoliciesforrestlessbanditsviadeepmultiagentreinforcementlearning" label="Restless and uncertain: Robust policies for restless bandits via deep ">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="Conference on Uncertainty in Artificial Intelligence" />
+          <attvalue for="4" value="7" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:amultiarmedbanditbasedapproachtomobilenetworkproviderselection" label="A Multi-Armed Bandit-based Approach to Mobile Network Provider Selecti">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:deepqlearningwithwhittleindexforcontextualrestlessbanditsapplicationtoemailrecommendersyst" label="Deep Q-Learning with Whittle Index for Contextual Restless Bandits: Ap">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="NLDL" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:tabularanddeeplearningofwhittleindex" label="Tabular and Deep Learning of Whittle Index">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:learninginfinitehorizonaveragerewardrestlessmultiactionbanditsviaindexawareness" label="Learning Infinite-Horizon Average-Reward Restless Multi-Action Bandits">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="Neural Information Processing Systems" />
+          <attvalue for="4" value="20" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:theproceedingsofthe21stusenixsymposiumonnetworkedsystemsdesignandimplementation" label="the Proceedings of the 21st USENIX Symposium on Networked Systems Desi">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:achievingo1noptimalitygapinrestlessbanditsthroughgaussianapproximation" label="Achieving ˜ O (1 /N ) Optimality Gap in Restless Bandits through Gauss">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:aniciawareschedulerfornbiotdevicesincoexistencewith5gnr" label="An ICI-Aware Scheduler for NB-IoT Devices in Co-existence with 5G NR">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2021 IEEE 4th 5G World Forum (5GWF)" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:jointlinkadaptationandresourceallocationforuplinkin3gppmachinetypecommunications" label="Joint Link Adaptation and Resource Allocation for Uplink in 3GPP Machi">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:optimaldesignofahybridsolarpvbgpoweredheterogeneousnetwork" label="Optimal Design of a Hybrid Solar PV/BG-Powered Heterogeneous Network">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="Sustainability" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:controlperiodadaptationandresourceallocationforjointuplinkanddownlinkinnbiotnetworks" label="Control Period Adaptation and Resource Allocation for Joint Uplink and">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="IEEE Internet of Things Journal" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:offsetawareresourceallocationinnbiotnetworks" label="Offset-Aware Resource Allocation in NB-IoT Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="IEEE Internet of Things Journal" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:smartcondeepprobabilisticlearningbasedintelligentlinkconfigurationinnarrowbandiottoward5ga" label="SmartCon: Deep Probabilistic Learning-Based Intelligent Link-Configura">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="IEEE Transactions on Cognitive Communications and Networking" />
+          <attvalue for="4" value="7" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:energyefficientschedulingforsearchspaceperiodsinnbiotnetworks" label="Energy-Efficient Scheduling for Search-Space Periods in NB-IoT Network">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="IEEE Systems Journal" />
+          <attvalue for="4" value="7" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:developmentofanovelomnetframeworkforanalysisofannbiotuplinknetwork" label="Development of a novel OMNET++ framework for analysis of an NB-IoT upl">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2024 International Conference on Emerging Trends in Smart Technologies" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:pdcchschedulingviamaximumindependentset" label="PDCCH Scheduling via Maximum Independent Set">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:deeplearningbasedtargettouserassociationinintegratedsensingandcommunicationsystems" label="Deep Learning-Based Target-to-User Association in Integrated Sensing a">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="IEEE Journal of Selected Topics in Signal Processing" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:terrabeammanagementforoutdoormmwavenetworks" label="TERRA: Beam Management for Outdoor mm-Wave Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="IEEE Transactions on Wireless Communications" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:eavesdropperavoidancethroughadaptivebeammanagementinsdrbasedmmwavecommunications" label="Eavesdropper Avoidance through Adaptive Beam Management in SDR-Based M">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="International Symposium on Wireless Communication Systems" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:latentthompsonsamplingbasedmmwavereceivebeammeasurementandselectiontotackleuserorientation" label="Latent Thompson Sampling-Based mmWave Receive Beam Measurement and Sel">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="IEEE Transactions on Wireless Communications" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:environmentawareproactivebeampredictioninmmwavev2iviamultimodalpriormaskmap" label="Environment-Aware Proactive Beam Prediction in mmWave V2I via Multi-Mo">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="Sensors" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:0calzerocostcalibrationformmwavenetworks" label="0cal: Zero-Cost Calibration for mmWave Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:beamsurferminimalistbeammanagementofmobilemmwavedevices" label="BeamSurfer: Minimalist Beam Management of Mobile mm-Wave Devices">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="IEEE Transactions on Wireless Communications" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices" label="UNBLOCK: Low Complexity Transient Blockage Recovery for Mobile mm-Wave">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="International Conference on Communication Systems and Networks" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:silenttracker" label="Silent tracker">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections" label="Overcoming Pedestrian Blockage in mm-Wave Bands using Ground Reflectio">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="arXiv.org" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:terrablockageresilienceinoutdoormmwavenetworks" label="Terra: blockage resilience in outdoor mm-wave networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="SIGCOMM Posters and Demos" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow" label="Design and performance analysis of joint control and shared channel sc">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="Ad Hoc Networks" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:npdcchperiodadaptationanddownlinkschedulingfornbiotnetworks" label="NPDCCH Period Adaptation and Downlink Scheduling for NB-IoT Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="IEEE Internet of Things Journal" />
+          <attvalue for="4" value="19" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:schedulinganddecodingofdownlinkcontrolchannelin3gppnarrowbandiot" label="Scheduling and Decoding of Downlink Control Channel in 3GPP Narrowband">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="IEEE Access" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot" label="Joint Control and Shared Channel Scheduling for Downlink in 3GPP Narro">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="International Conference on Communication Systems and Networks" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:improvedphysicaldownlinkcontrolchannelfor3gppmassivemachinetypecommunications" label="Improved Physical Downlink Control Channel for 3GPP Massive Machine Ty">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="International Conference on Communication Systems and Networks" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:adaptivetrafficswitchingandsplittingbetweensubthzmicrocellsandleosatellitelinksundernetwor" label="Adaptive Traffic Switching and Splitting Between Sub-THz Microcells an">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="International Conference on Communications, Signal Processing, and the" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:twobeamsarebetterthanonetowardsreliableandhighthroughputmmwavelinks" label="Two beams are better than one: towards reliable and high throughput mm">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="Conference on Applications, Technologies, Architectures, and Protocols" />
+          <attvalue for="4" value="59" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:multimodalenvironmentawarebeammanagementformassivemimoageometrydrivenvirtualbasestationfra" label="Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geom">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:multimodaldatadrivenvirtualbasestationconstructionformassivemimobeamalignment" label="Multi-Modal Data Driven Virtual Base Station Construction for Massive ">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="IEEE Wireless Communications and Networking Conference" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:generalizableandrobustbeampredictionfor6gnetworksandeeplearningframeworkwithpositioningfea" label="Generalizable and Robust Beam Prediction for 6G Networks: An Deep-Lear">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="IEEE Transactions on Network Science and Engineering" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:distancebasedmulticastschedulingformmwavenetworksleveragingreflections" label="Distance-Based Multicast Scheduling for mmWave Networks Leveraging Ref">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="IEEE Wireless Communications Letters" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:surveyonjointparadigmof5gandsdnemergingmobiletechnologiesarchitecturesecuritychallengesand" label="Survey on Joint Paradigm of 5G and SDN Emerging Mobile Technologies: A">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Wireless personal communications" />
+          <attvalue for="4" value="69" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:selfattentionproximalpolicyoptimizationforbeamtrackinginmmwavecommunications" label="Self-Attention Proximal Policy Optimization for Beam Tracking in mmWav">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="IEEE Journal on Selected Areas in Communications" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:silenttrackerinbandbeammanagementforsofthandoverformmwavenetworks" label="Silent tracker: in-band beam management for soft handover for mm-wave ">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="SIGCOMM Posters and Demos" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:irisadirectionalmacprotocolwithapplicationstomillimeterwavemobileadhocnetworks" label="Iris: A Directional MAC Protocol With Applications to Millimeter-Wave ">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="International Conference on Communication Systems and Networks" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:continuoussteeringbackupsofnlosassistedmmwavenetworkstoavoidblocking" label="Continuous Steering Backups of NLoS-Assisted mmWave Networks to Avoid ">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Information and Communication Technology Convergence" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:hybridbeamalignmentformultipathchannelsagrouptestingviewpoint" label="Hybrid Beam Alignment for Multi-Path Channels: A Group Testing Viewpoi">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="Asilomar Conference on Signals, Systems and Computers" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:commradcontextawaresensingdrivenmillimeterwavenetworks" label="CommRad: Context-Aware Sensing-Driven Millimeter-Wave Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="ACM International Conference on Embedded Networked Sensor Systems" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:fieldevaluationofasoftwarizedmodemfromtheperspectiveof5gcellsearch" label="Field Evaluation of a Softwarized Modem From the Perspective of 5G Cel">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="IEEE Transactions on Mobile Computing" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="P:towardsseamless5gopenranintegrationwithwebassembly" label="Towards Seamless 5G Open-RAN Integration with WebAssembly">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="ACM Workshop on Hot Topics in Networks" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:repetitionwithlearningapproachesinmassivemachinetypecommunications" label="Repetition with Learning Approaches in Massive Machine Type Communicat">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="Electronics" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:pufbasedlightweightdecentralizedauthenticationforuavnetworks" label="PUF-Based Lightweight Decentralized Authentication for UAV Networks">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="IEEE Transactions on Mobile Computing" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:tobitrecursivefilteringfornetworkednonlinearsystemsagainstrandommaninthemiddleattacksanatt" label="Tobit Recursive Filtering for Networked Nonlinear Systems Against Rand">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2026" />
+          <attvalue for="3" value="IEEE Transactions on Automation Science and Engineering" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="False" />
+        </attvalues>
+      </node>
+      <node id="P:seeingtheunseentherevealprotocoltoexposethewirelessmaninthemiddle" label="Seeing the Unseen: The REVEAL Protocol to Expose the Wireless Man-in-t">
+        <attvalues>
+          <attvalue for="0" value="citing_paper" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="IEEE Transactions on Wireless Communications" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="P:markovianrestlessbanditsandindexpoliciesareview" target="T:neurwin" id="0" />
+      <edge source="P:robustrestlessbanditstacklingintervaluncertaintywithdeepreinforcementlearning" target="T:neurwin" id="1" />
+      <edge source="P:anempiricalstudyonthecorrelationbetweennewnetworkindextoolsandstockreturnsinthepharmaceuti" target="T:neurwin" id="2" />
+      <edge source="P:ageoptimalbestarmidentification" target="T:neurwin" id="3" />
+      <edge source="P:optimizingresourceconstrainednonpharmaceuticalinterventionsformulticlusteroutbreakcontrolu" target="T:neurwin" id="4" />
+      <edge source="P:timelybestarmidentificationinrestlesssharednetworks" target="T:neurwin" id="5" />
+      <edge source="P:modelbasedlearningofwhittleindices" target="T:neurwin" id="6" />
+      <edge source="P:marblemultiarmedrestlessbanditsinlatentmarkovianenvironment" target="T:neurwin" id="7" />
+      <edge source="P:energyefficienttrainingofprivaterecommendationsystemsusingmultiarmedbanditmodelsandanalogi" target="T:neurwin" id="8" />
+      <edge source="P:addressingcouplinginrestlessmultiarmedbanditsbyfinetuningwhittleindex" target="T:neurwin" id="9" />
+      <edge source="P:onlinelearningofwhittleindicesforrestlessbanditswithnonstationarytransitionkernels" target="T:neurwin" id="10" />
+      <edge source="P:multiagentmarkoventanglement" target="T:neurwin" id="11" />
+      <edge source="P:reinforcementlearningwithcombinatorialactionsforcoupledrestlessbandits" target="T:neurwin" id="12" />
+      <edge source="P:projectionbasedlyapunovmethodforfullyheterogeneousweaklycoupledmdps" target="T:neurwin" id="13" />
+      <edge source="P:finitehorizonsinglepullrestlessbanditsanefficientindexpolicyforscarceresourceallocation" target="T:neurwin" id="14" />
+      <edge source="P:lagrangianindexpolicyforrestlessbanditswithaveragereward" target="T:neurwin" id="15" />
+      <edge source="P:contextwinwhittleindexbasedmixtureofexpertsneuralmodelforrestlessbanditsviadeeprl" target="T:neurwin" id="16" />
+      <edge source="P:dopldirectonlinepreferencelearningforrestlessbanditswithpreferencefeedback" target="T:neurwin" id="17" />
+      <edge source="P:aneuralnetworkbasedwhittleindexpolicyforbeamresourceallocationinmultitargettracking" target="T:neurwin" id="18" />
+      <edge source="P:whittleindexlearningalgorithmsforrestlessbanditswithconstantstepsizes" target="T:neurwin" id="19" />
+      <edge source="P:fasterqlearningalgorithmsforrestlessbandits" target="T:neurwin" id="20" />
+      <edge source="P:minimizingcostratherthanmaximizingrewardinrestlessmultiarmedbandits" target="T:neurwin" id="21" />
+      <edge source="P:ginoqlearninganasymptoticallyoptimalindexpolicyforrestlessmultiarmedbandits" target="T:neurwin" id="22" />
+      <edge source="P:thebanditwhisperercommunicationlearningforrestlessbandits" target="T:neurwin" id="23" />
+      <edge source="P:adeepreinforcementlearningbasedwhittleindexpolicyformultibeamallocation" target="T:neurwin" id="24" />
+      <edge source="P:windexrealtimeneuralwhittleindexingforscalableserviceguaranteesinnextgcellularnetworks" target="T:neurwin" id="25" />
+      <edge source="P:tabularanddeeplearningforthewhittleindex" target="T:neurwin" id="26" />
+      <edge source="P:deepreinforcementlearningforweaklycoupledmdpswithcontinuousactions" target="T:neurwin" id="27" />
+      <edge source="P:channelawarejointaoianddiversityoptimizationforclientschedulinginfederatedlearningwithnoni" target="T:neurwin" id="28" />
+      <edge source="P:towardszeroshotlearninginrestlessmultiarmedbandits" target="T:neurwin" id="29" />
+      <edge source="P:adecisionlanguagemodeldlmfordynamicrestlessmultiarmedbandittasksinpublichealth" target="T:neurwin" id="30" />
+      <edge source="P:anindexpolicybasedonsarsaandqlearningforheterogeneoussmarttargettracking" target="T:neurwin" id="31" />
+      <edge source="P:onlinerestlessmultiarmedbanditswithlongtermfairnessconstraints" target="T:neurwin" id="32" />
+      <edge source="P:weaklycoupleddeepqnetworks" target="T:neurwin" id="33" />
+      <edge source="P:towardsapretrainedmodelforrestlessbanditsviamultiarmgeneralization" target="T:neurwin" id="34" />
+      <edge source="P:finitetimeanalysisofwhittleindexbasedqlearningforrestlessmultiarmedbanditswithneuralnetwor" target="T:neurwin" id="35" />
+      <edge source="P:reinforcementlearningfordynamicdimensioningofcloudcachesarestlessbanditapproach" target="T:neurwin" id="36" />
+      <edge source="P:robustplanningoverrestlessgroupsengagementinterventionsforalargescalematernaltelehealthpro" target="T:neurwin" id="37" />
+      <edge source="P:edgericempoweringrealtimeintelligentoptimizationandcontrolinnextgnetworks" target="T:neurwin" id="38" />
+      <edge source="P:fullgradientdeepreinforcementlearningforaveragerewardcriterion" target="T:neurwin" id="39" />
+      <edge source="P:towardsefficientdynamicuplinkschedulingovermultipleunknownchannels" target="T:neurwin" id="40" />
+      <edge source="P:deeptopdeepthresholdoptimalpolicyformdpsandrmabs" target="T:neurwin" id="41" />
+      <edge source="P:optimisticwhittleindexpolicyonlinelearningforrestlessbandits" target="T:neurwin" id="42" />
+      <edge source="P:nearoptimalityforinfinitehorizonrestlessbanditswithmanyarms" target="T:neurwin" id="43" />
+      <edge source="P:testingindexabilityandcomputingwhittleandgittinsindexinsubcubictime" target="T:neurwin" id="44" />
+      <edge source="P:restlessanduncertainrobustpoliciesforrestlessbanditsviadeepmultiagentreinforcementlearning" target="T:neurwin" id="45" />
+      <edge source="P:amultiarmedbanditbasedapproachtomobilenetworkproviderselection" target="T:neurwin" id="46" />
+      <edge source="P:deepqlearningwithwhittleindexforcontextualrestlessbanditsapplicationtoemailrecommendersyst" target="T:neurwin" id="47" />
+      <edge source="P:tabularanddeeplearningofwhittleindex" target="T:neurwin" id="48" />
+      <edge source="P:learninginfinitehorizonaveragerewardrestlessmultiactionbanditsviaindexawareness" target="T:neurwin" id="49" />
+      <edge source="P:theproceedingsofthe21stusenixsymposiumonnetworkedsystemsdesignandimplementation" target="T:neurwin" id="50" />
+      <edge source="P:theproceedingsofthe21stusenixsymposiumonnetworkedsystemsdesignandimplementation" target="T:nextg_ric" id="51" />
+      <edge source="P:achievingo1noptimalitygapinrestlessbanditsthroughgaussianapproximation" target="T:neurwin" id="52" />
+      <edge source="P:aniciawareschedulerfornbiotdevicesincoexistencewith5gnr" target="T:nbiot_access" id="53" />
+      <edge source="P:jointlinkadaptationandresourceallocationforuplinkin3gppmachinetypecommunications" target="T:nbiot_access" id="54" />
+      <edge source="P:jointlinkadaptationandresourceallocationforuplinkin3gppmachinetypecommunications" target="T:nbiot_pimrc" id="55" />
+      <edge source="P:optimaldesignofahybridsolarpvbgpoweredheterogeneousnetwork" target="T:nbiot_access" id="56" />
+      <edge source="P:controlperiodadaptationandresourceallocationforjointuplinkanddownlinkinnbiotnetworks" target="T:nbiot_access" id="57" />
+      <edge source="P:controlperiodadaptationandresourceallocationforjointuplinkanddownlinkinnbiotnetworks" target="T:nbiot_pimrc" id="58" />
+      <edge source="P:offsetawareresourceallocationinnbiotnetworks" target="T:nbiot_access" id="59" />
+      <edge source="P:smartcondeepprobabilisticlearningbasedintelligentlinkconfigurationinnarrowbandiottoward5ga" target="T:nbiot_access" id="60" />
+      <edge source="P:energyefficientschedulingforsearchspaceperiodsinnbiotnetworks" target="T:nbiot_access" id="61" />
+      <edge source="P:energyefficientschedulingforsearchspaceperiodsinnbiotnetworks" target="T:nbiot_pimrc" id="62" />
+      <edge source="P:developmentofanovelomnetframeworkforanalysisofannbiotuplinknetwork" target="T:nbiot_access" id="63" />
+      <edge source="P:pdcchschedulingviamaximumindependentset" target="T:nbiot_access" id="64" />
+      <edge source="P:deeplearningbasedtargettouserassociationinintegratedsensingandcommunicationsystems" target="T:beamsurfer" id="65" />
+      <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:beamsurfer" id="66" />
+      <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:unblock" id="67" />
+      <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:beamsurfer_poster" id="68" />
+      <edge source="P:terrabeammanagementforoutdoormmwavenetworks" target="T:terra_poster" id="69" />
+      <edge source="P:eavesdropperavoidancethroughadaptivebeammanagementinsdrbasedmmwavecommunications" target="T:beamsurfer" id="70" />
+      <edge source="P:latentthompsonsamplingbasedmmwavereceivebeammeasurementandselectiontotackleuserorientation" target="T:beamsurfer" id="71" />
+      <edge source="P:environmentawareproactivebeampredictioninmmwavev2iviamultimodalpriormaskmap" target="T:beamsurfer" id="72" />
+      <edge source="P:0calzerocostcalibrationformmwavenetworks" target="T:beamsurfer" id="73" />
+      <edge source="P:beamsurferminimalistbeammanagementofmobilemmwavedevices" target="T:beamsurfer" id="74" />
+      <edge source="P:beamsurferminimalistbeammanagementofmobilemmwavedevices" target="T:unblock" id="75" />
+      <edge source="P:beamsurferminimalistbeammanagementofmobilemmwavedevices" target="T:beamsurfer_poster" id="76" />
+      <edge source="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices" target="T:beamsurfer" id="77" />
+      <edge source="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices" target="T:beamsurfer_poster" id="78" />
+      <edge source="P:unblocklowcomplexitytransientblockagerecoveryformobilemmwavedevices" target="T:iris" id="79" />
+      <edge source="P:silenttracker" target="T:beamsurfer" id="80" />
+      <edge source="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections" target="T:beamsurfer" id="81" />
+      <edge source="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections" target="T:unblock" id="82" />
+      <edge source="P:overcomingpedestrianblockageinmmwavebandsusinggroundreflections" target="T:beamsurfer_poster" id="83" />
+      <edge source="P:terrablockageresilienceinoutdoormmwavenetworks" target="T:beamsurfer" id="84" />
+      <edge source="P:terrablockageresilienceinoutdoormmwavenetworks" target="T:unblock" id="85" />
+      <edge source="P:terrablockageresilienceinoutdoormmwavenetworks" target="T:beamsurfer_poster" id="86" />
+      <edge source="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow" target="T:nbiot_pimrc" id="87" />
+      <edge source="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow" target="T:rate_matching" id="88" />
+      <edge source="P:designandperformanceanalysisofjointcontrolandsharedchannelschedulerfordownlinkin3gppnarrow" target="T:improved_pdcch" id="89" />
+      <edge source="P:npdcchperiodadaptationanddownlinkschedulingfornbiotnetworks" target="T:nbiot_pimrc" id="90" />
+      <edge source="P:schedulinganddecodingofdownlinkcontrolchannelin3gppnarrowbandiot" target="T:nbiot_pimrc" id="91" />
+      <edge source="P:schedulinganddecodingofdownlinkcontrolchannelin3gppnarrowbandiot" target="T:rate_matching" id="92" />
+      <edge source="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot" target="T:nbiot_pimrc" id="93" />
+      <edge source="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot" target="T:rate_matching" id="94" />
+      <edge source="P:jointcontrolandsharedchannelschedulingfordownlinkin3gppnarrowbandiot" target="T:improved_pdcch" id="95" />
+      <edge source="P:improvedphysicaldownlinkcontrolchannelfor3gppmassivemachinetypecommunications" target="T:nbiot_pimrc" id="96" />
+      <edge source="P:improvedphysicaldownlinkcontrolchannelfor3gppmassivemachinetypecommunications" target="T:rate_matching" id="97" />
+      <edge source="P:adaptivetrafficswitchingandsplittingbetweensubthzmicrocellsandleosatellitelinksundernetwor" target="T:unblock" id="98" />
+      <edge source="P:twobeamsarebetterthanonetowardsreliableandhighthroughputmmwavelinks" target="T:unblock" id="99" />
+      <edge source="P:multimodalenvironmentawarebeammanagementformassivemimoageometrydrivenvirtualbasestationfra" target="T:terra_twc" id="100" />
+      <edge source="P:multimodaldatadrivenvirtualbasestationconstructionformassivemimobeamalignment" target="T:terra_twc" id="101" />
+      <edge source="P:generalizableandrobustbeampredictionfor6gnetworksandeeplearningframeworkwithpositioningfea" target="T:terra_twc" id="102" />
+      <edge source="P:distancebasedmulticastschedulingformmwavenetworksleveragingreflections" target="T:terra_twc" id="103" />
+      <edge source="P:surveyonjointparadigmof5gandsdnemergingmobiletechnologiesarchitecturesecuritychallengesand" target="T:terra_twc" id="104" />
+      <edge source="P:surveyonjointparadigmof5gandsdnemergingmobiletechnologiesarchitecturesecuritychallengesand" target="T:terra_poster" id="105" />
+      <edge source="P:selfattentionproximalpolicyoptimizationforbeamtrackinginmmwavecommunications" target="T:terra_twc" id="106" />
+      <edge source="P:silenttrackerinbandbeammanagementforsofthandoverformmwavenetworks" target="T:beamsurfer_poster" id="107" />
+      <edge source="P:irisadirectionalmacprotocolwithapplicationstomillimeterwavemobileadhocnetworks" target="T:dmac" id="108" />
+      <edge source="P:continuoussteeringbackupsofnlosassistedmmwavenetworkstoavoidblocking" target="T:ground_reflections" id="109" />
+      <edge source="P:hybridbeamalignmentformultipathchannelsagrouptestingviewpoint" target="T:ground_reflections" id="110" />
+      <edge source="P:commradcontextawaresensingdrivenmillimeterwavenetworks" target="T:terra_poster" id="111" />
+      <edge source="P:fieldevaluationofasoftwarizedmodemfromtheperspectiveof5gcellsearch" target="T:nextg_ric" id="112" />
+      <edge source="P:towardsseamless5gopenranintegrationwithwebassembly" target="T:nextg_ric" id="113" />
+      <edge source="P:repetitionwithlearningapproachesinmassivemachinetypecommunications" target="T:improved_pdcch" id="114" />
+      <edge source="P:pufbasedlightweightdecentralizedauthenticationforuavnetworks" target="T:reveal_twc" id="115" />
+      <edge source="P:tobitrecursivefilteringfornetworkednonlinearsystemsagainstrandommaninthemiddleattacksanatt" target="T:reveal_twc" id="116" />
+      <edge source="P:seeingtheunseentherevealprotocoltoexposethewirelessmaninthemiddle" target="T:reveal_s3" id="117" />
+    </edges>
+  </graph>
+</gexf>

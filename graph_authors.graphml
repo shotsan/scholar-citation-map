@@ -1,0 +1,1359 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="coauthor" attr.type="string" />
+  <key id="d3" for="node" attr.name="papers" attr.type="long" />
+  <key id="d2" for="node" attr.name="show_label" attr.type="boolean" />
+  <key id="d1" for="node" attr.name="kind" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="T:neurwin">
+      <data key="d0">NeurWIN (NeurIPS 2021)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nbiot_access">
+      <data key="d0">Scheduling and Decoding of Downlin (IEEE Access 2020)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:beamsurfer">
+      <data key="d0">BeamSurfer (IEEE TWC 2022)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="T:nbiot_pimrc">
+      <data key="d0">Downlink Control Channel Schedulin (IEEE PIMRC 2018)</data>
+      <data key="d1">ganji_paper</data>
+      <data key="d2">True</data>
+    </node>
+    <node id="A:mora|j">
+      <data key="d0">José Niño‐Mora</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:killian|j">
+      <data key="d0">Jackson A. Killian</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:xu|l">
+      <data key="d0">Lily Xu</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">5</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:biswas|a">
+      <data key="d0">Arpita Biswas</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:tambe|m">
+      <data key="d0">Milind Tambe</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">10</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:liu|c">
+      <data key="d0">Chengwei Liu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:zhou|m">
+      <data key="d0">Mengqiu Zhou</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:yang|l">
+      <data key="d0">Le Yang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:tan|v">
+      <data key="d0">Vincent Y. F. Tan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:zhang|m">
+      <data key="d0">Meng Zhang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:peng|x">
+      <data key="d0">Xueqiao Peng</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:perrault|a">
+      <data key="d0">Andrew Perrault</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:charles-rebuff'e|j">
+      <data key="d0">Joel Charles-Rebuff'e</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:gast|n">
+      <data key="d0">Nicolas Gast</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:gaujal|b">
+      <data key="d0">Bruno Gaujal</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:amiri|m">
+      <data key="d0">Mohsen Amiri</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:avrachenkov|k">
+      <data key="d0">Konstantin Avrachenkov</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">7</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mimouni|i">
+      <data key="d0">I. Mimouni</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:magn'usson|s">
+      <data key="d0">Sindri Magn'usson</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:park|m">
+      <data key="d0">Minseong Park</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:chien|h">
+      <data key="d0">Hung-Ta Chien</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:chen|w">
+      <data key="d0">Wei-Chen Chen</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mimi|a">
+      <data key="d0">Arjuman Ara Mimi</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wan|w">
+      <data key="d0">W. Wan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:woo|k">
+      <data key="d0">Kyung Seok Woo</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:yi|s">
+      <data key="d0">Su-in Yi</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:kumar|s">
+      <data key="d0">Suhas Kumar</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:luan|y">
+      <data key="d0">Yao Luan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mu|n">
+      <data key="d0">Ni Mu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:jia|q">
+      <data key="d0">Qing-Shan Jia</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:shisher|m">
+      <data key="d0">Md Kamran Chowdhury Shisher</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:tripathi|v">
+      <data key="d0">Vishrant Tripathi</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:chiang|m">
+      <data key="d0">Mung Chiang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:brinton|c">
+      <data key="d0">Christopher G. Brinton</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:chen|s">
+      <data key="d0">Shuze Chen</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:peng|t">
+      <data key="d0">Tianyi Peng</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wilder|b">
+      <data key="d0">Bryan Wilder</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:khalil|e">
+      <data key="d0">Elias B. Khalil</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:zhang|x">
+      <data key="d0">Xiangcheng Zhang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:hong|y">
+      <data key="d0">Yige Hong</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wang|w">
+      <data key="d0">Weina Wang</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:xiong|g">
+      <data key="d0">Guojun Xiong</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">6</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wang|h">
+      <data key="d0">Haichuan Wang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:pan|y">
+      <data key="d0">Yuqi Pan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mandal|s">
+      <data key="d0">Saptarshi Mandal</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:shah|s">
+      <data key="d0">Sanket Shah</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:boehmer|n">
+      <data key="d0">N. Boehmer</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:borkar|v">
+      <data key="d0">Vivek S. Borkar</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:shah|p">
+      <data key="d0">Pratik Shah</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:guo|z">
+      <data key="d0">Zhanqiu Guo</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:dinesha|u">
+      <data key="d0">Ujwal Dinesha</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mukherjee|d">
+      <data key="d0">Debajoy Mukherjee</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:li|j">
+      <data key="d0">Jian Li</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">5</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:shakkottai|s">
+      <data key="d0">Srinivas Shakkottai</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">4</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:hao|y">
+      <data key="d0">Yuhang Hao</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wang|z">
+      <data key="d0">Zengfu Wang</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:fu|j">
+      <data key="d0">Jing Fu</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:pan|q">
+      <data key="d0">Quan Pan</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mittal|v">
+      <data key="d0">Vishesh Mittal</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:meshram|r">
+      <data key="d0">Rahul Meshram</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:prakash|s">
+      <data key="d0">Surya Prakash</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:kakarapalli|p">
+      <data key="d0">Parvish Kakarapalli</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:kayande|d">
+      <data key="d0">D. Kayande</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:witter|r">
+      <data key="d0">R. Witter</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:hellerstein|l">
+      <data key="d0">Lisa Hellerstein</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:chen|g">
+      <data key="d0">Gongpu Chen</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:liew|s">
+      <data key="d0">S. Liew</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:gunduz|d">
+      <data key="d0">Deniz Gündüz</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:zhao|y">
+      <data key="d0">Yunfan Zhao</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wang|t">
+      <data key="d0">Tonghan Wang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:nagaraj|d">
+      <data key="d0">Dheeraj M. Nagaraj</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:taneja|a">
+      <data key="d0">Aparna Taneja</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">6</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:bura|a">
+      <data key="d0">Archana Bura</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ghosh|u">
+      <data key="d0">Ushasi Ghosh</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:bharadia|d">
+      <data key="d0">Dinesh Bharadia</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:relano|f">
+      <data key="d0">Francisco Robledo Relaño</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ayesta|u">
+      <data key="d0">U. Ayesta</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:robledo|f">
+      <data key="d0">Francisco Robledo</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ma|m">
+      <data key="d0">Manyou Ma</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wong|v">
+      <data key="d0">Vincent W. S. Wong</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:schober|r">
+      <data key="d0">Robert Schober</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:behari|n">
+      <data key="d0">Nikhil Behari</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:hughes|e">
+      <data key="d0">Edward Hughes</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:zhang|e">
+      <data key="d0">Edwin Zhang</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:tuyls|k">
+      <data key="d0">Karl Tuyls</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:yun|t">
+      <data key="d0">Tao Yun</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wang|s">
+      <data key="d0">Shu-Fan Wang</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:shar|i">
+      <data key="d0">Ibrahim El Shar</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:jiang|d">
+      <data key="d0">Daniel R. Jiang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:yan|g">
+      <data key="d0">Gang Yan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:verma|s">
+      <data key="d0">Shresth Verma</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:nair|v">
+      <data key="d0">V. Nair</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:hegde|a">
+      <data key="d0">A. Hegde</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:madhiwalla|n">
+      <data key="d0">N. Madhiwalla</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:diaz|p">
+      <data key="d0">Paula Rodríguez Díaz</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:johnson-yu|s">
+      <data key="d0">Sonja Johnson-Yu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ko|w">
+      <data key="d0">Woo-Hyun Ko</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wu|r">
+      <data key="d0">Raini Wu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:pagare|t">
+      <data key="d0">Tejas Pagare</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wu|s">
+      <data key="d0">Shuang Wu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ren|x">
+      <data key="d0">Xiaoqiang Ren</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:johansson|k">
+      <data key="d0">K. Johansson</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:shi|l">
+      <data key="d0">Ling Shi</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:nakhleh|k">
+      <data key="d0">Khaled Nakhleh</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:hou|i">
+      <data key="d0">I.-Hong Hou</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:wang|k">
+      <data key="d0">Kai Wang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:frazier|p">
+      <data key="d0">P. Frazier</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:khun|k">
+      <data key="d0">K. Khun</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:sandholm|t">
+      <data key="d0">Thomas Sandholm</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mukherjee|s">
+      <data key="d0">S. Mukherjee</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:design|s">
+      <data key="d0">Systems Design</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:yan|c">
+      <data key="d0">Chen Yan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ying|l">
+      <data key="d0">Lei Ying</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:yu|y">
+      <data key="d0">Ya-Ju Yu</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wang|y">
+      <data key="d0">You‐Chiun Wang</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:fan|c">
+      <data key="d0">Chia-Hsin Fan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:li|l">
+      <data key="d0">Liang-Xian Li</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:karmakar|r">
+      <data key="d0">Raja Karmakar</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:kaddoum|g">
+      <data key="d0">Georges Kaddoum</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:chattopadhyay|s">
+      <data key="d0">Samiran Chattopadhyay</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:wu|c">
+      <data key="d0">Chua-Ling Wu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:hossain|m">
+      <data key="d0">Md. Sanwar Hossain</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:islam|k">
+      <data key="d0">Khondoker Ziaul Islam</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:alharbi|a">
+      <data key="d0">Abdullah G. Alharbi</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:shafiullah|m">
+      <data key="d0">Md Shafiullah</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:islam|m">
+      <data key="d0">Md. Rabiul Islam</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:fekih|a">
+      <data key="d0">Afef Fekih</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:jabeen|s">
+      <data key="d0">Shahida Jabeen</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:haque|a">
+      <data key="d0">Anwar Haque</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:reddy|m">
+      <data key="d0">M. Pavan Reddy</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">5</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:kumar|a">
+      <data key="d0">Abhinav Kumar</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">5</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:kuchi|k">
+      <data key="d0">Kiran Kuchi</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">5</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:ali|s">
+      <data key="d0">Sundus Ali</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:aslam|m">
+      <data key="d0">Muhammad Imran Aslam</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ahmed|i">
+      <data key="d0">Irfan Ahmed</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:jafri|s">
+      <data key="d0">Syed Talib Abbas Jafri</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:aslam|t">
+      <data key="d0">Tahniyat Aslam</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:maggi|l">
+      <data key="d0">Lorenzo Maggi</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:rial|a">
+      <data key="d0">Alvaro Valcarce Rial</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:herzog|a">
+      <data key="d0">Alois Herzog</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:kalyanasundaram|s">
+      <data key="d0">S. Kalyanasundaram</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:agrawal|r">
+      <data key="d0">R. Agrawal</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:cazzella|l">
+      <data key="d0">Lorenzo Cazzella</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mizmizi|m">
+      <data key="d0">Marouan Mizmizi</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:tagliaferri|d">
+      <data key="d0">Dario Tagliaferri</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:badini|d">
+      <data key="d0">Damiano Badini</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:matteucci|m">
+      <data key="d0">Matteo Matteucci</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:spagnolini|u">
+      <data key="d0">Umberto Spagnolini</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:ganji|s">
+      <data key="d0">Santosh Ganji</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">7</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:kim|j">
+      <data key="d0">Jaewon Kim</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:sonigra|r">
+      <data key="d0">Romil Sonigra</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:kumar|p">
+      <data key="d0">P. R. Kumar</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">6</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:baron-hyppolite|a">
+      <data key="d0">Adrian Baron-Hyppolite</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:santos|j">
+      <data key="d0">Joao F. Santos</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:dasilva|l">
+      <data key="d0">Luiz A. DaSilva</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:da|j">
+      <data key="d0">Jacek Kibiłda</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:chavva|a">
+      <data key="d0">Ashok Kumar Reddy Chavva</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:mehta|n">
+      <data key="d0">Neelesh B. Mehta</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:zhou|c">
+      <data key="d0">Changpeng Zhou</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:xu|y">
+      <data key="d0">Youyun Xu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:liu|x">
+      <data key="d0">Xin Liu</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:srinivasan|k">
+      <data key="d0">Kannan Srinivasan</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+    </node>
+    <node id="A:lin|t">
+      <data key="d0">Tzu-Hsiang Lin</data>
+      <data key="d1">author</data>
+      <data key="d2">True</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:espinal|f">
+      <data key="d0">Francisco A. Espinal</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+    </node>
+    <node id="A:santosh|g">
+      <data key="d0">G. Santosh</data>
+      <data key="d1">author</data>
+      <data key="d2">False</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+    </node>
+    <edge source="T:neurwin" target="A:mora|j" />
+    <edge source="T:neurwin" target="A:killian|j" />
+    <edge source="T:neurwin" target="A:xu|l" />
+    <edge source="T:neurwin" target="A:biswas|a" />
+    <edge source="T:neurwin" target="A:tambe|m" />
+    <edge source="T:neurwin" target="A:liu|c" />
+    <edge source="T:neurwin" target="A:zhou|m" />
+    <edge source="T:neurwin" target="A:yang|l" />
+    <edge source="T:neurwin" target="A:tan|v" />
+    <edge source="T:neurwin" target="A:zhang|m" />
+    <edge source="T:neurwin" target="A:peng|x" />
+    <edge source="T:neurwin" target="A:perrault|a" />
+    <edge source="T:neurwin" target="A:charles-rebuff'e|j" />
+    <edge source="T:neurwin" target="A:gast|n" />
+    <edge source="T:neurwin" target="A:gaujal|b" />
+    <edge source="T:neurwin" target="A:amiri|m" />
+    <edge source="T:neurwin" target="A:avrachenkov|k" />
+    <edge source="T:neurwin" target="A:mimouni|i" />
+    <edge source="T:neurwin" target="A:magn'usson|s" />
+    <edge source="T:neurwin" target="A:park|m" />
+    <edge source="T:neurwin" target="A:chien|h" />
+    <edge source="T:neurwin" target="A:chen|w" />
+    <edge source="T:neurwin" target="A:mimi|a" />
+    <edge source="T:neurwin" target="A:wan|w" />
+    <edge source="T:neurwin" target="A:woo|k" />
+    <edge source="T:neurwin" target="A:yi|s" />
+    <edge source="T:neurwin" target="A:kumar|s" />
+    <edge source="T:neurwin" target="A:luan|y" />
+    <edge source="T:neurwin" target="A:mu|n" />
+    <edge source="T:neurwin" target="A:jia|q" />
+    <edge source="T:neurwin" target="A:shisher|m" />
+    <edge source="T:neurwin" target="A:tripathi|v" />
+    <edge source="T:neurwin" target="A:chiang|m" />
+    <edge source="T:neurwin" target="A:brinton|c" />
+    <edge source="T:neurwin" target="A:chen|s" />
+    <edge source="T:neurwin" target="A:peng|t" />
+    <edge source="T:neurwin" target="A:wilder|b" />
+    <edge source="T:neurwin" target="A:khalil|e" />
+    <edge source="T:neurwin" target="A:zhang|x" />
+    <edge source="T:neurwin" target="A:hong|y" />
+    <edge source="T:neurwin" target="A:wang|w" />
+    <edge source="T:neurwin" target="A:xiong|g" />
+    <edge source="T:neurwin" target="A:wang|h" />
+    <edge source="T:neurwin" target="A:pan|y" />
+    <edge source="T:neurwin" target="A:mandal|s" />
+    <edge source="T:neurwin" target="A:shah|s" />
+    <edge source="T:neurwin" target="A:boehmer|n" />
+    <edge source="T:neurwin" target="A:borkar|v" />
+    <edge source="T:neurwin" target="A:shah|p" />
+    <edge source="T:neurwin" target="A:guo|z" />
+    <edge source="T:neurwin" target="A:dinesha|u" />
+    <edge source="T:neurwin" target="A:mukherjee|d" />
+    <edge source="T:neurwin" target="A:li|j" />
+    <edge source="T:neurwin" target="A:shakkottai|s" />
+    <edge source="T:neurwin" target="A:hao|y" />
+    <edge source="T:neurwin" target="A:wang|z" />
+    <edge source="T:neurwin" target="A:fu|j" />
+    <edge source="T:neurwin" target="A:pan|q" />
+    <edge source="T:neurwin" target="A:mittal|v" />
+    <edge source="T:neurwin" target="A:meshram|r" />
+    <edge source="T:neurwin" target="A:prakash|s" />
+    <edge source="T:neurwin" target="A:kakarapalli|p" />
+    <edge source="T:neurwin" target="A:kayande|d" />
+    <edge source="T:neurwin" target="A:witter|r" />
+    <edge source="T:neurwin" target="A:hellerstein|l" />
+    <edge source="T:neurwin" target="A:chen|g" />
+    <edge source="T:neurwin" target="A:liew|s" />
+    <edge source="T:neurwin" target="A:gunduz|d" />
+    <edge source="T:neurwin" target="A:zhao|y" />
+    <edge source="T:neurwin" target="A:wang|t" />
+    <edge source="T:neurwin" target="A:nagaraj|d" />
+    <edge source="T:neurwin" target="A:taneja|a" />
+    <edge source="T:neurwin" target="A:bura|a" />
+    <edge source="T:neurwin" target="A:ghosh|u" />
+    <edge source="T:neurwin" target="A:bharadia|d" />
+    <edge source="T:neurwin" target="A:relano|f" />
+    <edge source="T:neurwin" target="A:ayesta|u" />
+    <edge source="T:neurwin" target="A:robledo|f" />
+    <edge source="T:neurwin" target="A:ma|m" />
+    <edge source="T:neurwin" target="A:wong|v" />
+    <edge source="T:neurwin" target="A:schober|r" />
+    <edge source="T:neurwin" target="A:behari|n" />
+    <edge source="T:neurwin" target="A:hughes|e" />
+    <edge source="T:neurwin" target="A:zhang|e" />
+    <edge source="T:neurwin" target="A:tuyls|k" />
+    <edge source="T:neurwin" target="A:yun|t" />
+    <edge source="T:neurwin" target="A:wang|s" />
+    <edge source="T:neurwin" target="A:shar|i" />
+    <edge source="T:neurwin" target="A:jiang|d" />
+    <edge source="T:neurwin" target="A:yan|g" />
+    <edge source="T:neurwin" target="A:verma|s" />
+    <edge source="T:neurwin" target="A:nair|v" />
+    <edge source="T:neurwin" target="A:hegde|a" />
+    <edge source="T:neurwin" target="A:madhiwalla|n" />
+    <edge source="T:neurwin" target="A:diaz|p" />
+    <edge source="T:neurwin" target="A:johnson-yu|s" />
+    <edge source="T:neurwin" target="A:ko|w" />
+    <edge source="T:neurwin" target="A:wu|r" />
+    <edge source="T:neurwin" target="A:pagare|t" />
+    <edge source="T:neurwin" target="A:wu|s" />
+    <edge source="T:neurwin" target="A:ren|x" />
+    <edge source="T:neurwin" target="A:johansson|k" />
+    <edge source="T:neurwin" target="A:shi|l" />
+    <edge source="T:neurwin" target="A:nakhleh|k" />
+    <edge source="T:neurwin" target="A:hou|i" />
+    <edge source="T:neurwin" target="A:wang|k" />
+    <edge source="T:neurwin" target="A:frazier|p" />
+    <edge source="T:neurwin" target="A:khun|k" />
+    <edge source="T:neurwin" target="A:sandholm|t" />
+    <edge source="T:neurwin" target="A:mukherjee|s" />
+    <edge source="T:neurwin" target="A:design|s" />
+    <edge source="T:neurwin" target="A:yan|c" />
+    <edge source="T:neurwin" target="A:ying|l" />
+    <edge source="T:nbiot_access" target="A:yu|y" />
+    <edge source="T:nbiot_access" target="A:wang|y" />
+    <edge source="T:nbiot_access" target="A:fan|c" />
+    <edge source="T:nbiot_access" target="A:li|l" />
+    <edge source="T:nbiot_access" target="A:karmakar|r" />
+    <edge source="T:nbiot_access" target="A:kaddoum|g" />
+    <edge source="T:nbiot_access" target="A:chattopadhyay|s" />
+    <edge source="T:nbiot_access" target="A:wu|c" />
+    <edge source="T:nbiot_access" target="A:hossain|m" />
+    <edge source="T:nbiot_access" target="A:islam|k" />
+    <edge source="T:nbiot_access" target="A:alharbi|a" />
+    <edge source="T:nbiot_access" target="A:shafiullah|m" />
+    <edge source="T:nbiot_access" target="A:islam|m" />
+    <edge source="T:nbiot_access" target="A:fekih|a" />
+    <edge source="T:nbiot_access" target="A:jabeen|s" />
+    <edge source="T:nbiot_access" target="A:haque|a" />
+    <edge source="T:nbiot_access" target="A:reddy|m" />
+    <edge source="T:nbiot_access" target="A:kumar|a" />
+    <edge source="T:nbiot_access" target="A:kuchi|k" />
+    <edge source="T:nbiot_access" target="A:ali|s" />
+    <edge source="T:nbiot_access" target="A:aslam|m" />
+    <edge source="T:nbiot_access" target="A:ahmed|i" />
+    <edge source="T:nbiot_access" target="A:jafri|s" />
+    <edge source="T:nbiot_access" target="A:aslam|t" />
+    <edge source="T:nbiot_access" target="A:maggi|l" />
+    <edge source="T:nbiot_access" target="A:rial|a" />
+    <edge source="T:nbiot_access" target="A:herzog|a" />
+    <edge source="T:nbiot_access" target="A:kalyanasundaram|s" />
+    <edge source="T:nbiot_access" target="A:agrawal|r" />
+    <edge source="T:beamsurfer" target="A:chen|w" />
+    <edge source="T:beamsurfer" target="A:cazzella|l" />
+    <edge source="T:beamsurfer" target="A:mizmizi|m" />
+    <edge source="T:beamsurfer" target="A:tagliaferri|d" />
+    <edge source="T:beamsurfer" target="A:badini|d" />
+    <edge source="T:beamsurfer" target="A:matteucci|m" />
+    <edge source="T:beamsurfer" target="A:spagnolini|u" />
+    <edge source="T:beamsurfer" target="A:ganji|s" />
+    <edge source="T:beamsurfer" target="A:kim|j" />
+    <edge source="T:beamsurfer" target="A:sonigra|r" />
+    <edge source="T:beamsurfer" target="A:kumar|p" />
+    <edge source="T:beamsurfer" target="A:baron-hyppolite|a" />
+    <edge source="T:beamsurfer" target="A:santos|j" />
+    <edge source="T:beamsurfer" target="A:dasilva|l" />
+    <edge source="T:beamsurfer" target="A:da|j" />
+    <edge source="T:beamsurfer" target="A:chavva|a" />
+    <edge source="T:beamsurfer" target="A:mehta|n" />
+    <edge source="T:beamsurfer" target="A:zhou|c" />
+    <edge source="T:beamsurfer" target="A:xu|y" />
+    <edge source="T:beamsurfer" target="A:liu|x" />
+    <edge source="T:beamsurfer" target="A:srinivasan|k" />
+    <edge source="T:beamsurfer" target="A:lin|t" />
+    <edge source="T:beamsurfer" target="A:espinal|f" />
+    <edge source="T:nbiot_pimrc" target="A:yu|y" />
+    <edge source="T:nbiot_pimrc" target="A:wang|y" />
+    <edge source="T:nbiot_pimrc" target="A:fan|c" />
+    <edge source="T:nbiot_pimrc" target="A:wu|c" />
+    <edge source="T:nbiot_pimrc" target="A:reddy|m" />
+    <edge source="T:nbiot_pimrc" target="A:kumar|a" />
+    <edge source="T:nbiot_pimrc" target="A:kuchi|k" />
+    <edge source="T:nbiot_pimrc" target="A:ganji|s" />
+    <edge source="T:nbiot_pimrc" target="A:santosh|g" />
+  </graph>
+</graphml>

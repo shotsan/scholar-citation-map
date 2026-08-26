@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-26">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="kind" type="string" />
+      <attribute id="1" title="show_label" type="boolean" />
+      <attribute id="2" title="country" type="string" />
+      <attribute id="3" title="papers" type="long" />
+    </attributes>
+    <nodes>
+      <node id="T:neurwin" label="NeurWIN (NeurIPS 2021)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nbiot_access" label="Scheduling and Decoding of Downlin (IEEE Access 2020)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:beamsurfer" label="BeamSurfer (IEEE TWC 2022)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nbiot_pimrc" label="Downlink control channel schedulin (IEEE PIMRC 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:unblock" label="Unblock (COMSNETS 2021)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:terra_twc" label="TERRA (IEEE TWC 2024)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:beamsurfer_poster" label="Beamsurfer (SIGCOMM'20 Posters)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:dmac" label="A directional medium access contro (COMSNETS 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:ground_reflections" label="Overcoming pedestrian blockage in  (arXiv 2021)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:iris" label="Iris (COMSNETS 2019)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:rate_matching" label="Novel rate matching scheme for dow (COMSNETS 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:terra_poster" label="Terra (SIGCOMM'22 Posters)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:nextg_ric" label="Realtime intelligent control for N (MobiSys 2022)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:improved_pdcch" label="Improved physical downlink control (COMSNETS 2018)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:reveal_twc" label="Seeing the Unseen (IEEE TWC 2024)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:reveal_s3" label="Seeing the Unseen (ACM S3 Workshop 2023)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="T:comsnets_proc" label="Communication Systems and Networks (Springer 2019)">
+        <attvalues>
+          <attvalue for="0" value="ganji_paper" />
+          <attvalue for="1" value="true" />
+        </attvalues>
+      </node>
+      <node id="I:Universidad Carlos III de Madrid" label="Universidad Carlos III de Madrid">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="ES" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Harvard University" label="Harvard University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="I:Zhejiang University" label="Zhejiang University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:National University of Singapore" label="National University of Singapore">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="SG" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Sandia National Laboratories California" label="Sandia National Laboratories California">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Texas A&amp;M University" label="Texas A&amp;M University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="I:Stanford University" label="Stanford University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Shandong Institute of Automation" label="Shandong Institute of Automation">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Columbia University" label="Columbia University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Carnegie Mellon University" label="Carnegie Mellon University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Institut national de recherche en sciences et technologies du numérique" label="Institut national de recherche en sciences et technologies du numérique">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="I:Indian Institute of Technology Bombay" label="Indian Institute of Technology Bombay">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="I:Northwestern Polytechnical University" label="Northwestern Polytechnical University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="I:RMIT University" label="RMIT University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="AU" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="I:Indian Institute of Information Technology Allahabad" label="Indian Institute of Information Technology Allahabad">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Indian Institute of Technology Madras" label="Indian Institute of Technology Madras">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Imperial College London" label="Imperial College London">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="GB" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Université de Pau et des Pays de l'Adour" label="Université de Pau et des Pays de l'Adour">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:University of the Basque Country" label="University of the Basque Country">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="ES" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Laboratoire de Mathématiques et de leurs Applications" label="Laboratoire de Mathématiques et de leurs Applications">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Ikerbasque" label="Ikerbasque">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="ES" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Centre National de la Recherche Scientifique" label="Centre National de la Recherche Scientifique">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="I:Université Toulouse III - Paul Sabatier" label="Université Toulouse III - Paul Sabatier">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Université Toulouse-I-Capitole" label="Université Toulouse-I-Capitole">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Institut de Recherche en Informatique de Toulouse" label="Institut de Recherche en Informatique de Toulouse">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Université Toulouse - Jean Jaurès" label="Université Toulouse - Jean Jaurès">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:Institut Polytechnique de Bordeaux" label="Institut Polytechnique de Bordeaux">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:University of British Columbia" label="University of British Columbia">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CA" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Friedrich-Alexander-Universität Erlangen-Nürnberg" label="Friedrich-Alexander-Universität Erlangen-Nürnberg">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="DE" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Google (United Kingdom)" label="Google (United Kingdom)">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="GB" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Google (United States)" label="Google (United States)">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="I:Stony Brook University" label="Stony Brook University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Beijing Academy of Artificial Intelligence" label="Beijing Academy of Artificial Intelligence">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:China National Chemical Engineering (China)" label="China National Chemical Engineering (China)">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Shanghai Artificial Intelligence Laboratory" label="Shanghai Artificial Intelligence Laboratory">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:China Telecom (China)" label="China Telecom (China)">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Binghamton University" label="Binghamton University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="I:ARMMAN" label="ARMMAN">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Institut polytechnique de Grenoble" label="Institut polytechnique de Grenoble">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Centre Inria de l'Université Grenoble Alpes" label="Centre Inria de l'Université Grenoble Alpes">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Laboratoire d'Informatique de Grenoble" label="Laboratoire d'Informatique de Grenoble">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Université Grenoble Alpes" label="Université Grenoble Alpes">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="FR" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:University of Michigan" label="University of Michigan">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Indian Institute of Technology" label="Indian Institute of Technology">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Bangladesh University of Business and Technology" label="Bangladesh University of Business and Technology">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Murdoch University" label="Murdoch University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Jouf University" label="Jouf University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:King Fahd University of Petroleum &amp; Minerals" label="King Fahd University of Petroleum &amp; Minerals">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:University of Wollongong" label="University of Wollongong">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:University of Louisiana at Lafayette" label="University of Louisiana at Lafayette">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:National University of Kaohsiung" label="National University of Kaohsiung">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="TW" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="I:National Sun Yat-sen University" label="National Sun Yat-sen University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="TW" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Université du Québec à Montréal" label="Université du Québec à Montréal">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CA" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:École de Technologie Supérieure" label="École de Technologie Supérieure">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CA" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Jadavpur University" label="Jadavpur University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:TCG Crest" label="TCG Crest">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:NED University of Engineering and Technology" label="NED University of Engineering and Technology">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="PK" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Politecnico di Milano" label="Politecnico di Milano">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="IT" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Virginia Tech" label="Virginia Tech">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Samsung (India)" label="Samsung (India)">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Indian Institute of Science Bangalore" label="Indian Institute of Science Bangalore">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Nanjing University of Posts and Telecommunications" label="Nanjing University of Posts and Telecommunications">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="CN" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Florida State University" label="Florida State University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:The Ohio State University" label="The Ohio State University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Mitchell Institute" label="Mitchell Institute">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="US" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Indian Institute of Technology Hyderabad" label="Indian Institute of Technology Hyderabad">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="true" />
+          <attvalue for="2" value="IN" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="I:Feng Chia University" label="Feng Chia University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Institute for Information Industry" label="Institute for Information Industry">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:Bureau of Standards" label="Bureau of Standards">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:National Kaohsiung University of Science and Technology" label="National Kaohsiung University of Science and Technology">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="I:National Taiwan University" label="National Taiwan University">
+        <attvalues>
+          <attvalue for="0" value="institution" />
+          <attvalue for="1" value="false" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="T:neurwin" target="I:Universidad Carlos III de Madrid" id="0" />
+      <edge source="T:neurwin" target="I:Harvard University" id="1" />
+      <edge source="T:neurwin" target="I:Zhejiang University" id="2" />
+      <edge source="T:neurwin" target="I:National University of Singapore" id="3" />
+      <edge source="T:neurwin" target="I:Sandia National Laboratories California" id="4" />
+      <edge source="T:neurwin" target="I:Texas A&amp;M University" id="5" />
+      <edge source="T:neurwin" target="I:Stanford University" id="6" />
+      <edge source="T:neurwin" target="I:Shandong Institute of Automation" id="7" />
+      <edge source="T:neurwin" target="I:Columbia University" id="8" />
+      <edge source="T:neurwin" target="I:Carnegie Mellon University" id="9" />
+      <edge source="T:neurwin" target="I:Institut national de recherche en sciences et technologies du numérique" id="10" />
+      <edge source="T:neurwin" target="I:Indian Institute of Technology Bombay" id="11" />
+      <edge source="T:neurwin" target="I:Northwestern Polytechnical University" id="12" />
+      <edge source="T:neurwin" target="I:RMIT University" id="13" />
+      <edge source="T:neurwin" target="I:Indian Institute of Information Technology Allahabad" id="14" />
+      <edge source="T:neurwin" target="I:Indian Institute of Technology Madras" id="15" />
+      <edge source="T:neurwin" target="I:Imperial College London" id="16" />
+      <edge source="T:neurwin" target="I:Université de Pau et des Pays de l'Adour" id="17" />
+      <edge source="T:neurwin" target="I:University of the Basque Country" id="18" />
+      <edge source="T:neurwin" target="I:Laboratoire de Mathématiques et de leurs Applications" id="19" />
+      <edge source="T:neurwin" target="I:Ikerbasque" id="20" />
+      <edge source="T:neurwin" target="I:Centre National de la Recherche Scientifique" id="21" />
+      <edge source="T:neurwin" target="I:Université Toulouse III - Paul Sabatier" id="22" />
+      <edge source="T:neurwin" target="I:Université Toulouse-I-Capitole" id="23" />
+      <edge source="T:neurwin" target="I:Institut de Recherche en Informatique de Toulouse" id="24" />
+      <edge source="T:neurwin" target="I:Université Toulouse - Jean Jaurès" id="25" />
+      <edge source="T:neurwin" target="I:Institut Polytechnique de Bordeaux" id="26" />
+      <edge source="T:neurwin" target="I:University of British Columbia" id="27" />
+      <edge source="T:neurwin" target="I:Friedrich-Alexander-Universität Erlangen-Nürnberg" id="28" />
+      <edge source="T:neurwin" target="I:Google (United Kingdom)" id="29" />
+      <edge source="T:neurwin" target="I:Google (United States)" id="30" />
+      <edge source="T:neurwin" target="I:Stony Brook University" id="31" />
+      <edge source="T:neurwin" target="I:Beijing Academy of Artificial Intelligence" id="32" />
+      <edge source="T:neurwin" target="I:China National Chemical Engineering (China)" id="33" />
+      <edge source="T:neurwin" target="I:Shanghai Artificial Intelligence Laboratory" id="34" />
+      <edge source="T:neurwin" target="I:China Telecom (China)" id="35" />
+      <edge source="T:neurwin" target="I:Binghamton University" id="36" />
+      <edge source="T:neurwin" target="I:ARMMAN" id="37" />
+      <edge source="T:neurwin" target="I:Institut polytechnique de Grenoble" id="38" />
+      <edge source="T:neurwin" target="I:Centre Inria de l'Université Grenoble Alpes" id="39" />
+      <edge source="T:neurwin" target="I:Laboratoire d'Informatique de Grenoble" id="40" />
+      <edge source="T:neurwin" target="I:Université Grenoble Alpes" id="41" />
+      <edge source="T:neurwin" target="I:University of Michigan" id="42" />
+      <edge source="T:nbiot_access" target="I:Indian Institute of Technology" id="43" />
+      <edge source="T:nbiot_access" target="I:Bangladesh University of Business and Technology" id="44" />
+      <edge source="T:nbiot_access" target="I:Murdoch University" id="45" />
+      <edge source="T:nbiot_access" target="I:Jouf University" id="46" />
+      <edge source="T:nbiot_access" target="I:King Fahd University of Petroleum &amp; Minerals" id="47" />
+      <edge source="T:nbiot_access" target="I:University of Wollongong" id="48" />
+      <edge source="T:nbiot_access" target="I:University of Louisiana at Lafayette" id="49" />
+      <edge source="T:nbiot_access" target="I:National University of Kaohsiung" id="50" />
+      <edge source="T:nbiot_access" target="I:National Sun Yat-sen University" id="51" />
+      <edge source="T:nbiot_access" target="I:Université du Québec à Montréal" id="52" />
+      <edge source="T:nbiot_access" target="I:École de Technologie Supérieure" id="53" />
+      <edge source="T:nbiot_access" target="I:Jadavpur University" id="54" />
+      <edge source="T:nbiot_access" target="I:TCG Crest" id="55" />
+      <edge source="T:nbiot_access" target="I:NED University of Engineering and Technology" id="56" />
+      <edge source="T:beamsurfer" target="I:Texas A&amp;M University" id="57" />
+      <edge source="T:beamsurfer" target="I:Politecnico di Milano" id="58" />
+      <edge source="T:beamsurfer" target="I:Virginia Tech" id="59" />
+      <edge source="T:beamsurfer" target="I:Samsung (India)" id="60" />
+      <edge source="T:beamsurfer" target="I:Indian Institute of Science Bangalore" id="61" />
+      <edge source="T:beamsurfer" target="I:Nanjing University of Posts and Telecommunications" id="62" />
+      <edge source="T:beamsurfer" target="I:Florida State University" id="63" />
+      <edge source="T:beamsurfer" target="I:The Ohio State University" id="64" />
+      <edge source="T:beamsurfer" target="I:Mitchell Institute" id="65" />
+      <edge source="T:nbiot_pimrc" target="I:Texas A&amp;M University" id="66" />
+      <edge source="T:nbiot_pimrc" target="I:National University of Kaohsiung" id="67" />
+      <edge source="T:nbiot_pimrc" target="I:National Sun Yat-sen University" id="68" />
+      <edge source="T:nbiot_pimrc" target="I:Indian Institute of Technology Hyderabad" id="69" />
+      <edge source="T:improved_pdcch" target="I:Feng Chia University" id="70" />
+      <edge source="T:improved_pdcch" target="I:Institute for Information Industry" id="71" />
+      <edge source="T:improved_pdcch" target="I:Bureau of Standards" id="72" />
+      <edge source="T:improved_pdcch" target="I:National Kaohsiung University of Science and Technology" id="73" />
+      <edge source="T:improved_pdcch" target="I:National Taiwan University" id="74" />
+    </edges>
+  </graph>
+</gexf>

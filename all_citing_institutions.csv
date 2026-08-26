@@ -1,0 +1,72 @@
+institution,country,citing_papers,authors_on_those_papers,cites_which_ganji_papers,ror
+Harvard University,US,5,10,NeurWIN (NeurIPS 2021),https://ror.org/006v7bf86
+Texas A&M University,US,5,10,BeamSurfer (IEEE TWC 2022); Downlink control channel schedulin (IEEE PIMRC 2018); NeurWIN (NeurIPS 2021),https://ror.org/01f5ytq51
+Indian Institute of Technology Hyderabad,IN,4,4,Downlink control channel schedulin (IEEE PIMRC 2018),https://ror.org/01j4v3x97
+National University of Kaohsiung,TW,4,3,Downlink control channel schedulin (IEEE PIMRC 2018); Scheduling and Decoding of Downlin (IEEE Access 2020),https://ror.org/013zjb662
+Northwestern Polytechnical University,CN,4,4,NeurWIN (NeurIPS 2021),https://ror.org/01y0j0j86
+Centre National de la Recherche Scientifique,FR,3,1,NeurWIN (NeurIPS 2021),https://ror.org/02feahw73
+Google (United States),US,3,2,NeurWIN (NeurIPS 2021),https://ror.org/00njsd438
+Indian Institute of Technology Bombay,IN,3,2,NeurWIN (NeurIPS 2021),https://ror.org/02qyf5152
+Institut national de recherche en sciences et technologies du numérique,FR,3,1,NeurWIN (NeurIPS 2021),https://ror.org/02kvxyf05
+RMIT University,AU,3,1,NeurWIN (NeurIPS 2021),https://ror.org/04ttjf776
+Binghamton University,US,2,3,NeurWIN (NeurIPS 2021),https://ror.org/008rmbt77
+Carnegie Mellon University,US,2,2,NeurWIN (NeurIPS 2021),https://ror.org/05x2bcf33
+Ikerbasque,ES,2,0,NeurWIN (NeurIPS 2021),https://ror.org/01cc3fy72
+Indian Institute of Information Technology Allahabad,IN,2,3,NeurWIN (NeurIPS 2021),https://ror.org/03rgjt374
+Indian Institute of Technology Madras,IN,2,1,NeurWIN (NeurIPS 2021),https://ror.org/03v0r5n49
+Institut Polytechnique de Bordeaux,FR,2,0,NeurWIN (NeurIPS 2021),https://ror.org/054qv7y42
+Institut de Recherche en Informatique de Toulouse,FR,2,0,NeurWIN (NeurIPS 2021),https://ror.org/01rx4qw44
+Laboratoire de Mathématiques et de leurs Applications,FR,2,1,NeurWIN (NeurIPS 2021),https://ror.org/00g669j87
+University of the Basque Country,ES,2,1,NeurWIN (NeurIPS 2021),https://ror.org/000xsnr85
+Université Toulouse - Jean Jaurès,FR,2,0,NeurWIN (NeurIPS 2021),https://ror.org/04ezk3x31
+Université Toulouse III - Paul Sabatier,FR,2,0,NeurWIN (NeurIPS 2021),https://ror.org/02v6kpv12
+Université Toulouse-I-Capitole,FR,2,0,NeurWIN (NeurIPS 2021),https://ror.org/0443n9e75
+Université de Pau et des Pays de l'Adour,FR,2,1,NeurWIN (NeurIPS 2021),https://ror.org/01frn9647
+ARMMAN,US,1,0,NeurWIN (NeurIPS 2021),https://ror.org/05vfrxy92
+Bangladesh University of Business and Technology,,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),
+Beijing Academy of Artificial Intelligence,CN,1,0,NeurWIN (NeurIPS 2021),https://ror.org/016a74861
+Bureau of Standards,,1,1,Improved physical downlink control (COMSNETS 2018),
+Centre Inria de l'Université Grenoble Alpes,FR,1,1,NeurWIN (NeurIPS 2021),https://ror.org/00n8d6z93
+China National Chemical Engineering (China),CN,1,0,NeurWIN (NeurIPS 2021),https://ror.org/04pwn6a43
+China Telecom (China),CN,1,0,NeurWIN (NeurIPS 2021),https://ror.org/03jgnzt20
+Columbia University,US,1,2,NeurWIN (NeurIPS 2021),https://ror.org/00hj8s172
+Feng Chia University,,1,1,Improved physical downlink control (COMSNETS 2018),
+Florida State University,US,1,1,BeamSurfer (IEEE TWC 2022),https://ror.org/05g3dte14
+Friedrich-Alexander-Universität Erlangen-Nürnberg,DE,1,1,NeurWIN (NeurIPS 2021),https://ror.org/00f7hpc57
+Google (United Kingdom),GB,1,2,NeurWIN (NeurIPS 2021),https://ror.org/024bc3e07
+Imperial College London,GB,1,1,NeurWIN (NeurIPS 2021),https://ror.org/041kmwe10
+Indian Institute of Science Bangalore,IN,1,1,BeamSurfer (IEEE TWC 2022),https://ror.org/04dese585
+Indian Institute of Technology,,1,3,Scheduling and Decoding of Downlin (IEEE Access 2020),
+Institut polytechnique de Grenoble,FR,1,1,NeurWIN (NeurIPS 2021),https://ror.org/05sbt2524
+Institute for Information Industry,,1,1,Improved physical downlink control (COMSNETS 2018),
+Jadavpur University,IN,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),https://ror.org/02af4h012
+Jouf University,,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),
+King Fahd University of Petroleum & Minerals,,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),
+Laboratoire d'Informatique de Grenoble,FR,1,1,NeurWIN (NeurIPS 2021),https://ror.org/01c8rcg82
+Mitchell Institute,US,1,4,BeamSurfer (IEEE TWC 2022),https://ror.org/03ds72003
+Murdoch University,,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),
+NED University of Engineering and Technology,PK,1,5,Scheduling and Decoding of Downlin (IEEE Access 2020),https://ror.org/05db8zr24
+Nanjing University of Posts and Telecommunications,CN,1,2,BeamSurfer (IEEE TWC 2022),https://ror.org/043bpky34
+National Kaohsiung University of Science and Technology,,1,1,Improved physical downlink control (COMSNETS 2018),
+National Sun Yat-sen University,TW,1,2,Downlink control channel schedulin (IEEE PIMRC 2018); Scheduling and Decoding of Downlin (IEEE Access 2020),https://ror.org/00mjawt10
+National Taiwan University,,1,1,Improved physical downlink control (COMSNETS 2018),
+National University of Singapore,SG,1,2,NeurWIN (NeurIPS 2021),https://ror.org/01tgyzw49
+Politecnico di Milano,IT,1,5,BeamSurfer (IEEE TWC 2022),https://ror.org/01nffqt88
+Samsung (India),IN,1,1,BeamSurfer (IEEE TWC 2022),https://ror.org/04cpx2569
+Sandia National Laboratories California,US,1,2,NeurWIN (NeurIPS 2021),https://ror.org/058m7ey48
+Shandong Institute of Automation,CN,1,2,NeurWIN (NeurIPS 2021),https://ror.org/00qdtba35
+Shanghai Artificial Intelligence Laboratory,CN,1,0,NeurWIN (NeurIPS 2021),https://ror.org/03wkvpx79
+Stanford University,US,1,1,NeurWIN (NeurIPS 2021),https://ror.org/00f54p054
+Stony Brook University,US,1,2,NeurWIN (NeurIPS 2021),https://ror.org/05qghxh33
+TCG Crest,IN,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),https://ror.org/05h2r8y34
+The Ohio State University,US,1,2,BeamSurfer (IEEE TWC 2022),https://ror.org/00rs6vg23
+Universidad Carlos III de Madrid,ES,1,1,NeurWIN (NeurIPS 2021),https://ror.org/03ths8210
+University of British Columbia,CA,1,2,NeurWIN (NeurIPS 2021),https://ror.org/03rmrcq20
+University of Louisiana at Lafayette,,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),
+University of Michigan,US,1,2,NeurWIN (NeurIPS 2021),https://ror.org/00jmfr291
+University of Wollongong,,1,1,Scheduling and Decoding of Downlin (IEEE Access 2020),
+Université Grenoble Alpes,FR,1,1,NeurWIN (NeurIPS 2021),https://ror.org/02rx3b187
+Université du Québec à Montréal,CA,1,2,Scheduling and Decoding of Downlin (IEEE Access 2020),https://ror.org/002rjbv21
+Virginia Tech,US,1,4,BeamSurfer (IEEE TWC 2022),https://ror.org/02smfhw86
+Zhejiang University,CN,1,2,NeurWIN (NeurIPS 2021),https://ror.org/00a2xv884
+École de Technologie Supérieure,CA,1,2,Scheduling and Decoding of Downlin (IEEE Access 2020),https://ror.org/0020snb74
