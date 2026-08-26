@@ -17,7 +17,9 @@ from all_targets import SCHOLAR
 # their faster "polite pool". Set CITATION_MAP_EMAIL to your own address.
 UA = "citation-map/1.0 (mailto:%s)" % os.environ.get(
     "CITATION_MAP_EMAIL", "anonymous@example.com")
-HERE = os.path.dirname(os.path.abspath(__file__))
+# Files are read and written relative to the current directory, so run the
+# scripts from wherever you want the output to land.
+HERE = os.getcwd()
 SELECT = "id,doi,display_name,publication_year,type,cited_by_count"
 
 

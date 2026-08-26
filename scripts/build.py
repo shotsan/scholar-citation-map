@@ -12,15 +12,32 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import networkx as nx
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+# Files are read and written relative to the current directory, so run the
+# scripts from wherever you want the output to land.
+HERE = os.getcwd()
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--raw", default="raw.json")
 ap.add_argument("--prefix", default="")
-ap.add_argument("--title", default="Santosh Ganji's four most-cited papers")
+ap.add_argument("--title", default="these publications")
+ap.add_argument("--out-dir", default=".",
+                help="writes <out-dir>/tables, /graphs and /data")
 ARGS = ap.parse_args()
+TABLES = os.path.join(ARGS.out_dir, "tables")
+GRAPHS = os.path.join(ARGS.out_dir, "graphs")
+DATA_OUT = os.path.join(ARGS.out_dir, "data")
+for d in (TABLES, GRAPHS, DATA_OUT):
+    os.makedirs(d, exist_ok=True)
 RAW = json.load(open(os.path.join(HERE, ARGS.raw)))
+
+# Self-citations are marked using the co-author lists that setup_profile.py read off
+# each target record, so no hand-written name list is needed. Collected before the
+# patent filter below, because a patent's co-authors still cite the other work.
+COAUTHORS = sorted({a for p in RAW["papers"] for a in p.get("coauthors") or []})
+
+# Patents are recorded by setup_profile.py but no API indexes their citations.
 RAW["papers"] = [p for p in RAW["papers"] if not p.get("patent")]
+
 
 def short_label(p):
     head = re.split(r"[:\u2014]", p["title"])[0].strip()
@@ -32,21 +49,6 @@ PALETTE = ["#c0392b", "#2471a3", "#1e8449", "#b9770e", "#7d3c98", "#117a65",
            "#512e5f", "#154360", "#6e2c00", "#1b4f72", "#78281f", "#0b5345",
            "#5b2c6f", "#873600"]
 TCOL = {p["key"]: PALETTE[i % len(PALETTE)] for i, p in enumerate(RAW["papers"])}
-
-# Co-authors on the four papers, used to mark self-citations. Several appear under
-# more than one name form, and akey() keys on surname, so each form is listed.
-COAUTHORS = [
-    "Santosh Ganji", "Venkata Siva Santosh Ganji", "Ganji Santosh", "G Santosh",
-    "P R Kumar", "Panganamala Kumar",
-    "Khaled Nakhleh", "Ping-Chun Hsieh", "I-Hong Hou", "Srinivas Shakkottai",
-    "Pavan Reddy Manne", "M Pavan Reddy", "Abhinav Kumar", "Kiran Kuchi",
-    "Tzu-Hsiang Lin", "Franklin Espinal",
-    # co-authors on the remaining profile entries
-    "Bharadwaj Satchidanandan", "Sinan Yau", "Ashraf Aziz", "Amal Ekbal",
-    "Nikhil Kundargi", "Jim McCoy", "Rohit Sonigra", "Jaewon Kim",
-    "Hosseinali Dureppagari", "Ujwal Dinesha", "Rui Wu", "Woo-Hyun Ko",
-    "Nikhil Dhar", "Gopal Vasudevan", "Abhijit Bera",
-]
 
 # Two OpenAlex affiliation mappings are wrong on these papers, checked against the
 # raw_affiliation_strings: "Harvard University" carries the ROR of Harvard University
@@ -246,8 +248,8 @@ print("distinct author keys:", len(canon))
 
 # ---------------------------------------------------------------- tables
 def write(name, header, rows):
-    name = ARGS.prefix + name
-    with open(os.path.join(HERE, name), "w", newline="") as f:
+    name = os.path.join(TABLES, ARGS.prefix + name)
+    with open(name, "w", newline="") as f:
         cw = csv.writer(f)
         cw.writerow(header)
         cw.writerows(rows)
@@ -313,7 +315,7 @@ write("citing_countries.csv", ["country", "institution_to_paper_links"],
 
 # ---------------------------------------------------------------- graphs
 def draw(G, path, title, color, size, figsize=(20, 15), k=0.55):
-    path = os.path.join(os.path.dirname(path), ARGS.prefix + os.path.basename(path))
+    path = os.path.join(GRAPHS, ARGS.prefix + os.path.basename(path))
     pos = nx.spring_layout(G, k=k, iterations=240, seed=7)
     plt.figure(figsize=figsize)
     nx.draw_networkx_edges(G, pos, alpha=0.22, width=0.7, edge_color="#8a8f98")
@@ -333,9 +335,9 @@ def draw(G, path, title, color, size, figsize=(20, 15), k=0.55):
 
 
 def save(G, stem):
-    stem = ARGS.prefix + stem
-    nx.write_graphml(G, os.path.join(HERE, stem + ".graphml"))
-    nx.write_gexf(G, os.path.join(HERE, stem + ".gexf"))
+    stem = os.path.join(GRAPHS, ARGS.prefix + stem)
+    nx.write_graphml(G, stem + ".graphml")
+    nx.write_gexf(G, stem + ".gexf")
 
 
 def key_of(label):
@@ -404,8 +406,9 @@ d3 = {
                  "countries": sorted({i[1] for i in r["institutions"] if i[1]}),
                  "sources": r["sources"]} for r in records],
 }
-json.dump(d3, open(os.path.join(HERE, ARGS.prefix + "data.json"), "w"), indent=1)
-print("wrote", ARGS.prefix + "data.json")
+data_path = os.path.join(DATA_OUT, ARGS.prefix + "data.json")
+json.dump(d3, open(data_path, "w"), indent=1)
+print("wrote", data_path)
 
 print("\nSUMMARY")
 print(" distinct citing papers :", len({norm_title(r['title']) for r in records}))

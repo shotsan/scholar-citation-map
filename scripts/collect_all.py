@@ -14,7 +14,9 @@ import urllib.request
 # their faster "polite pool". Set CITATION_MAP_EMAIL to your own address.
 UA = "citation-map/1.0 (mailto:%s)" % os.environ.get(
     "CITATION_MAP_EMAIL", "anonymous@example.com")
-HERE = os.path.dirname(os.path.abspath(__file__))
+# Files are read and written relative to the current directory, so run the
+# scripts from wherever you want the output to land.
+HERE = os.getcwd()
 S2 = "https://api.semanticscholar.org/graph/v1"
 OA = "https://api.openalex.org"
 
@@ -115,6 +117,7 @@ for key, t in targets.items():
         papers.append({"key": key, "title": t["title"], "venue": t["venue"],
                        "scholar_citations": t["scholar_citations"],
                        "scholar_cluster": t["cluster"], "patent": True,
+                       "coauthors": t.get("coauthors") or [],
                        "s2_citing": [], "oa_citing": []})
         continue
     s2_rows = []
@@ -128,6 +131,7 @@ for key, t in targets.items():
     papers.append({"key": key, "title": t["title"], "venue": t["venue"],
                    "scholar_citations": t["scholar_citations"],
                    "scholar_cluster": t["cluster"], "patent": False,
+                   "coauthors": t.get("coauthors") or [],
                    "s2_citing": s2_rows, "oa_citing": oa_rows})
 
 # affiliations for citing papers OpenAlex did not already return

@@ -614,7 +614,7 @@
       <data key="d1">author</data>
       <data key="d2">True</data>
       <data key="d3">5</data>
-      <data key="d4">False</data>
+      <data key="d4">True</data>
     </node>
     <node id="A:relano|f">
       <data key="d0">Francisco Robledo Relaño</data>
@@ -1272,7 +1272,7 @@
       <data key="d1">author</data>
       <data key="d2">True</data>
       <data key="d3">3</data>
-      <data key="d4">False</data>
+      <data key="d4">True</data>
     </node>
     <node id="A:siva|v">
       <data key="d0">V. Siva</data>

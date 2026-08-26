@@ -710,7 +710,7 @@
           <attvalue for="0" value="author" />
           <attvalue for="1" value="true" />
           <attvalue for="2" value="5" />
-          <attvalue for="3" value="False" />
+          <attvalue for="3" value="True" />
         </attvalues>
       </node>
       <node id="A:relano|f" label="Francisco Robledo Relaño">
@@ -1462,7 +1462,7 @@
           <attvalue for="0" value="author" />
           <attvalue for="1" value="true" />
           <attvalue for="2" value="3" />
-          <attvalue for="3" value="False" />
+          <attvalue for="3" value="True" />
         </attvalues>
       </node>
       <node id="A:siva|v" label="V. Siva">

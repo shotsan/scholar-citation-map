@@ -2079,7 +2079,7 @@
    "venue": "Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
    "doi": "10.1145/3452296.3472924",
    "cited_by": 59,
-   "self_citation": false,
+   "self_citation": true,
    "authors": [
     "I. Jain",
     "Raghav Subbaraman",
@@ -2505,7 +2505,7 @@
    "venue": "ACM International Conference on Embedded Networked Sensor Systems",
    "doi": "10.1145/3666025.3699363",
    "cited_by": 5,
-   "self_citation": false,
+   "self_citation": true,
    "authors": [
     "I. Jain",
     "Suriyaa Mm",

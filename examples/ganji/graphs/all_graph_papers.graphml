@@ -802,7 +802,7 @@
       <data key="d3">2021</data>
       <data key="d4">Conference on Applications, Technologies, Architectures, and Protocols</data>
       <data key="d5">59</data>
-      <data key="d6">False</data>
+      <data key="d6">True</data>
     </node>
     <node id="P:multimodalenvironmentawarebeammanagementformassivemimoageometrydrivenvirtualbasestationfra">
       <data key="d0">Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geom</data>
@@ -901,7 +901,7 @@
       <data key="d3">2024</data>
       <data key="d4">ACM International Conference on Embedded Networked Sensor Systems</data>
       <data key="d5">5</data>
-      <data key="d6">False</data>
+      <data key="d6">True</data>
     </node>
     <node id="P:fieldevaluationofasoftwarizedmodemfromtheperspectiveof5gcellsearch">
       <data key="d0">Field Evaluation of a Softwarized Modem From the Perspective of 5G Cel</data>

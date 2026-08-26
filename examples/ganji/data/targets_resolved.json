@@ -11,6 +11,13 @@
   "dois": [],
   "s2_ids": [
    "10e7ae23fc58bfdb829bfa5694c59f2d7fb8a275"
+  ],
+  "coauthors": [
+   "Khaled Nakhleh",
+   "Santosh Ganji",
+   "Ping-Chun Hsieh",
+   "I.-Hong Hou",
+   "S. Shakkottai"
   ]
  },
  "nbiot_access": {
@@ -25,6 +32,12 @@
   ],
   "s2_ids": [
    "DOI:10.1109/access.2020.3026077"
+  ],
+  "coauthors": [
+   "Pavan Reddy Manne",
+   "Santosh Ganji",
+   "Abhinav Kumar",
+   "Kiran Kuchi"
   ]
  },
  "patent_beamsweep": {
@@ -35,7 +48,8 @@
   "patent": true,
   "oa_ids": [],
   "dois": [],
-  "s2_ids": []
+  "s2_ids": [],
+  "coauthors": []
  },
  "beamsurfer": {
   "title": "BeamSurfer: Minimalist beam management of mobile mm-wave devices",
@@ -49,6 +63,12 @@
   ],
   "s2_ids": [
    "DOI:10.1109/twc.2022.3171189"
+  ],
+  "coauthors": [
+   "Venkata Siva Santosh Ganji",
+   "Tzu-Hsiang Lin",
+   "Francisco A. Espinal",
+   "P. R. Kumar"
   ]
  },
  "nbiot_pimrc": {
@@ -63,6 +83,12 @@
   ],
   "s2_ids": [
    "DOI:10.1109/pimrc.2018.8580749"
+  ],
+  "coauthors": [
+   "M. Pavan Reddy",
+   "G. Santosh",
+   "Abhinav Kumar",
+   "Kiran Kuchi"
   ]
  },
  "unblock": {
@@ -77,6 +103,12 @@
   ],
   "s2_ids": [
    "DOI:10.1109/comsnets51098.2021.9352816"
+  ],
+  "coauthors": [
+   "Venkata Siva Santosh Ganji",
+   "Tzu-Hsiang Lin",
+   "Francisco A. Espinal",
+   "P. R. Kumar"
   ]
  },
  "patent_ioe": {
@@ -87,7 +119,8 @@
   "patent": true,
   "oa_ids": [],
   "dois": [],
-  "s2_ids": []
+  "s2_ids": [],
+  "coauthors": []
  },
  "terra_twc": {
   "title": "TERRA: Beam management for outdoor mm-wave networks",
@@ -101,6 +134,12 @@
   ],
   "s2_ids": [
    "DOI:10.1109/twc.2024.3425574"
+  ],
+  "coauthors": [
+   "Santosh Ganji",
+   "Jaewon Kim",
+   "Romil Sonigra",
+   "P. R. Kumar"
   ]
  },
  "beamsurfer_poster": {
@@ -115,6 +154,12 @@
   ],
   "s2_ids": [
    "DOI:10.1145/3405837.3411374"
+  ],
+  "coauthors": [
+   "Venkata Siva Santosh Ganji",
+   "Tzu-Hsiang Lin",
+   "Francisco A. Espinal",
+   "P. R. Kumar"
   ]
  },
  "dmac": {
@@ -129,6 +174,15 @@
   ],
   "s2_ids": [
    "DOI:10.1007/978-3-030-10659-1_7"
+  ],
+  "coauthors": [
+   "Bharadwaj Satchidanandan",
+   "Simon Yau",
+   "Siva Santosh Ganji",
+   "P. R. Kumar",
+   "Ahsan Aziz",
+   "Amal Ekbal",
+   "Nikhil Kundargi"
   ]
  },
  "ground_reflections": {
@@ -141,6 +195,11 @@
   "dois": [],
   "s2_ids": [
    "arXiv:2110.13884"
+  ],
+  "coauthors": [
+   "Santosh Ganji",
+   "Romil Sonigra",
+   "F. I. P. R. Kumar"
   ]
  },
  "iris": {
@@ -155,6 +214,11 @@
   ],
   "s2_ids": [
    "DOI:10.1109/comsnets.2019.8711061"
+  ],
+  "coauthors": [
+   "Bharadwaj Satchidanandan",
+   "Venkata Siva Santosh Ganji",
+   "P. R. Kumar"
   ]
  },
  "rate_matching": {
@@ -169,6 +233,12 @@
   ],
   "s2_ids": [
    "DOI:10.1109/comsnets.2018.8328196"
+  ],
+  "coauthors": [
+   "M. Pavan Reddy",
+   "G. Santosh",
+   "Abhinav Kumar",
+   "Kiran Kuchi"
   ]
  },
  "terra_poster": {
@@ -183,6 +253,11 @@
   ],
   "s2_ids": [
    "DOI:10.1145/3546037.3546063"
+  ],
+  "coauthors": [
+   "Santosh Ganji",
+   "Jaewon Kim",
+   "P. R. Kumar"
   ]
  },
  "nextg_ric": {
@@ -197,6 +272,15 @@
   ],
   "s2_ids": [
    "DOI:10.1145/3498361.3538787"
+  ],
+  "coauthors": [
+   "Harish Kumar Dureppagari",
+   "Ujwal Dinesha",
+   "Raini Wu",
+   "Santosh Ganji",
+   "Woo-Hyun Ko",
+   "Srinivas Shakkottai",
+   "Dinesh Bharadia"
   ]
  },
  "improved_pdcch": {
@@ -211,6 +295,12 @@
   ],
   "s2_ids": [
    "DOI:10.1007/978-3-030-10659-1_1"
+  ],
+  "coauthors": [
+   "M. Pavan Reddy",
+   "G. Santosh",
+   "Abhinav Kumar",
+   "Kiran Kuchi"
   ]
  },
  "reveal_twc": {
@@ -225,6 +315,10 @@
   ],
   "s2_ids": [
    "DOI:10.1109/twc.2024.3451358"
+  ],
+  "coauthors": [
+   "Santosh Ganji",
+   "P. R. Kumar"
   ]
  },
  "reveal_s3": {
@@ -239,6 +333,10 @@
   ],
   "s2_ids": [
    "DOI:10.1145/3615591.3615678"
+  ],
+  "coauthors": [
+   "Santosh Ganji",
+   "P. R. Kumar"
   ]
  },
  "patent_bci": {
@@ -249,7 +347,8 @@
   "patent": true,
   "oa_ids": [],
   "dois": [],
-  "s2_ids": []
+  "s2_ids": [],
+  "coauthors": []
  },
  "comsnets_proc": {
   "title": "Communication Systems and Networks: 10th International Conference, COMSNETS 2018",
@@ -259,6 +358,7 @@
   "patent": false,
   "oa_ids": [],
   "dois": [],
-  "s2_ids": []
+  "s2_ids": [],
+  "coauthors": []
  }
 }

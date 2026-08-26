@@ -6,7 +6,9 @@ affiliation lookups transfer directly and cost no OpenAlex budget.
 import json
 import os
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+# Files are read and written relative to the current directory, so run the
+# scripts from wherever you want the output to land.
+HERE = os.getcwd()
 prior = json.load(open(os.path.join(HERE, "raw.json")))
 raw = json.load(open(os.path.join(HERE, "raw_all.json")))
 

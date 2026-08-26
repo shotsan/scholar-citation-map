@@ -14,7 +14,9 @@ import urllib.request
 # their faster "polite pool". Set CITATION_MAP_EMAIL to your own address.
 UA = "citation-map/1.0 (mailto:%s)" % os.environ.get(
     "CITATION_MAP_EMAIL", "anonymous@example.com")
-OUT = os.path.dirname(os.path.abspath(__file__))
+# Files are read and written relative to the current directory, so run the
+# scripts from wherever you want the output to land.
+OUT = os.getcwd()
 S2 = "https://api.semanticscholar.org/graph/v1"
 OA = "https://api.openalex.org"
 

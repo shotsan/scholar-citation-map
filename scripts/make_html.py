@@ -3,7 +3,9 @@ import argparse
 import json
 import os
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+# Files are read and written relative to the current directory, so run the
+# scripts from wherever you want the output to land.
+HERE = os.getcwd()
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--data", default="data.json")

@@ -902,7 +902,7 @@
           <attvalue for="2" value="2021" />
           <attvalue for="3" value="Conference on Applications, Technologies, Architectures, and Protocols" />
           <attvalue for="4" value="59" />
-          <attvalue for="5" value="False" />
+          <attvalue for="5" value="True" />
         </attvalues>
       </node>
       <node id="P:multimodalenvironmentawarebeammanagementformassivemimoageometrydrivenvirtualbasestationfra" label="Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geom">
@@ -1012,7 +1012,7 @@
           <attvalue for="2" value="2024" />
           <attvalue for="3" value="ACM International Conference on Embedded Networked Sensor Systems" />
           <attvalue for="4" value="5" />
-          <attvalue for="5" value="False" />
+          <attvalue for="5" value="True" />
         </attvalues>
       </node>
       <node id="P:fieldevaluationofasoftwarizedmodemfromtheperspectiveof5gcellsearch" label="Field Evaluation of a Softwarized Modem From the Perspective of 5G Cel">
