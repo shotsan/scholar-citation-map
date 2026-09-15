@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="450" viewBox="0 0 1320 450" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="1320" height="450" rx="14" fill="#0f1216"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3d4753"/></marker></defs>
+<text x="28" y="40" fill="#e6e9ee" font-size="17" font-weight="600">From a publication list to a citation map</text>
+<text x="24" y="76" fill="#9aa4b2" font-size="10.5" font-weight="600" letter-spacing="1.3">1 · INPUT</text>
+<text x="280" y="76" fill="#9aa4b2" font-size="10.5" font-weight="600" letter-spacing="1.3">2 · RESOLVE</text>
+<text x="536" y="76" fill="#9aa4b2" font-size="10.5" font-weight="600" letter-spacing="1.3">3 · COLLECT</text>
+<text x="832" y="76" fill="#9aa4b2" font-size="10.5" font-weight="600" letter-spacing="1.3">4 · BUILD</text>
+<text x="1088" y="76" fill="#9aa4b2" font-size="10.5" font-weight="600" letter-spacing="1.3">5 · OUTPUT</text>
+<rect x="24" y="90" width="200" height="94" rx="9" fill="#171b21" stroke="#2a313b"/>
+<rect x="24" y="90" width="3.5" height="94" rx="1.8" fill="#c0392b"/>
+<text x="39" y="115" fill="#e6e9ee" font-size="12.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">ganji_titles.txt</text>
+<text x="39" y="135" fill="#9aa4b2" font-size="11.5">One title per line. Venue</text>
+<text x="39" y="151" fill="#9aa4b2" font-size="11.5">and Scholar count are</text>
+<text x="39" y="167" fill="#9aa4b2" font-size="11.5">optional extras.</text>
+<text x="24" y="203" fill="#6b7685" font-size="11">or <tspan font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#9aa4b2">--s2-author &lt;id&gt;</tspan></text>
+<rect x="280" y="90" width="200" height="94" rx="9" fill="#171b21" stroke="#2a313b"/>
+<rect x="280" y="90" width="3.5" height="94" rx="1.8" fill="#2471a3"/>
+<text x="295" y="115" fill="#e6e9ee" font-size="12.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">setup_profile.py</text>
+<text x="295" y="135" fill="#9aa4b2" font-size="11.5">Matches each title to a</text>
+<text x="295" y="151" fill="#9aa4b2" font-size="11.5">DOI and reads off your</text>
+<text x="295" y="167" fill="#9aa4b2" font-size="11.5">co-author list.</text>
+<rect x="280" y="196" width="200" height="23" rx="11.5" fill="none" stroke="#333c48"/>
+<text x="291" y="212" fill="#9aa4b2" font-size="11">Crossref</text>
+<text x="469" y="212" fill="#6b7685" font-size="10" text-anchor="end">title → DOI</text>
+<text x="280" y="240" fill="#6b7685" font-size="11">→ <tspan font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#9aa4b2">targets_resolved.json</tspan></text>
+<rect x="536" y="90" width="240" height="94" rx="9" fill="#171b21" stroke="#2a313b"/>
+<rect x="536" y="90" width="3.5" height="94" rx="1.8" fill="#1e8449"/>
+<text x="551" y="115" fill="#e6e9ee" font-size="12.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">collect_all.py</text>
+<rect x="552" y="126" width="208" height="23" rx="11.5" fill="none" stroke="#333c48"/>
+<text x="563" y="142" fill="#9aa4b2" font-size="11">Semantic Scholar</text>
+<text x="749" y="142" fill="#6b7685" font-size="10" text-anchor="end">8 s pacing</text>
+<rect x="552" y="154" width="208" height="23" rx="11.5" fill="none" stroke="#333c48"/>
+<text x="563" y="170" fill="#9aa4b2" font-size="11">OpenAlex</text>
+<text x="749" y="170" fill="#6b7685" font-size="10" text-anchor="end">daily budget</text>
+<rect x="536" y="196" width="240" height="94" rx="9" fill="#171b21" stroke="#2a313b"/>
+<rect x="536" y="196" width="3.5" height="94" rx="1.8" fill="#8e44ad"/>
+<text x="551" y="221" fill="#e6e9ee" font-size="12.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">collect_oc_all.py</text>
+<rect x="552" y="232" width="208" height="23" rx="11.5" fill="none" stroke="#333c48"/>
+<text x="563" y="248" fill="#9aa4b2" font-size="11">OpenCitations</text>
+<text x="749" y="248" fill="#6b7685" font-size="10" text-anchor="end">citing DOIs</text>
+<rect x="552" y="260" width="208" height="23" rx="11.5" fill="none" stroke="#333c48"/>
+<text x="563" y="276" fill="#9aa4b2" font-size="11">Crossref</text>
+<text x="749" y="276" fill="#6b7685" font-size="10" text-anchor="end">metadata</text>
+<text x="536" y="310" fill="#6b7685" font-size="11">→ <tspan font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#9aa4b2">raw_all.json</tspan></text>
+<rect x="832" y="90" width="200" height="94" rx="9" fill="#171b21" stroke="#2a313b"/>
+<rect x="832" y="90" width="3.5" height="94" rx="1.8" fill="#b9770e"/>
+<text x="847" y="115" fill="#e6e9ee" font-size="12.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">build.py</text>
+<text x="847" y="135" fill="#9aa4b2" font-size="11.5">Merges the sources,</text>
+<text x="847" y="151" fill="#9aa4b2" font-size="11.5">de-duplicates and tidies</text>
+<text x="847" y="167" fill="#9aa4b2" font-size="11.5">affiliation strings.</text>
+<rect x="832" y="250" width="200" height="66" rx="9" fill="#171b21" stroke="#2a313b"/>
+<rect x="832" y="250" width="3.5" height="66" rx="1.8" fill="#16a085"/>
+<text x="847" y="275" fill="#e6e9ee" font-size="12.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">make_html.py</text>
+<text x="847" y="295" fill="#9aa4b2" font-size="11.5">Inlines the data into one</text>
+<text x="847" y="311" fill="#9aa4b2" font-size="11.5">standalone page.</text>
+<rect x="1088" y="90" width="208" height="62" rx="9" fill="#171b21" stroke="#2a313b"/>
+<circle cx="1104" cy="110" r="5" fill="#b9770e"/>
+<text x="1118" y="114" fill="#e6e9ee" font-size="12" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">tables/</text>
+<text x="1103" y="133" fill="#9aa4b2" font-size="11.5">4 CSVs: papers, authors,</text>
+<text x="1103" y="148" fill="#9aa4b2" font-size="11.5">institutions, countries</text>
+<rect x="1088" y="166" width="208" height="62" rx="9" fill="#171b21" stroke="#2a313b"/>
+<circle cx="1104" cy="186" r="5" fill="#2471a3"/>
+<text x="1118" y="190" fill="#e6e9ee" font-size="12" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">graphs/</text>
+<text x="1103" y="209" fill="#9aa4b2" font-size="11.5">PNG, plus GraphML and</text>
+<text x="1103" y="224" fill="#9aa4b2" font-size="11.5">GEXF for Gephi</text>
+<rect x="1088" y="250" width="208" height="66" rx="9" fill="#171b21" stroke="#2a313b"/>
+<circle cx="1104" cy="270" r="5" fill="#16a085"/>
+<text x="1118" y="274" fill="#e6e9ee" font-size="12" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">citation_map.html</text>
+<text x="1103" y="293" fill="#9aa4b2" font-size="11.5">Pan, zoom, switch between</text>
+<text x="1103" y="308" fill="#9aa4b2" font-size="11.5">papers, authors, places</text>
+<line x1="228" y1="137" x2="276" y2="137" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="484" y1="137" x2="532" y2="137" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M484 152 C 508.0 152, 508.0 243, 532 243" fill="none" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M780 137 C 804.0 137, 804.0 126, 828 126" fill="none" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M780 243 C 804.0 243, 804.0 152, 828 152" fill="none" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="1036" y1="121" x2="1084" y2="121" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="1036" y1="152" x2="1084" y2="197" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="932" y1="188" x2="932" y2="246" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="944" y="222" fill="#6b7685" font-size="10.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">data/data.json</text>
+<line x1="1036" y1="283" x2="1084" y2="283" stroke="#2a313b" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="24" y1="348" x2="1296" y2="348" stroke="#2a313b"/>
+<text x="24" y="376" fill="#9aa4b2" font-size="12">Google Scholar itself is not read. Its "Cited by" pages sit behind a CAPTCHA, so the four open APIs stand in for it.</text>
+<text x="24" y="399" fill="#9aa4b2" font-size="12">Every citing paper keeps the source it came from and a self-citation flag, so coverage stays checkable.</text>
+<text x="24" y="422" fill="#9aa4b2" font-size="12">No API keys. Set <tspan font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#e6e9ee">CITATION_MAP_EMAIL</tspan><tspan> so Crossref and OpenAlex serve from their faster pool.</tspan></text>
+</svg>

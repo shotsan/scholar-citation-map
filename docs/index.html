@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>scholar-citation-map — who cites a researcher's work</title>
+<meta name="description" content="Maps the papers, authors and institutions that cite a
+researcher's publications, using Semantic Scholar, OpenAlex, OpenCitations and Crossref.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink:#0f1216; --panel:#171b21; --rule:#2a313b; --rule-soft:#20262e;
+  --text:#e6e9ee; --muted:#9aa4b2; --dim:#6b7685;
+  --paper:#8b95a3; --author:#16a085; --inst:#8e44ad; --self:#d98880;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --pad:clamp(20px,5vw,64px);
+}
+* { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body {
+  margin:0; background:var(--ink); color:var(--text);
+  font:400 16px/1.6 var(--sans); font-feature-settings:"tnum";
+}
+a { color:var(--text); text-decoration:none; border-bottom:1px solid var(--rule); }
+a:hover { border-bottom-color:var(--author); }
+a:focus-visible { outline:2px solid var(--author); outline-offset:3px; }
+code { font:400 0.92em/1.5 var(--mono); }
+h1,h2 { font-family:var(--serif); font-weight:400; letter-spacing:-0.01em; }
+
+.bar {
+  display:flex; align-items:baseline; gap:24px; flex-wrap:wrap;
+  padding:20px var(--pad); border-bottom:1px solid var(--rule);
+}
+.bar .name { font:500 14.5px var(--mono); letter-spacing:-0.01em; }
+.bar nav { margin-left:auto; display:flex; gap:22px; font-size:14.5px; }
+.bar nav a { color:var(--muted); border-bottom:none; }
+.bar nav a:hover { color:var(--text); }
+
+.lede { padding:clamp(44px,7vw,84px) var(--pad) clamp(32px,4vw,44px); }
+.lede h1 {
+  margin:0; font-size:clamp(38px,6.4vw,74px); line-height:1.02;
+}
+.lede h1 em { font-style:italic; }
+.lede p {
+  margin:26px 0 0; max-width:62ch; color:var(--muted); font-size:clamp(16px,1.5vw,18.5px);
+}
+.lede p strong { color:var(--text); font-weight:400; }
+
+.stage { padding:0 var(--pad); }
+.frame {
+  border:1px solid var(--rule); border-radius:10px; overflow:hidden;
+  background:var(--panel); height:min(84vh,860px); min-height:460px;
+}
+.frame iframe { display:block; width:100%; height:100%; border:0; }
+.frame img { display:none; width:100%; }
+.hint {
+  display:flex; gap:20px; flex-wrap:wrap; align-items:baseline;
+  margin:12px 0 0; font-size:13.5px; color:var(--dim);
+}
+.hint a { color:var(--muted); }
+.hint a:first-of-type { margin-left:auto; }
+
+.ledger {
+  margin:clamp(56px,7vw,92px) 0 0; padding:0 var(--pad);
+}
+.ledger dl {
+  display:grid; grid-template-columns:repeat(4,1fr); gap:0 clamp(16px,3vw,48px);
+  margin:0; border-top:1px solid var(--text); padding-top:18px;
+}
+.ledger dt {
+  font-family:var(--serif); font-size:clamp(40px,5.6vw,68px); line-height:1;
+  letter-spacing:-0.02em;
+}
+.ledger dd { margin:10px 0 0; font-size:14px; color:var(--muted); max-width:22ch; }
+.ledger .src { margin:22px 0 0; font-size:14px; color:var(--dim); max-width:78ch; }
+.ledger .src a { color:var(--muted); }
+
+.legend { display:flex; gap:20px; flex-wrap:wrap; margin:0 0 4px; font-size:13.5px; color:var(--dim); }
+.legend span { display:inline-flex; align-items:center; gap:7px; }
+.legend i { width:9px; height:9px; border-radius:50%; }
+
+section { padding:clamp(56px,7vw,96px) var(--pad) 0; }
+section > h2 {
+  margin:0 0 6px; font-size:clamp(26px,3.4vw,38px); line-height:1.15;
+}
+section > .sub { margin:0 0 30px; color:var(--muted); max-width:66ch; }
+
+.diagram { border:1px solid var(--rule); border-radius:10px; overflow:auto hidden; }
+.diagram img { display:block; width:100%; min-width:1000px; }
+
+.split { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,11fr); gap:clamp(24px,4vw,56px); }
+.split .prose p { margin:0 0 16px; max-width:46ch; color:var(--muted); }
+.split .prose p:last-child { margin-bottom:0; }
+.split .prose strong { color:var(--text); font-weight:500; }
+pre {
+  margin:0; padding:22px; background:var(--panel); border:1px solid var(--rule);
+  border-radius:10px; overflow-x:auto; font:400 13.5px/1.75 var(--mono); color:var(--text);
+}
+pre .c { color:var(--dim); }
+
+.limits { border-top:1px solid var(--rule); }
+.limits div {
+  display:grid; grid-template-columns:minmax(0,6fr) minmax(0,11fr);
+  gap:clamp(12px,3vw,40px); padding:20px 0; border-bottom:1px solid var(--rule-soft);
+}
+.limits h3 { margin:0; font:400 17px/1.4 var(--serif); }
+.limits p { margin:0; color:var(--muted); font-size:15px; max-width:64ch; }
+
+.views { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+.views figure { margin:0; }
+.views img {
+  display:block; width:100%; border:1px solid var(--rule); border-radius:8px;
+}
+.views figcaption { margin:10px 0 0; font-size:14px; color:var(--muted); }
+.views b { color:var(--text); font-weight:500; }
+
+footer {
+  margin-top:clamp(64px,8vw,110px); padding:28px var(--pad) 40px;
+  border-top:1px solid var(--rule); color:var(--dim); font-size:14px;
+  display:flex; gap:24px; flex-wrap:wrap;
+}
+footer a { color:var(--muted); }
+footer .r { margin-left:auto; }
+
+@media (max-width:900px) {
+  .ledger dl { grid-template-columns:repeat(2,1fr); gap:28px clamp(16px,4vw,40px); }
+  .split, .limits div { grid-template-columns:1fr; }
+  .views { grid-template-columns:1fr; }
+}
+@media (max-width:700px) {
+  .frame { height:auto; min-height:0; }
+  .frame iframe { display:none; }
+  .frame img { display:block; }
+}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <span class="name">scholar-citation-map</span>
+  <nav>
+    <a href="https://github.com/shotsan/scholar-citation-map">Source</a>
+    <a href="https://github.com/shotsan/scholar-citation-map/blob/main/docs/GUIDE.md">Guide</a>
+    <a href="map/index.html">Full-screen map</a>
+  </nav>
+</div>
+
+<header class="lede">
+  <h1>Who cites your work,<br><em>and where they sit.</em></h1>
+  <p>Google Scholar counts citations but will not let you read them. Its
+  &ldquo;Cited by&rdquo; pages sit behind a CAPTCHA, so this reads four open
+  bibliographic APIs instead and gives you the citing papers, the authors who
+  wrote them, and the institutions behind those authors. Four CSVs, three graph
+  formats, and one page that works offline.</p>
+</header>
+
+<div class="stage">
+  <div class="frame">
+    <iframe src="map/index.html" title="Interactive citation map for one Scholar profile"
+            loading="lazy"></iframe>
+    <img src="assets/map_institutions.png"
+         alt="Citation map, institutions view: 71 institutions linked to 20 publications">
+  </div>
+  <p class="hint">
+    <span>This map is live. Drag to pan, scroll to zoom, click a chip to filter.</span>
+    <a href="map/index.html">Open it full screen</a>
+    <a href="map/top4.html">Four most-cited papers only</a>
+  </p>
+</div>
+
+<div class="ledger">
+  <dl>
+    <div><dt>96</dt><dd>citing papers, 41 of them self-citations</dd></div>
+    <div><dt>229</dt><dd>citing authors, 210 outside the co-author group</dd></div>
+    <div><dt>71</dt><dd>institutions, across 13 countries</dd></div>
+    <div><dt>118</dt><dd>rows collected, against Scholar's 192</dd></div>
+  </dl>
+  <p class="src">One Google Scholar profile, 20 entries, collected in about ten
+  minutes. The input file, the raw API responses and every output are committed
+  under <a href="https://github.com/shotsan/scholar-citation-map/tree/main/examples/ganji">examples/ganji</a>,
+  so the numbers above can be checked.</p>
+</div>
+
+<section>
+  <h2>The three views</h2>
+  <p class="sub">Same records, regrouped. Node size grows with the number of your
+  papers a node cites, so the people and places that keep coming back are the
+  large ones.</p>
+  <p class="legend">
+    <span><i style="background:var(--paper)"></i>citing paper</span>
+    <span><i style="background:var(--self)"></i>self-citation</span>
+    <span><i style="background:var(--author)"></i>citing author</span>
+    <span><i style="background:var(--inst)"></i>institution</span>
+  </p>
+  <div class="views">
+    <figure>
+      <a href="assets/map_papers.png"><img src="assets/map_papers_canvas.png"
+         alt="Papers view: each citing paper joined to the publication it cites"></a>
+      <figcaption><b>Papers.</b> Each citing paper joined to what it cites.
+      Self-citations stay in, marked pink.</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/map_authors.png"><img src="assets/map_authors_canvas.png"
+         alt="Authors view: 229 citing authors, sized by papers cited"></a>
+      <figcaption><b>Authors.</b> An author who cites several of your papers
+      appears once, sized by how many.</figcaption>
+    </figure>
+    <figure>
+      <a href="assets/map_institutions.png"><img src="assets/map_institutions_canvas.png"
+         alt="Institutions view: 71 institutions across 13 countries"></a>
+      <figcaption><b>Institutions.</b> Affiliations resolved through OpenAlex,
+      with ROR ids in the CSV.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <p class="sub">Titles go in, DOIs come out of Crossref, four APIs return the
+  citing records, and one build step turns them into tables, graphs and the page
+  above.</p>
+  <div class="diagram">
+    <img src="assets/pipeline.svg"
+         alt="Pipeline: a titles file resolves to DOIs through Crossref, then
+         collect_all.py reads Semantic Scholar and OpenAlex while collect_oc_all.py
+         reads OpenCitations and Crossref, then build.py writes tables and graphs
+         and make_html.py writes the interactive page">
+  </div>
+</section>
+
+<section>
+  <h2>Running it on your own profile</h2>
+  <div class="split">
+    <div class="prose">
+      <p>No API keys are needed. Set a contact address and Crossref and OpenAlex
+      serve you from their faster pool.</p>
+      <p>Copy the titles off your Scholar profile into a text file, one per line.
+      A Semantic Scholar author id works instead, if you would rather not
+      transcribe.</p>
+      <p>Collection runs at about twenty seconds per publication, because
+      Semantic Scholar throttles callers without a key. A 20-paper profile takes
+      roughly ten minutes.</p>
+      <p>Target resolution, rate limits and every script are covered in the
+      <a href="https://github.com/shotsan/scholar-citation-map/blob/main/docs/GUIDE.md">guide</a>.</p>
+    </div>
+    <pre><span class="c">git clone https://github.com/shotsan/scholar-citation-map.git</span>
+pip install -r requirements.txt
+export CITATION_MAP_EMAIL=you@example.com
+
+mkdir -p ~/my-citations &amp;&amp; cd ~/my-citations
+<span class="c"># one title per line</span>
+python3 ~/scholar-citation-map/scripts/setup_profile.py --titles my_papers.txt
+
+python3 ~/scholar-citation-map/scripts/collect_all.py
+python3 ~/scholar-citation-map/scripts/collect_oc_all.py
+
+python3 ~/scholar-citation-map/scripts/build.py --raw raw_all.json \
+        --out-dir . --title "My publications"
+python3 ~/scholar-citation-map/scripts/make_html.py \
+        --data data/data.json --out citation_map.html</pre>
+  </div>
+</section>
+
+<section>
+  <h2>What it will not tell you</h2>
+  <p class="sub">Coverage is reported per paper against Scholar's own count, so
+  the shortfall is visible in the output rather than hidden.</p>
+  <div class="limits">
+    <div>
+      <h3>Fewer citations than Scholar shows</h3>
+      <p>Theses, workshop papers, unindexed preprints and non-English venues are
+      thinly covered by these APIs. Older and smaller conferences suffer most.
+      The example reached 118 rows against Scholar's 192.</p>
+    </div>
+    <div>
+      <h3>No patents at all</h3>
+      <p>None of the four APIs index them. Three patents account for 24 of the
+      example's shortfall and cannot be recovered.</p>
+    </div>
+    <div>
+      <h3>Patchy affiliations</h3>
+      <p>OpenAlex often stores no institution for IEEE conference records and
+      arXiv preprints. Crossref stores a postal address instead of an
+      organisation name, which the build reduces heuristically.</p>
+    </div>
+    <div>
+      <h3>Names merged on surname and initial</h3>
+      <p>"M. Tambe" and "Milind Tambe" count as one person. Two different authors
+      sharing a surname and first initial would be counted once.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>Built with Semantic Scholar, OpenAlex, OpenCitations and Crossref.</span>
+  <span class="r"><a href="https://github.com/shotsan/scholar-citation-map">shotsan/scholar-citation-map</a></span>
+</footer>
+
+</body>
+</html>

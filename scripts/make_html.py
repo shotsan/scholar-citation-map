@@ -69,7 +69,7 @@ DATA.targets.forEach(t => {
   b.innerHTML = `<span class="dot" style="background:${t.color}"></span>${t.label}
                  <span class="cc">${t.collected}/${t.scholar_citations}</span>`;
   b.onclick = () => { active.has(t.key) ? active.delete(t.key) : active.add(t.key);
-                      b.classList.toggle("off"); rebuild(); };
+                      b.classList.toggle("off"); relayout(); };
   chips.appendChild(b);
 });
 const mode = document.createElement("div");
@@ -79,7 +79,7 @@ mode.className = "mode";
   b.className = "chip" + (k === MODE ? "" : " off");
   b.textContent = lbl;
   b.onclick = () => { MODE = k;
-    [...mode.children].forEach(c => c.classList.add("off")); b.classList.remove("off"); rebuild(); };
+    [...mode.children].forEach(c => c.classList.add("off")); b.classList.remove("off"); relayout(); };
   mode.appendChild(b);
 });
 chips.appendChild(mode);
@@ -157,6 +157,21 @@ let tx = 0, ty = 0, scale = 1;
 function resize(){ cv.width = cv.clientWidth*devicePixelRatio; cv.height = cv.clientHeight*devicePixelRatio; }
 addEventListener("resize", resize); resize();
 
+// Frames the whole graph. Capped at 2 so a two-node view is not blown up.
+function fit() {
+  if (!nodes.length) return;
+  let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
+  for (const n of nodes) {
+    x0 = Math.min(x0, n.x-n.r); x1 = Math.max(x1, n.x+n.r);
+    y0 = Math.min(y0, n.y-n.r); y1 = Math.max(y1, n.y+n.r);
+  }
+  scale = Math.min(cv.clientWidth/(x1-x0+120), cv.clientHeight/(y1-y0+120), 2);
+  tx = -((x0+x1)/2)*scale; ty = -((y0+y1)/2)*scale;
+}
+
+// Settles the force layout before the first paint, so the view opens framed.
+function relayout() { rebuild(); for (let i = 0; i < 1400; i++) step(); fit(); }
+
 function draw() {
   step();
   ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);
@@ -232,7 +247,7 @@ function sidebar(recs) {
      <h2>Citing papers by year</h2>${tbl(years, 20)}`;
 }
 
-rebuild();
+relayout();
 draw();
 </script>
 """
