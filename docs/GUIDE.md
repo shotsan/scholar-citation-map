@@ -1,7 +1,31 @@
 # Guide
 
-Full reference for running the pipeline. The [README](../README.md) covers what
-it produces; this file covers how to drive it.
+Reference for running the pipeline. The [README](../README.md) covers the three
+steps. This file covers the options and the stages behind them.
+
+## The short path
+
+```
+python3 scripts/run.py --titles my_papers.txt --name "Your Name" --images
+```
+
+`run.py` runs resolve, collect and build in order, printing each stage. Useful
+flags:
+
+| Flag | Effect |
+|---|---|
+| `--titles FILE` or `--s2-author ID` | where the publication list comes from |
+| `--out-dir DIR` | everything is written here; defaults to the current directory |
+| `--images` | also write a PNG per view, via `render_images.py` |
+| `--theme light\|dark` | the map's colours; light is the default |
+| `--skip-openalex` | OpenAlex is metered daily; skip it and enrich later |
+| `--skip-collect` | reuse `raw_all.json` and only rebuild the output |
+
+After the resolve stage it reports how many publications carry an identifier.
+Anything without one collects nothing, so fix those before waiting on the
+collection.
+
+The rest of this guide covers the five scripts `run.py` calls.
 
 ## Requirements
 
@@ -74,11 +98,31 @@ run `enrich_openalex.py` after the reset.
 ```
 python3 scripts/build.py --raw raw_all.json --out-dir . --title "My publications"
 python3 scripts/make_html.py --data data/data.json --out citation_map.html \
-        --heading "Who cites my work"
+        --heading "Who cites my work" --theme light
 ```
 
 `build.py` writes `tables/`, `graphs/` and `data/` under `--out-dir`. Add
 `--prefix` to keep several datasets side by side in one directory.
+
+`make_html.py --theme` takes `light` or `dark`. Light is the default, because it
+prints and drops into a slide without inverting.
+
+## Images for slides and posters
+
+```
+python3 scripts/render_images.py --page citation_map.html --out-dir images \
+        --graph-only
+```
+
+This drives headless Chrome over the page and writes one PNG per view. Chrome or
+Chromium must be installed; set `CHROME` to point at a specific binary.
+
+| Flag | Effect |
+|---|---|
+| `--graph-only` | drop the title, filter chips and totals panel |
+| `--views papers,authors,institutions` | pick which views to write |
+| `--width` and `--height` | window size in pixels; defaults to 2400 by 1400 |
+| `--scale 2` | double the pixels, for print |
 
 ## Outputs
 
@@ -147,6 +191,8 @@ entries there and to check them against each record's raw affiliation strings.
 
 | Script | Role |
 |---|---|
+| `run.py` | runs the five below in order |
+| `render_images.py` | PNGs of the map's three views |
 | `setup_profile.py` | publications to `targets_resolved.json`, resolving DOIs and co-authors |
 | `collect_all.py` | citing papers from Semantic Scholar and OpenAlex |
 | `collect_oc_all.py` | citing papers from OpenCitations, metadata from Crossref |

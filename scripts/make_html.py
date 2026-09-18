@@ -11,14 +11,36 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--data", default="data.json")
 ap.add_argument("--out", default="citation_map.html")
 ap.add_argument("--heading", default="Who cites Santosh Ganji's four most-cited papers")
+ap.add_argument("--theme", choices=["light", "dark"], default="light",
+                help="light prints and drops into slides; dark suits a screen")
 ARGS = ap.parse_args()
 D = json.load(open(os.path.join(HERE, ARGS.data)))
+
+# Node hues differ per theme so they stay legible against the background.
+THEMES = {
+    "light": {
+        "BG": "#ffffff", "PANEL": "#f6f7f9", "LINE": "#e1e4e9",
+        "TEXT": "#1b1f24", "MUTED": "#5b6570", "ANCHOR": "#1a56c4",
+        "EDGE": "rgba(95,105,120,.32)", "HALO": "rgba(255,255,255,.95)",
+        "LABEL": "#1b1f24", "TIPBG": "rgba(24,28,33,.95)", "TIPFG": "#ffffff",
+        "PAPER": "#78828f", "SELF": "#c14a43", "AUTHOR": "#0f766e",
+        "INST": "#7a2d8c",
+    },
+    "dark": {
+        "BG": "#0f1216", "PANEL": "#171b21", "LINE": "#2a313b",
+        "TEXT": "#e6e9ee", "MUTED": "#9aa4b2", "ANCHOR": "#7cc0ff",
+        "EDGE": "rgba(150,160,175,.22)", "HALO": "rgba(15,18,22,.9)",
+        "LABEL": "#e6e9ee", "TIPBG": "#000d", "TIPFG": "#ffffff",
+        "PAPER": "#8b95a3", "SELF": "#d98880", "AUTHOR": "#16a085",
+        "INST": "#8e44ad",
+    },
+}
 
 TPL = """<!doctype html>
 <meta charset="utf-8">
 <title>Citation map - Santosh Ganji</title>
 <style>
- :root { --bg:#0f1216; --panel:#171b21; --line:#2a313b; --text:#e6e9ee; --muted:#9aa4b2; }
+ :root { --bg:__BG__; --panel:__PANEL__; --line:__LINE__; --text:__TEXT__; --muted:__MUTED__; }
  * { box-sizing:border-box; }
  body { margin:0; background:var(--bg); color:var(--text);
         font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
@@ -41,10 +63,10 @@ TPL = """<!doctype html>
  td { padding:4px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
  td.n { text-align:right; color:var(--muted); width:34px; white-space:nowrap; }
  .cc { color:var(--muted); font-size:11px; }
- #tip { position:fixed; pointer-events:none; max-width:340px; background:#000d; color:#fff;
+ #tip { position:fixed; pointer-events:none; max-width:340px; background:__TIPBG__; color:__TIPFG__;
         border:1px solid var(--line); border-radius:6px; padding:8px 10px; font-size:12px;
         display:none; z-index:9; }
- a { color:#7cc0ff; }
+ a { color:__ANCHOR__; }
 </style>
 <header>
  <h1>__HEAD__</h1>
@@ -98,18 +120,18 @@ function rebuild() {
   recs.forEach(r => {
     if (MODE === "paper") {
       const n = add("P:"+r.title.toLowerCase().slice(0,80),
-        {label:r.title, kind:"paper", color:r.self_citation ? "#d98880" : "#8b95a3", r:4.5,
+        {label:r.title, kind:"paper", color:r.self_citation ? "__SELF__" : "__PAPER__", r:4.5,
          meta:`${r.venue||"—"} ${r.year||""}<br>${r.authors.join(", ")}<br>${r.institutions.join("; ")||"no affiliation in OpenAlex"}${r.doi?"<br>doi:"+r.doi:""}`});
       links.push({s:n.id, t:"T:"+r.target});
     } else if (MODE === "author") {
       r.authors.forEach(a => {
-        const n = add("A:"+a, {label:a, kind:"author", color:"#16a085", r:4.5, count:0, meta:""});
+        const n = add("A:"+a, {label:a, kind:"author", color:"__AUTHOR__", r:4.5, count:0, meta:""});
         n.count++; n.r = 4 + Math.min(9, n.count * 1.6);
         links.push({s:n.id, t:"T:"+r.target});
       });
     } else {
       r.institutions.forEach(i => {
-        const n = add("I:"+i, {label:i, kind:"inst", color:"#8e44ad", r:5, count:0, meta:""});
+        const n = add("I:"+i, {label:i, kind:"inst", color:"__INST__", r:5, count:0, meta:""});
         n.count++; n.r = 4.5 + Math.min(11, n.count * 2.2);
         links.push({s:n.id, t:"T:"+r.target});
       });
@@ -157,7 +179,7 @@ let tx = 0, ty = 0, scale = 1;
 function resize(){ cv.width = cv.clientWidth*devicePixelRatio; cv.height = cv.clientHeight*devicePixelRatio; }
 addEventListener("resize", resize); resize();
 
-// Frames the whole graph. Capped at 2 so a two-node view is not blown up.
+// Frames the whole graph. Capped so a two-node view is not blown up.
 function fit() {
   if (!nodes.length) return;
   let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
@@ -165,7 +187,7 @@ function fit() {
     x0 = Math.min(x0, n.x-n.r); x1 = Math.max(x1, n.x+n.r);
     y0 = Math.min(y0, n.y-n.r); y1 = Math.max(y1, n.y+n.r);
   }
-  scale = Math.min(cv.clientWidth/(x1-x0+120), cv.clientHeight/(y1-y0+120), 2);
+  scale = Math.min(cv.clientWidth/(x1-x0+120), cv.clientHeight/(y1-y0+120), 3.5);
   tx = -((x0+x1)/2)*scale; ty = -((y0+y1)/2)*scale;
 }
 
@@ -179,7 +201,7 @@ function draw() {
   ctx.save();
   ctx.translate(cv.clientWidth/2 + tx, cv.clientHeight/2 + ty); ctx.scale(scale, scale);
   const idx = new Map(nodes.map((n,i)=>[n.id,i]));
-  ctx.strokeStyle = "rgba(150,160,175,.22)"; ctx.lineWidth = 1/scale;
+  ctx.strokeStyle = "__EDGE__"; ctx.lineWidth = 1/scale;
   ctx.beginPath();
   for (const l of links) {
     const a = nodes[idx.get(l.s)], b = nodes[idx.get(l.t)];
@@ -189,9 +211,9 @@ function draw() {
   for (const n of nodes) {
     ctx.beginPath(); ctx.arc(n.x,n.y,n.r,0,6.2832);
     ctx.fillStyle = n.color; ctx.fill();
-    ctx.lineWidth = 1/scale; ctx.strokeStyle = "rgba(15,18,22,.9)"; ctx.stroke();
+    ctx.lineWidth = 1/scale; ctx.strokeStyle = "__HALO__"; ctx.stroke();
   }
-  ctx.fillStyle = "#e6e9ee"; ctx.font = `${12/scale}px -apple-system,sans-serif`;
+  ctx.fillStyle = "__LABEL__"; ctx.font = `${12/scale}px -apple-system,sans-serif`;
   ctx.textAlign = "center";
   for (const n of nodes) {
     if (n.kind === "target") { ctx.fillText(n.label, n.x, n.y - n.r - 6/scale); }
@@ -258,6 +280,8 @@ html = (TPL.replace("__DATA__", json.dumps(D))
            .replace("__SUB__", "Citing papers collected from Semantic Scholar, OpenAlex and "
                     "OpenCitations; affiliations from OpenAlex. " + sub))
 html = html.replace("__HEAD__", ARGS.heading)
+for name, value in THEMES[ARGS.theme].items():
+    html = html.replace("__" + name + "__", value)
 out = os.path.join(HERE, ARGS.out)
 open(out, "w").write(html)
 print("wrote", out, os.path.getsize(out), "bytes")

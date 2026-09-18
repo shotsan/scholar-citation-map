@@ -1,95 +1,139 @@
 # scholar-citation-map
 
-Find out who cites a researcher's work — the citing papers, the authors who
-wrote them, and the institutions behind those authors. Produces four CSVs,
-citation graphs, and one interactive page that opens offline.
+See who builds on your work.
 
-**[Open the live map](https://shotsan.github.io/scholar-citation-map/)**
+Google Scholar shows a citation count. This shows the people behind the count.
+Which labs read your papers. Which institutions. Which countries. How many cite
+you independently of your own co-authors.
 
-![Pipeline: titles to DOIs, four open APIs, then tables, graphs and an interactive map](docs/assets/pipeline.svg)
+**[See it running](https://shotsan.github.io/scholar-citation-map/)**
 
-## The map
+![Institutions citing one researcher's 20 publications](docs/assets/map_institutions.png)
 
-Three views of the same data. Each chip is one of your publications; click it to
-drop that publication from the graph. Hover any node for its record.
+## What it answers
 
-![Interactive map, institutions view: 71 institutions linked to 20 publications](docs/assets/map_institutions.png)
+- Which institutions cite your work, and how often.
+- How many researchers cite you independently. Self-citations are separated, not dropped.
+- Which countries your work has reached.
+- Which groups already read you, so you know who to approach.
+- Which reviewers are conflicted, because they cite you or co-authored with you.
 
-<table>
-<tr>
-<td width="50%"><a href="docs/assets/map_papers.png"><img src="docs/assets/map_papers_canvas.png" alt="Papers view"></a><br><b>Papers</b> — each citing paper, self-citations in pink</td>
-<td width="50%"><a href="docs/assets/map_authors.png"><img src="docs/assets/map_authors_canvas.png" alt="Authors view"></a><br><b>Authors</b> — node size grows with papers cited</td>
-</tr>
-</table>
+## Three steps
 
-## The worked example
+### 1. List your papers
 
-[`examples/ganji/`](examples/ganji/) covers one Google Scholar profile,
-20 entries and 192 citations.
+One title per line. Copy them off your Scholar profile.
 
-| | |
-|---:|---|
-| **96** | distinct citing papers, 41 of them self-citations |
-| **229** | citing authors, 210 outside the co-author group |
-| **71** | institutions across 13 countries |
-| **118** | rows collected against Scholar's 192 citations |
+```
+NeurWIN: Neural Whittle index network for restless bandits via deep RL
+BeamSurfer: Minimalist beam management of mobile mm-wave devices
+```
 
-Top external citing authors: Milind Tambe (10 papers), Konstantin Avrachenkov
-(7), Aparna Taneja (6). Top institutions: Harvard and Texas A&M at 5 each.
+Venue and Scholar count may follow a `|`. Both are optional. They only feed the
+coverage check.
 
-Google Scholar's own "Cited by" pages sit behind a CAPTCHA, so the citing records
-come from Semantic Scholar, OpenAlex, OpenCitations and Crossref instead. Every
-row carries the source it came from, and the build reports collected against
-Scholar per paper, so the gap stays visible.
+```
+NeurWIN: Neural Whittle index network for restless bandits | NeurIPS 2021 | 74
+```
 
-## Running it
+### 2. Run one command
 
 ```
 pip install -r requirements.txt
 export CITATION_MAP_EMAIL=you@example.com
 
-mkdir -p ~/my-citations && cd ~/my-citations
-# one title per line, copied from the Scholar profile
-python3 /path/to/scripts/setup_profile.py --titles my_papers.txt
-python3 /path/to/scripts/collect_all.py
-python3 /path/to/scripts/collect_oc_all.py
-python3 /path/to/scripts/build.py --raw raw_all.json --out-dir . --title "My publications"
-python3 /path/to/scripts/make_html.py --data data/data.json --out citation_map.html
+python3 scripts/run.py --titles my_papers.txt --name "Your Name" --images
 ```
 
-No API keys. Roughly twenty seconds per publication, so a 20-paper profile takes
-about ten minutes. A Semantic Scholar author id works in place of a titles file.
+No API keys are needed. Allow about twenty seconds per paper. A 20-paper profile
+takes around ten minutes. The script prints each stage as it goes.
 
-The [guide](docs/GUIDE.md) covers target resolution, rate limits and every
-script.
+### 3. Open the page
 
-## What lands on disk
+`citation_map.html` opens in any browser and works offline. Drag to pan. Scroll
+to zoom. Switch between papers, authors and institutions.
+
+![The interactive page, with filter chips and a totals panel](docs/assets/page_institutions.png)
+
+`--images` also writes a PNG of each view, sized for slides and posters.
+
+<table>
+<tr>
+<td width="50%"><a href="docs/assets/map_papers.png"><img src="docs/assets/map_papers.png" alt="Papers view"></a><br><b>Papers</b> — every citing paper, self-citations in red</td>
+<td width="50%"><a href="docs/assets/map_authors.png"><img src="docs/assets/map_authors.png" alt="Authors view"></a><br><b>Authors</b> — sized by how many of your papers they cite</td>
+</tr>
+</table>
+
+## What you get
 
 | Path | Contents |
 |---|---|
+| `citation_map.html` | the interactive page, self-contained and offline |
+| `images/` | a PNG per view, for slides and posters |
 | `tables/` | four CSVs: citing papers, authors, institutions, countries |
 | `graphs/` | PNG, plus GraphML and GEXF for Gephi or Cytoscape |
-| `citation_map.html` | the interactive page, self-contained and offline |
-| `data/` | raw API responses and the cleaned records |
+| `data/` | the raw API responses and the cleaned records |
 
-## Limits
+`tables/citing_authors.csv` is the one to read first. One row per person, how
+many of your papers they cite, their institution, and whether they are a
+co-author.
 
-- Coverage runs below Scholar's counts. Theses, workshop papers and non-English
+## Where you would use it
+
+**Tenure and promotion.** A citation count says how much. A named list of
+institutions says how far. Self-citations are separated, so the independent
+figure holds up to scrutiny.
+
+**Grants and fellowships.** Panels ask about uptake. The country and institution
+tables answer that in one figure.
+
+**Job market.** One map in a research statement shows who picked the work up.
+The same image works on a talk slide.
+
+**Collaborators and reviewers.** The author table names the groups already
+reading you. It also flags who is conflicted as a reviewer.
+
+## Where the data comes from
+
+Google Scholar will not serve its own "Cited by" pages. A CAPTCHA sits in front
+of them. So four open APIs stand in: Semantic Scholar, OpenAlex, OpenCitations
+and Crossref.
+
+![Pipeline: titles to DOIs, four open APIs, then tables, graphs and the page](docs/assets/pipeline.svg)
+
+Every row records the source it came from. The build reports collected against
+Scholar for each paper, so the gap stays visible.
+
+## What it will not tell you
+
+- Coverage runs below Scholar's count. Theses, workshop papers and non-English
   venues are thinly indexed by these APIs.
 - Patents are not covered. No bibliographic API indexes them.
 - Affiliations are patchier than the paper list. OpenAlex often stores none for
   IEEE conference records and arXiv preprints.
-- Author names merge on surname plus first initial, so two distinct authors
-  sharing both would be counted once.
+- Names merge on surname and first initial. Two authors sharing both count once.
 
-The [guide](docs/GUIDE.md#known-limits) sets out each one and how to work around
-it.
+The [guide](docs/GUIDE.md#known-limits) sets out each one and how to work around it.
 
-## Repository layout
+## The worked example
+
+[`examples/ganji/`](examples/ganji/) holds a full run on one Scholar profile: the
+input file, the raw API responses, and every output.
+
+| | |
+|---:|---|
+| **96** | citing papers, 41 of them self-citations |
+| **229** | citing authors, 210 outside the co-author group |
+| **71** | institutions across 13 countries |
+| **118** | rows collected, against Scholar's 192 |
+
+## More
+
+The [guide](docs/GUIDE.md) covers target resolution, rate limits, and running the
+five scripts separately when you want the stages.
 
 ```
-scripts/            the pipeline
-scripts/legacy/     earlier scripts, kept so the example stays reproducible
-docs/               the site, the guide and the images above
-examples/ganji/     a worked example: input, data, tables, graphs, web pages
+scripts/          the pipeline, with run.py as the one-command entry point
+docs/             the site, the guide and the images above
+examples/ganji/   a full worked run
 ```

@@ -42,10 +42,13 @@ From this directory:
 
 ```
 export CITATION_MAP_EMAIL=you@example.com
+python3 ../../scripts/run.py --titles ganji_titles.txt --name "Santosh Ganji"
+```
 
-python3 ../../scripts/setup_profile.py --titles ganji_titles.txt
-python3 ../../scripts/collect_all.py
-python3 ../../scripts/collect_oc_all.py
+That writes the unprefixed dataset. The `all_` files came from the same raw
+responses, with the stages run separately:
+
+```
 python3 ../../scripts/build.py --raw data/raw_all.json --prefix all_ --out-dir . \
         --title "Santosh Ganji's publications"
 python3 ../../scripts/make_html.py --data data/all_data.json \
